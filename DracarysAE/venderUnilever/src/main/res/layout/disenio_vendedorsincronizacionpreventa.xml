@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llDistribuidorTestImpresorasLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgVendedorSincronizacionPreventaBullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bullet_seleccionar" />
+
+        <TextView
+            android:id="@+id/tvVendedorSincronizacionPreventaNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="300dp"
+            android:minWidth="300dp"
+            android:text="tvVendedorSincronizacionPreventaNombre"
+            android:textAppearance="@style/Etiqueta"
+            android:width="300dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

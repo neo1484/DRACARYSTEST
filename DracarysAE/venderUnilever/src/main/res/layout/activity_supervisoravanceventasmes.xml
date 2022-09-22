@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/VendedorAvanceVentaMesCategoriaLinearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<TextView
+			android:id="@+id/tvVendedorAvanceVentasCatgoriaTitulo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Avance de ventas por vendedor en el mes:"
+			android:textAppearance="@style/Contenido" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesVendedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:maxWidth="150dp"
+					android:minWidth="150dp"
+					android:text="Nombre Vendedor"
+					android:textAppearance="@style/Etiqueta"
+					android:width="150dp" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesProveedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="150dp"
+					android:minWidth="150dp"
+					android:text="Nombre Proveedor"
+					android:textAppearance="@style/Etiqueta"
+					android:width="150dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesPresupuesto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:maxWidth="90dp"
+					android:minWidth="90dp"
+					android:text="Presupuesto"
+					android:textAppearance="@style/Etiqueta"
+					android:width="90dp" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesAvance"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="50dp"
+					android:minWidth="50dp"
+					android:text="Avance"
+					android:textAppearance="@style/Etiqueta"
+					android:width="50dp" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesTendencia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Tendencia"
+					android:textAppearance="@style/Etiqueta"
+					android:width="70dp" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasMesCobertura"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Cobertura %"
+					android:textAppearance="@style/Etiqueta"
+					android:width="70dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvAvanceVentaMesAvanceVentas"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,1070 @@
+[
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorsincronizarpreventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorsincronizarpreventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_detalles.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_detalles.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_vendedorpreventanits.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_vendedorpreventanits.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_censistarelevamiento.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_censistarelevamiento.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bacrougray.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-mdpi\\bacrougray.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistasincronizacionclientefoto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistasincronizacionclientefoto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistaunificacionclientessincronizacion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistaunificacionclientessincronizacion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_clienteincentivo.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_clienteincentivo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidortestimpresoras.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidortestimpresoras.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulilightitalic.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulilightitalic.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_facturas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_facturas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistaunificacionclienteselecciondia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistaunificacionclienteselecciondia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_salir_sistema.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\salir_sistema.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_whatsapp.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\whatsapp.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_verde.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\circulo_verde.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventamenuopciones.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventamenuopciones.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_distribuidorbservacionpop.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_distribuidorbservacionpop.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistainfocliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistainfocliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menucobrador.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menucobrador.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventaproductocambio.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventaproductocambio.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_supervisoravancevendedordia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_supervisoravancevendedordia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_vendedor.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_vendedor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_preventas_mes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\preventas_mes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_datos.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_datos.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-mdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorinventarioautoventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorinventarioautoventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_entregas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_entregas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoradminfotosclientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoradminfotosclientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_backroundblack.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\backroundblack.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_inventario_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\inventario_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_impresora_test.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\impresora_test.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ventas_mes_cat.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ventas_mes_cat.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_log.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_preventa_promocion.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\preventa_promocion.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendac_atendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendac_atendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bacrousolgray.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-mdpi\\bacrousolgray.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendaa_noatendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendaa_noatendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_vendedorpreventaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_vendedorpreventaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_censista.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_censista.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_no_atendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_no_atendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendaa_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendaa_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorventadirectaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorventadirectaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistaunificacionclientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistaunificacionclientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidormapaentregas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidormapaentregas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorencuestapdv.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorencuestapdv.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_almacen_visitado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\almacen_visitado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendab_noatendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendab_noatendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\menu_distribuidorautoventapromocion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\menu\\distribuidorautoventapromocion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_mapanombrecliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_mapanombrecliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ventas_dia.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ventas_dia.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_entregas_dia.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\entregas_dia.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_creditos_pendientes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\creditos_pendientes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_eliminar_nosincronizado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_eliminar_nosincronizado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistatipoinfocliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistatipoinfocliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorvisualizarventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorvisualizarventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edicion_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\edicion_cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cerrar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cerrar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cobradormapaclientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cobradormapaclientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoredicionpreventapromocion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoredicionpreventapromocion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_vendedorcierredia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_vendedorcierredia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendac_noatendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendac_noatendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_matcheo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_matcheo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendac_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendac_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoravanceventasmescategoria.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoravanceventasmescategoria.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edicion_preventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\edicion_preventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_muliitalic.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\muliitalic.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistapunteocliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistapunteocliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoredicionpreventaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoredicionpreventaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendab_atendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendab_atendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_nombreclientecobranza.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_nombreclientecobranza.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tuerca.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tuerca.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistamenurutadia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistamenurutadia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_almacen_atendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\almacen_atendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icono_settings.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\icono_settings.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable_bacrousolblack.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable\\bacrousolblack.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_configuraciones.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_configuraciones.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cerrar_cobranzas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cerrar_cobranzas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_cobropendiente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_cobropendiente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_supervisoravanceventasmes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_supervisoravanceventasmes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_registrar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\registrar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulibold.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulibold.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventapromocion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventapromocion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_eliminar.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_eliminar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-hdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_edicionpreventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_edicionpreventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistafotocliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistafotocliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorautoventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorautoventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorencuestafoods.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorencuestafoods.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_spinner.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_spinner.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventanits.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventanits.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_alerta.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_alerta.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorsincronizacionnombrecliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorsincronizacionnombrecliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_micromercado_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\micromercado_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_distribuidor.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_distribuidor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_vendedorsincronizacionpreventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_vendedorsincronizacionpreventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorventadirecta.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorventadirecta.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_ediciones_clientes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_ediciones_clientes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_cobradorcobranza.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_cobradorcobranza.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedormapaclientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedormapaclientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_censo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_censo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_inventario_productos.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\inventario_productos.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-mdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fondo_menu.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\fondo_menu.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_registrar_ventadirecta.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\registrar_ventadirecta.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulibolditalic.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulibolditalic.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\logo_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_sincronizar.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_sincronizar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_distribuidorinventarioautoventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_distribuidorinventarioautoventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventaproductodemo.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventaproductodemo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_censistaclientefoto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_censistaclientefoto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_supervisor.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_supervisor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_micromercado_visitado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\micromercado_visitado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistaunificacionclientesmapacoordenada.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistaunificacionclientesmapacoordenada.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_metasap.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_metasap.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidortipoimpresion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidortipoimpresion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoractualizacioncliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoractualizacioncliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_unificacion_clientes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\unificacion_clientes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_diseniodialogo_vendedorencuestas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\diseniodialogo_vendedorencuestas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_mapanombreclienteextendido.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_mapanombreclienteextendido.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menuvendedor.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menuvendedor.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_vendedorsincronizacionpreventapreventaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_vendedorsincronizacionpreventapreventaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorvisorventasdirectas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorvisorventasdirectas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_distribuidorventaproductotemp.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_distribuidorventaproductotemp.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_log.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_log.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoredicionpreventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoredicionpreventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_cobrador.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_cobrador.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_visitado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_visitado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorencuesta.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorencuesta.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendaa_visitada.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendaa_visitada.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_visualizar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\visualizar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_restaurar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\restaurar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_preventas_dia.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\preventas_dia.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorrestauracionpreventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorrestauracionpreventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cobradorcobranza.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cobradorcobranza.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_muli.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\muli.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedormetassap.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedormetassap.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_supervisoravanceventasdia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_supervisoravanceventasdia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorventadirectapromocion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorventadirectapromocion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-hdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedormapaventasdirectas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedormapaventasdirectas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_censistasincronizacionclientefoto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_censistasincronizacionclientefoto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorsincronizarpop.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorsincronizarpop.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\logout.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_salir.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\salir.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_supervisoravancedistribuciondia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_supervisoravancedistribuciondia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_custon_font.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\custon_font.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorsincronizacionpreventascambio.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorsincronizacionpreventascambio.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-xhdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menuprincipal.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menuprincipal.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_muliextralightitalic.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\muliextralightitalic.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cencistaedicioncoordenadamapa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cencistaedicioncoordenadamapa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_censista_vendedor.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_censista_vendedor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_atendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_atendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_censista_distribuidor.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_censista_distribuidor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistamapaeditarcliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistamapaeditarcliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menudistribuidor.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menudistribuidor.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ver_logs.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ver_logs.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendaa_atendida.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendaa_atendida.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cencistarelevamiento.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cencistarelevamiento.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorcobrospendientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorcobrospendientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_advertencia_bullet.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\advertencia_bullet.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoravanceventasdia.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoravanceventasdia.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_rojo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\circulo_rojo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendab_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendab_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_almacen_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\almacen_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\file.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cencistaeditarcliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cencistaeditarcliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_visualizar_ventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\visualizar_ventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_puntear_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\puntear_cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_unilever.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-mdpi\\ic_launcher_unilever.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable_bacrouwhite.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable\\bacrouwhite.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulisemibolditalic.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulisemibolditalic.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_cobradorpagocobranza.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_cobradorpagocobranza.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorautoventapromocion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorautoventapromocion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorsincronizacionautoventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorsincronizacionautoventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_autoventa.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_autoventa.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-mdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-xhdpi\\ic_launcher_detesim.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_camara.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\camara.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_relevar_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\relevar_cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorsincronizacionventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorsincronizacionventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_localizacion.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\localizacion.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_visualizar_ventas_directas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\visualizar_ventas_directas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistasincronizacionedicionclientes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistasincronizacionedicionclientes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fondo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\fondo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_plomo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\circulo_plomo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu_vendedor_censista.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\menu_vendedor_censista.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_micromercado_noatendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\micromercado_noatendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\menu_metassap.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\menu\\metassap.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_censistasincronizacioncliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_censistasincronizacioncliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_metas_sap.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\metas_sap.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulisemibold.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulisemibold.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_autoventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_autoventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_supervisoravancedistribucionmes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_supervisoravancedistribucionmes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_cencistaaltaclientemapa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_cencistaaltaclientemapa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorsincronizacionclientenoatendido.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorsincronizacionclientenoatendido.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedoravanceventasmes.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedoravanceventasmes.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ver_cobranzas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ver_cobranzas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistasincronizacioncliente.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistasincronizacioncliente.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ver_entregas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ver_entregas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_mulilight.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\mulilight.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorinventarioproductos.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorinventarioproductos.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorimpresionfacturas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorimpresionfacturas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_seleccionar.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_seleccionar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendac_visitada.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendac_visitada.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorvisorpreventas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorvisorpreventas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorcierreentregas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorcierreentregas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorsincronizacionfacturas.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorsincronizacionfacturas.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_supervisoravancedistribuidor.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_supervisoravancedistribuidor.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_almacen_noatendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\almacen_noatendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventaproductochange.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventaproductochange.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_fotos.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_fotos.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistarelevamiento.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistarelevamiento.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cliente_no_sincronizado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cliente_no_sincronizado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_clientes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_clientes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_descargar_preventas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\descargar_preventas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorventadirectanits.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorventadirectanits.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bullet_seleccionar_nosincronizado.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\bullet_seleccionar_nosincronizado.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_impresion_factura.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\impresion_factura.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidorventaproducto.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidorventaproducto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_verplo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\circulo_verplo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alta_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\alta_cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cerrar_entregas.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\cerrar_entregas.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_distribuidortestimpresora.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_distribuidortestimpresora.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\menu_censistaunificacionclientessincronizacion.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\menu\\censistaunificacionclientessincronizacion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_micromercado_atendido.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\micromercado_atendido.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_marca_censo.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\marca_censo.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_registrar_cliente.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\registrar_cliente.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_censistaunificacionclientesmapa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_censistaunificacionclientesmapa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_distribuidorsincronizacionventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_distribuidorsincronizacionventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_no_atendidos.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_no_atendidos.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorpreventaproductopop.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorpreventaproductopop.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tiendab_visitada.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\tiendab_visitada.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_preventa_producto.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\preventa_producto.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menucensista.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menucensista.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ventas_mes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\ventas_mes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_entregas_mes.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\entregas_mes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_azul.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\circulo_azul.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_nombres.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_nombres.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_disenio_clienteincentivo.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\disenio_clienteincentivo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_pop.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_pop.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_menusupervisor.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_menusupervisor.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fondo_login.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\fondo_login.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\layout_activity_vendedorcierrepreventa.xml.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\layout\\activity_vendedorcierrepreventa.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_vendedoropciones_devoluciones.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\vendedoropciones_devoluciones.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_vendedoropciones_pop.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\vendedoropciones_pop.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sincronizar_cambios.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\drawable-hdpi\\sincronizar_cambios.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\font_muliextralight.ttf.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\font\\muliextralight.ttf"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_detesim.png.flat",
+        "source": "D:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_detesim.png"
+    }
+]

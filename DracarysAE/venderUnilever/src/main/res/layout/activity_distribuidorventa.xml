@@ -1,0 +1,709 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/DistribuidorVentaLinearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="right"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDisVenNroPedidoTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="# Pedido:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDisVenNroPedido"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="tvDistribuidorVentaNroPedido"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_vertical">
+
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:gravity="center_vertical">
+
+						<TextView
+							android:id="@+id/tvDistribuidorVentaTempProducto"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:text="Cliente:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<TextView
+							android:id="@+id/tvDistribuidorVentaCliente"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="tvDistribuidorVentaCliente"
+							android:textAppearance="@style/Contenido" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:gravity="center_vertical">
+
+						<TextView
+							android:id="@+id/tvDisVenCelularTxt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:text="Celular:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<TextView
+							android:id="@+id/tvDisVenCelular"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="tvDisVenCelular"
+							android:textAppearance="@style/Contenido" />
+
+						<ImageView
+							android:id="@+id/ivDisVenCelular"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:src="@drawable/whatsapp" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDisVenDireccionTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dirección:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDisVenDireccion"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="tvDistribuidorVentaDireccion"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaObservacion"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Observación:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaObservacionContenido"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="tvDistribuidorVentaObservacion"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:orientation="horizontal">
+
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1">
+
+						<TextView
+							android:id="@+id/tvVentaProductoCantidadUnidadeslbl"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:text="Total:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<TextView
+							android:id="@+id/tvDistribuidorVentaTotal"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="tvDistribuidorVentaTotal"
+							android:textAppearance="@style/Contenido" />
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1">
+
+						<TextView
+							android:id="@+id/tvVentaProductoProductoPromocion"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:text="Tipo pago:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<TextView
+							android:id="@+id/tvDistribuidorVentaTipoPago"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="tvDistribuidorVentaTipoPago"
+							android:textAppearance="@style/Contenido" />
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center_vertical"
+						android:layout_weight="1"
+						android:gravity="center_vertical">
+
+						<TextView
+							android:id="@+id/tvDisVenPagadoTxt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:text="Pagado:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<TextView
+							android:id="@+id/tvDisVenPagado"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text=""
+							android:textAppearance="@style/Contenido" />
+
+						<Spinner
+							android:id="@+id/spnDisVenFormaPago"
+							android:layout_width="100dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="5dp"
+							android:background="@color/colorWhite"
+							android:minWidth="100dp" />
+
+						<TextView
+							android:id="@+id/tvDisVenCodigoTxt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="Cod.:"
+							android:textAppearance="@style/Etiqueta" />
+
+						<EditText
+							android:id="@+id/etDisVenCodTrans"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:layout_marginRight="10dp"
+							android:background="#FFFFFF"
+							android:ems="10">
+
+							<requestFocus />
+						</EditText>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvVentaProductoCantidadUnitaria"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Motivo no entrega:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<Spinner
+						android:id="@+id/spnDistribuidorVentaMotivoNoEntrega"
+						android:layout_width="wrap_content"
+						android:layout_height="20dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="1"
+						android:background="@color/colorWhite" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<Button
+						android:id="@+id/btnDistribuidorVentaMotivoNoEntrega"
+						style="@style/Boton"
+						android:layout_width="wrap_content"
+						android:layout_height="30dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:minWidth="170dp"
+						android:text="Venta No entregada" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvVentaProductoCantidadPaquetelbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:text="Detalle de la preventa:"
+						android:textAppearance="@style/Etiqueta" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaProductolbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:minWidth="150dp"
+						android:text="Producto"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaUnidadeslbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="2dp"
+						android:text="U"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaPaquetelbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="P"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaMontolbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Monto"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDescuentolbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dsc"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaSubTotallbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="STotal"
+						android:textAppearance="@style/Etiqueta" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<ListView
+						android:id="@+id/lvDistribuidorVentaPreventaProductos"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="1">
+
+					</ListView>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaMontoTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginRight="5dp"
+						android:text="Monto:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaMonto"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoAjusteTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Prom:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoAjuste"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoCanalTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Canal:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoCanal"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoProntoPagoTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Pronto Pago:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoProntoPago"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoOtrosTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Otros:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoOtros"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoObjetivoTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Objetivo:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoObjetivo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoSocioTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Socio:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoSocio"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoIncentivoTxt"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Dscto. Incentivo:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaDsctoIncentivo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="right">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaTotalCalculadolbl"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginRight="5dp"
+						android:text="MONTO FINAL:"
+						android:textAppearance="@style/Etiqueta" />
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaTotalCalculado"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginRight="10dp"
+						android:gravity="right"
+						android:text="00000.00"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaProductoPOP"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Material Promocional:"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<ListView
+						android:id="@+id/lvDistribuidorVentaPreventaProductoPOP"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="1">
+
+					</ListView>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<TextView
+						android:id="@+id/tvDistribuidorVentaProductoCambio"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="Productos a cambiar:"
+						android:textAppearance="@style/Contenido" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp">
+
+					<ListView
+						android:id="@+id/lvDistribuidorVentaProductosCambio"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:layout_weight="1">
+
+					</ListView>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="10dp">
+
+					<Button
+						android:id="@+id/btnDistribuidorVentaConfirmarVenta"
+						style="@style/Boton"
+						android:layout_width="match_parent"
+						android:layout_height="30dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginTop="5dp"
+						android:layout_marginRight="10dp"
+						android:text="Confirmar venta" />
+
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

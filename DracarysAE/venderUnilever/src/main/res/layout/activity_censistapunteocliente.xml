@@ -1,0 +1,869 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/CensistaPunteoClienteLinearLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp" />
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvMapaNombreClienteNombre"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nombres: "
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<EditText
+					android:id="@+id/etPunteoNombre"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="35dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="text">
+
+					<requestFocus />
+				</EditText>
+			</LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoClientePaterno"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Apellido Paterno:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoApellidoPaterno"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="text" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvMapaNombreClienteNroPreventas"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Apellido Materno:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoClienteMaterno"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="text" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoClienteCi"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="C.I.:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoClienteCi"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="70dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="text" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCelular"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Celular:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoCelular"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="50dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="number" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoClienteCiudad"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Ciudad: "
+	                android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnPunteoClienteCiudad"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoClienteProvincia"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Provincia: "
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoClienteProvincia"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPunteoClientePrecioLista"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Sub Canal:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoClientePrecioLista"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPunteoZona"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Barrio: "
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoZona"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="51dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaPunteoMercado"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Mercado:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCensistaPunteoMercado"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="35dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoClienteZonaMercado"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Zona Mercado:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaPunteoZonaMercado"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="35dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvDireccion"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Dirección:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoDireccion"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="38dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="text" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoTipoNegocio"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Tipo Negocio: "
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoTipoNegocio"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvPunteoCanalRuta"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Canal ruta: "
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoCanalRuta"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPunteoClienteTipoPago"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Tipo de Pago:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoClienteTipoPago"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="58dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCencistaPunteoTipoNit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Tipo NIT:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaPunteoTipoNit"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="35dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvRestauracionPreventaTitulo"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Nombre a facturar:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoNombreFactura"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="text" >
+	            </EditText>
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvVendedorVentaDirectaPromocionClienteContenido"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Nit:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	
+	            <EditText
+	                android:id="@+id/etPunteoNit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="88dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_weight="1"
+	                android:background="#FFFFFF"
+	                android:ems="10"
+	                android:inputType="number" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCencistaPunteoDiasVisita"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Dias de Visita::"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+	
+		        <TextView
+		            android:id="@+id/tvCenEdiCliLu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Lunes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliMa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Martes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliMi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Mierco"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliJu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Jueves"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliVi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Viernes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliSa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Sábado"
+		            android:textAppearance="@style/Etiqueta" />
+		    </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCenPunCliRutaSemanal"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Rutas semanales:"
+	                android:textAppearance="@style/Etiqueta" />
+	        </LinearLayout>
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoA"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="A"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoB"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="B"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoC"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="C"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoD"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="D"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoE"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="E"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoF"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="F"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCenPunCliRutaQuincenal"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Rutas quincenales:"
+	                android:textAppearance="@style/Etiqueta" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoG"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="G"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoH"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="H"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoI"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="I"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoJ"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="J"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoK"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="K"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoL"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="L"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCenPunCliRutaMensual"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:text="Rutas mensuales:"
+	                android:textAppearance="@style/Etiqueta" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoM"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="M"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoN"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="N"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoO"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="O"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoP"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="P"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoQ"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Q"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+
+				<CheckBox
+					android:id="@+id/cbCencistaPunteoR"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="R"
+					android:textAppearance="@style/Etiqueta"
+					android:textStyle="bold" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <TextView
+	                android:id="@+id/tvCencistaPunteoSecuenciaPreventa"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="15dp"
+	                android:text="Secuencia preventa:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<EditText
+					android:id="@+id/etCencistaPunteoSecuenciaPreventa"
+					style="@style/Etiqueta"
+					android:layout_width="30dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:background="@color/colorWhite"
+					android:ems="10"
+					android:inputType="number" />
+	
+	            <TextView
+	                android:id="@+id/tvCencistaPunteoSecuenciaVenta"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="5dp"
+	                android:text="Secuencia venta:"
+	                android:textAppearance="@style/EtiquetaRequerida" />
+
+				<EditText
+					android:id="@+id/etCencistaPunteoSecuenciaVenta"
+					style="@style/Etiqueta"
+					android:layout_width="30dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="15dp"
+					android:background="@color/colorWhite"
+					android:ems="10"
+					android:inputType="number" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp" >
+	
+	            <Button
+	                android:id="@+id/btnPunteoInsertarCliente"
+	                style="@style/Boton"
+	                android:layout_width="fill_parent"
+	                android:layout_height="30dp"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:text="Insertar cliente" />
+	        </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/tvPunteoCategoriaFoto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Categoría de la foto:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPunteoCategoriaFoto"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnPunteoTomarFoto"
+					style="@style/Boton"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Tomar foto" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvPunteoListadoFotos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"></ListView>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="10dp">
+
+				<Button
+					android:id="@+id/btnPunteoInsertarFotos"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Insertar fotos" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

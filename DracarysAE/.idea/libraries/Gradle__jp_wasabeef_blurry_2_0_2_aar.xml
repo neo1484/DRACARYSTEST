@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.wasabeef:blurry:2.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7c0dfd6d6005f9fecb37a2b57fa7245/jetified-blurry-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49fef746145683529184fc3bb3041560/jetified-blurry-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8389732d0ad28bf4e22422aacaa65a42/jetified-blurry-2.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../ANDROID/EjemploSQLite-master/gradle/wrapper/caches/transforms-2/files-2.1/8389732d0ad28bf4e22422aacaa65a42/jetified-blurry-2.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../ANDROID/EjemploSQLite-master/gradle/wrapper/caches/transforms-2/files-2.1/eadeace9da3eb020e952d90e416fa33a/jetified-blurry-2.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../../ANDROID/EjemploSQLite-master/gradle/wrapper/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../ANDROID/EjemploSQLite-master/gradle/wrapper/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../ANDROID/EjemploSQLite-master/gradle/wrapper/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a7bc43b2f6aec54fc78cb9a2eda12b8e/jetified-blurry-2.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/blurry/2.0.2/9159c28f45da66adfa3072584bef7d8fe5041bcc/blurry-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/blurry/2.0.2/b1e1eadd46c2ad1d99cf0b411cfcbb7109ca97b/blurry-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

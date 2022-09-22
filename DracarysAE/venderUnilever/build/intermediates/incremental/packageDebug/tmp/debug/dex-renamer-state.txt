@@ -1,0 +1,4 @@
+#Mon Apr 18 14:07:58 BOT 2022
+base.0=D\:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

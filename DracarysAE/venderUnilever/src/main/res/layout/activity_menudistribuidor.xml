@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MenuDistribuidorLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPreventaProductoSeleccionarNit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuari@:"
+                android:textAppearance="@style/Etiqueta" />
+
+            <TextView
+                android:id="@+id/tvMenuDistribuidorUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/Contenido" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvPreventaProductoNit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENÚ DISTRIBUIDOR"
+            android:textAppearance="@style/Titulo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorDescargarPreventas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/descargar_preventas" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorVerEntregas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ver_entregas" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorSincronizarEntregas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/sincronizar_entregas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorInventarioAutoventa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inventario_autoventa" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorSincronizarAutoventas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/sincronizar_autoventas" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorSincronizarFacturas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/sincronizar_facturas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorVisualizarVentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/visualizar_ventas" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorImpresionFactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/impresion_factura" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorCerrarEntregas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/cerrar_entregas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorMenuCensista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_vendedor_censista" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorVerLogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ver_logs" />
+
+        <ImageView
+            android:id="@+id/imgbtnMenuDistribuidorTestImpresora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/impresora_test" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/VendedorPreventaFacturaLinearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="60dp">
+
+				<RadioButton
+					android:id="@+id/rbtVentaDirectaNitsFacturar"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:checked="true"
+					android:text="Venta"
+					android:textColor="@color/colorPrimaryDark" />
+
+				<RadioButton
+					android:id="@+id/rbtVentaDirectaNitsAtencionCliente"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="No atención"
+					android:textColor="@color/colorPrimaryDark" />
+
+				<RadioButton
+					android:id="@+id/rbtVenPreNitEdicionCliente"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Ed. Cliente"
+					android:textColor="@color/colorPrimaryDark" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<RadioButton
+					android:id="@+id/rbtVenPreNitAdminFotos"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Administrar Fotos"
+					android:textColor="@color/colorPrimaryDark" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVentaDirectaNitsMotivoNoAtencion"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Motivo de No atención:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnVentaDirectaNitsMotivoNoAtencion"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVentaDirectaNitsInsertarMotivoNoAtencion"
+					style="@style/Boton"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Registrar motivo no atención" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPreventaProductoSeleccionarNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Seleccione el nombre y nit a facturar:"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvVentaDirectaNitsListadoNits"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"></ListView>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<CheckBox
+					android:id="@+id/chbVentaDirectaNitsMostrarDatosFactura"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_weight="1"
+					android:text="Adicionar nuevo nit"
+					android:textColor="@color/colorPrimaryDark" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPreventaProductoNitTipoNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Tipo NIT:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnPreventaProductoNitTiposNit"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="45dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPreventaProductoNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nombre factura:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<EditText
+					android:id="@+id/etVentaDirectaNitsNombreFactura"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="text"
+					android:lines="1">
+
+					<requestFocus />
+				</EditText>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVentaDirectaNitsNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nit:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<EditText
+					android:id="@+id/etVentaDirectaNitsNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="78dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="number" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVentaDirectaNitsInsertarNit"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Adicionar nombre y nit" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

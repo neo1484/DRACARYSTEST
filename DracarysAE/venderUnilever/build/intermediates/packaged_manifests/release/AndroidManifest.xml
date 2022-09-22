@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.detesim.venderunilever"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="28" />
+    <!-- Inicio Código Detesim -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:icon="@drawable/ic_launcher_unilever"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- Inicio Código Detesim -->
+        <!--
+<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA7jUKqQiq2zQJhMBUEA8wSzLASJrPIoio" /> <!-- android:value="AIzaSyBYhY_sBcBegc_CDOWks6dya_mMcKRaQZM" -->
+        <!-- Fin Código Detesim -->
+        <activity
+            android:name="com.detesim.venderunilever.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.detesim.venderunilever.Menuprincipal"
+            android:label="@string/title_activity_menuprincipal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Menucensista"
+            android:label="@string/title_activity_menusupervisor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Menuvendedor"
+            android:label="@string/title_activity_menuvendedor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Menudistribuidor"
+            android:label="@string/title_activity_menudistribuidor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaaltaclientemapa"
+            android:label="@string/title_activity_supervisoraltaclientemapa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistasincronizacioncliente"
+            android:label="@string/title_activity_supervisorsincronizacioncliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistasincronizacionclientefoto"
+            android:label="@string/title_activity_supervisorsincronizacionclientefoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Log"
+            android:label="@string/title_activity_log"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistatipoinfocliente"
+            android:label="@string/title_activity_supervisortipoinfocliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistainfocliente"
+            android:label="@string/title_activity_supervisorinfocliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistafotocliente"
+            android:label="@string/title_activity_supervisorfotocliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistapunteocliente"
+            android:label="@string/title_activity_supervisorpunteocliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedormapaclientes"
+            android:label="@string/title_activity_vendedormapaclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventaproducto"
+            android:label="@string/title_activity_vendedorpreventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorsincronizarpreventas"
+            android:label="@string/title_activity_vendedorsincronizarpreventas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorcierrepreventa"
+            android:label="@string/title_activity_vendedorcierrepreventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistamenurutadia"
+            android:label="@string/title_activity_supervisormenurutadia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventapromocion"
+            android:label="@string/title_activity_vendedorpreventapromocion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Menusupervisor"
+            android:label="@string/title_activity_menusupervisor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Supervisorventaavancedia"
+            android:label="@string/title_activity_supervisorventadia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Supervisorventaavancemes"
+            android:label="@string/title_activity_supervisorventasmes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoravanceventasdia"
+            android:label="@string/title_activity_vendedoravanceventasdia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoravanceventasmes"
+            android:label="@string/title_activity_vendedoravanceventasmes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidormapaentregas"
+            android:label="@string/title_activity_distribuidormapaentregas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorsincronizacionventas"
+            android:label="@string/title_activity_distribuidorsincronizacionentregas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorinventarioautoventa"
+            android:label="@string/title_activity_distribuidorinventarioautoventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorventa"
+            android:label="@string/title_activity_distribuidorventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorventaproducto"
+            android:label="@string/title_activity_distribuidorventaproducto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorautoventa"
+            android:label="@string/title_activity_distribuidorautoventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorimpresionfacturas"
+            android:label="@string/title_activity_printer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventanits"
+            android:label="@string/title_activity_vendedorpreventafactura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidortipoimpresion"
+            android:label="@string/title_activity_distribuidortipoimpresion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoractualizacioncliente"
+            android:label="@string/title_activity_vendedoractualizacioncliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorsincronizacionnombrecliente"
+            android:label="@string/title_activity_vendedorsincronizacionnombrecliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorrestauracionpreventa"
+            android:label="@string/title_activity_vendedorrestauracionpreventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorautoventapromocion"
+            android:label="@string/title_activity_distribuidorautoventapromocion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido"
+            android:label="@string/title_activity_vendedorsincronizacionclientenoatendido"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorsincronizacionfacturas"
+            android:label="@string/title_activity_dsitribuidorsincronizacionfacturas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorsincronizacionautoventa"
+            android:label="@string/title_activity_distribuidor_sincronizacionautoventa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorvisualizarpreventas"
+            android:label="@string/title_activity_vendedorvisorpreventas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorcierreentregas"
+            android:label="@string/title_activity_distribuidorcierreentregas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidortestimpresora"
+            android:label="@string/title_activity_distribuidortestimpresora"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidortestimpresoras"
+            android:label="@string/title_activity_distribuidortestimpresoras"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorinventarioproductos"
+            android:label="@string/title_activity_vendedorinventarioproductos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoredicionpreventas"
+            android:label="@string/title_activity_vendedoredicionpreventas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoredicionpreventaproducto"
+            android:label="@string/title_activity_vendedoredicionpreventaproducto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoredicionpreventapromocion"
+            android:label="@string/title_activity_vendedoredicionpreventapromocion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorventadirectamapa"
+            android:label="@string/title_activity_vendedormapaventasdirectas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorcobrospendientes"
+            android:label="@string/title_activity_vendedorcobrospendientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorventadirecta"
+            android:label="@string/title_activity_vendedorventadirecta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorventadirectaproducto"
+            android:label="@string/title_activity_vendedorventadirectaproducto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorventadirectapromocion"
+            android:label="@string/title_activity_vendedorventadirectapromocion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorventadirectanits"
+            android:label="@string/title_activity_vendedorventadirectanits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Supervisordistribucionravancedia"
+            android:label="@string/title_activity_supervisordistribuidoravance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Supervisordistribucionavancemes"
+            android:label="@string/title_activity_supervisoravancedistribucionmes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Distribuidorvisualizarventas"
+            android:label="@string/title_activity_distribuidorvisualizarventas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistamapaeditarcliente"
+            android:label="@string/title_activity_censistaeditarcliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaeditarcliente"
+            android:label="@string/title_activity_censistaeditarcliente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Cencistaedicioncoordenadamapa"
+            android:label="@string/title_activity_cencistaedicioncoordenadas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistasincronizacionedicionclientes"
+            android:label="@string/title_activity_censistasincronizacionedicionclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventaproductopop"
+            android:label="@string/title_activity_vendedorpreventaproductopop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorsincronizarpop"
+            android:label="@string/title_activity_vendedorsincronizarpop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventamenuopciones"
+            android:label="@string/title_activity_vendedorpreventamenuopciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventaproductocambio"
+            android:label="@string/title_activity_vendedordevolucionproducto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorsincronizacionpreventacambios"
+            android:label="@string/title_activity_vendedorpreventacambiosincronizacion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaunificacionclientesmapa"
+            android:label="@string/title_activity_censistaunificacionclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaunificacionclientes"
+            android:label="@string/title_activity_censistaunificacionclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada"
+            android:label="@string/title_activity_censistaunificacionclientesmapacoordenada"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaunificacionclientessincronizacion"
+            android:label="@string/title_activity_censistaunificacionclientessincronizacion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistaunificacionclienteselecciondia"
+            android:label="@string/title_activity_cencistaunificacionclienteselecciondia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorencuesta"
+            android:label="@string/title_activity_vendedorencuesta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorvisorventasdirectas"
+            android:label="@string/title_activity_vendedorvisorventasdirectas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoravanceventasmescategoria"
+            android:label="@string/title_activity_vendedoravanceventasmescategoria"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorpreventaproductochange"
+            android:label="@string/title_activity_vendedorpreventaproductochange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedormetassap"
+            android:label="@string/title_activity_metassap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Menucobrador"
+            android:label="@string/title_activity_menucobrador"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Cobradormapaclientes"
+            android:label="@string/title_activity_cobradormapaclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Cobradorcobranza"
+            android:label="@string/title_activity_cobradorcobranza"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedoradminfotosclientes"
+            android:label="@string/title_activity_vendedoradminfotosclientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorencuestapdv"
+            android:label="@string/title_activity_vendedorencuestapdv"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Vendedorencuestafoods"
+            android:label="@string/title_activity_vendedorencuestafoods"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.detesim.venderunilever.Censistarelevamiento"
+            android:label="@string/title_activity_censistarelevamientos"
+            android:screenOrientation="portrait" />
+        <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.detesim.venderunilever.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

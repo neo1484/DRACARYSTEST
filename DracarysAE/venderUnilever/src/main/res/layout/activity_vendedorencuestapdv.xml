@@ -1,0 +1,280 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llVendedorEncuestaPdv"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:id="@+id/tvVenPrePromoMontoFinalTxtromoMontoFinalTxt"
+			style="@style/Etiqueta"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Encuesta Astrix" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				style="@style/Etiqueta"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVenVenDirMontoFinalirMontoFinal"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="1. Qué productos encuentra en el PDV ?" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Spinner
+					android:id="@+id/spnVenEncPdvProducto"
+					android:layout_width="match_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvDisDiaConImeionImei"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="2. Cuál es la información asociada ?" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/textView4"
+					style="@style/Contenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Cantidad:" />
+
+				<EditText
+					android:id="@+id/etVenEncPdvCantidad"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:hint="*"
+					android:inputType="number" >
+
+					<requestFocus />
+				</EditText>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvDisDiaConDeviceIdonDeviceId"
+					style="@style/Contenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Precio compra:" />
+
+				<EditText
+					android:id="@+id/etVenEncPdvPrecioCompra"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="numberDecimal" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/textView6"
+					style="@style/Contenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Precio venta:" />
+
+				<EditText
+					android:id="@+id/etVenEncPdvPrecioVenta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:hint="*"
+					android:inputType="numberDecimal" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/textView7"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="3. Cómo obtiene el producto ?" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Spinner
+					android:id="@+id/spnVenEncPdvDistribuidor"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/textView8"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="4. Cuál es el nombre del distribuidor o mercado ?" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<EditText
+					android:id="@+id/etVenEncPdvNombreDistribuidor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:hint="*" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVenEncPdvRegistrarProducto"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="35dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Registrar producto" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvVenEncPdvProductos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="10dp">
+
+				<Button
+					android:id="@+id/btnVenEncPdvEnviarProductos"
+					style="@style/Boton"
+					android:layout_width="match_parent"
+					android:layout_height="35dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Enviar Productos" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

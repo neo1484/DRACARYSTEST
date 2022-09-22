@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DracarysAE.iml" filepath="$PROJECT_DIR$/.idea/modules/DracarysAE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/googleplayservices_lib/DracarysAE.googleplayservices_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/googleplayservices_lib/DracarysAE.googleplayservices_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/venderUnilever/DracarysAE.venderUnilever.iml" filepath="$PROJECT_DIR$/.idea/modules/venderUnilever/DracarysAE.venderUnilever.iml" />
+    </modules>
+  </component>
+</project>

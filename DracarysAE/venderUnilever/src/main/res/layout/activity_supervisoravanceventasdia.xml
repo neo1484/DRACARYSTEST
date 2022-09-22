@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/SupervisorAvancesDiaLinearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<TextView
+			android:id="@+id/tvVendedorAvanceVentasCatgoriaTitulo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Avance de ventas por vendedor en el día:"
+			android:textAppearance="@style/Contenido" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaVendedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:maxWidth="155dp"
+					android:minWidth="155dp"
+					android:text="Nombre vendedor"
+					android:textAppearance="@style/Etiqueta"
+					android:width="155dp" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaProveedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="155dp"
+					android:minWidth="155dp"
+					android:text="Nombre Proveedor"
+					android:textAppearance="@style/Etiqueta"
+					android:width="155dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaPresupuesto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:width="100dp"
+					android:maxWidth="100dp"
+					android:minWidth="100dp"
+					android:text="Presupuesto"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="40dp"
+					android:maxWidth="40dp"
+					android:minWidth="40dp"
+					android:text="#Prev."
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaAvances"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="70dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Avance"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvSupervisorVentasDiaEficiencia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="70dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Eficiencia %"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvSupervisorVentasDiaAvanceVentas"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

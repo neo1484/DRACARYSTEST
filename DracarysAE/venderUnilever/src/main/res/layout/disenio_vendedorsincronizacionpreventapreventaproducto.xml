@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorTestImpresoraLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgSincronizacionPreventaProductoBullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="180dp"
+            android:minWidth="180dp"
+            android:text="Producto"
+            android:textAppearance="@style/Etiqueta"
+            android:width="180dp" />
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="20dp"
+            android:minWidth="20dp"
+            android:text="TextView"
+            android:textAppearance="@style/Etiqueta"
+            android:width="20dp" />
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoPaquete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="20dp"
+            android:minWidth="20dp"
+            android:text="TextView"
+            android:textAppearance="@style/Etiqueta"
+            android:width="20dp" />
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoMontoFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="80dp"
+            android:minWidth="80dp"
+            android:text="MontoFinal"
+            android:textAppearance="@style/Etiqueta"
+            android:width="80dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

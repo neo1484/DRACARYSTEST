@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorTestImpresoraLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvDistribuidorInventarioAutoventaProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="170dp"
+        android:text="TextView"
+        android:textAppearance="@style/Contenido" />
+
+    <TextView
+        android:id="@+id/tvDistribuidorInventarioAutoventaCantidadPaquetes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal"
+        android:minWidth="45dp"
+        android:text="TextView"
+        android:textAppearance="@style/Contenido" />
+
+    <TextView
+        android:id="@+id/tvDistribuidorInventarioAutoventaCantidadUnidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal"
+        android:minWidth="45dp"
+        android:text="TextView"
+        android:textAppearance="@style/Contenido" />
+
+</LinearLayout>

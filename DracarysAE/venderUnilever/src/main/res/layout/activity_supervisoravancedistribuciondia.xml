@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llDisenioAvanceDistribuidorDia"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<TextView
+			android:id="@+id/tvDisenioAvanceDistribuidorDistribuidor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Avance de distribución en el día:"
+			android:textAppearance="@style/Contenido" />
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesDistribuidor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nombre distribuidor"
+					android:textAppearance="@style/Etiqueta" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesNoPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="No Prev."
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesMontoPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7dp"
+					android:text="Bs. Prev."
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesNoVentas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7dp"
+					android:text="No Ventas"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesMontoVentas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7dp"
+					android:text="Bs. Venta"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvAvanceDistribucionMesEficiencia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7dp"
+					android:text="% Eficiencia"
+					android:textAppearance="@style/Etiqueta" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<ListView
+					android:id="@+id/lvAvanceDistribucionMesDistribuidores"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1" >
+				</ListView>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

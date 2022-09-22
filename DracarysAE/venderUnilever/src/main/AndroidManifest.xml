@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.detesim.venderunilever"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <!-- Inicio Código Detesim -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher_unilever"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme">
+        <!-- Inicio Código Detesim -->
+        <!--
+<meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA7jUKqQiq2zQJhMBUEA8wSzLASJrPIoio" /> <!-- android:value="AIzaSyBYhY_sBcBegc_CDOWks6dya_mMcKRaQZM" -->
+        <!-- Fin Código Detesim -->
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menuprincipal"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menuprincipal" />
+        <activity
+            android:name=".Menucensista"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menusupervisor" />
+        <activity
+            android:name=".Menuvendedor"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menuvendedor" />
+        <activity
+            android:name=".Menudistribuidor"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menudistribuidor" />
+        <activity
+            android:name=".Censistaaltaclientemapa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisoraltaclientemapa" />
+        <activity
+            android:name=".Censistasincronizacioncliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorsincronizacioncliente" />
+        <activity
+            android:name=".Censistasincronizacionclientefoto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorsincronizacionclientefoto" />
+        <activity
+            android:name=".Log"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_log" />
+        <activity
+            android:name=".Censistatipoinfocliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisortipoinfocliente" />
+        <activity
+            android:name=".Censistainfocliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorinfocliente" />
+        <activity
+            android:name=".Censistafotocliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorfotocliente" />
+        <activity
+            android:name=".Censistapunteocliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorpunteocliente" />
+        <activity
+            android:name=".Vendedormapaclientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedormapaclientes" />
+        <activity
+            android:name=".Vendedorpreventaproducto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventa" />
+        <activity
+            android:name=".Vendedorsincronizarpreventas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorsincronizarpreventas" />
+        <activity
+            android:name=".Vendedorcierrepreventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorcierrepreventa" />
+        <activity
+            android:name=".Censistamenurutadia"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisormenurutadia" />
+        <activity
+            android:name=".Vendedorpreventapromocion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventapromocion" />
+        <activity
+            android:name=".Menusupervisor"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menusupervisor" />
+        <activity
+            android:name=".Supervisorventaavancedia"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorventadia" />
+        <activity
+            android:name=".Supervisorventaavancemes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisorventasmes" />
+        <activity
+            android:name=".Vendedoravanceventasdia"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoravanceventasdia" />
+        <activity
+            android:name=".Vendedoravanceventasmes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoravanceventasmes" />
+        <activity
+            android:name=".Distribuidormapaentregas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidormapaentregas" />
+        <activity
+            android:name=".Distribuidorsincronizacionventas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorsincronizacionentregas" />
+        <activity
+            android:name=".Distribuidorinventarioautoventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorinventarioautoventa" />
+        <activity
+            android:name=".Distribuidorventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorventa" />
+        <activity
+            android:name=".Distribuidorventaproducto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorventaproducto" />
+        <activity
+            android:name=".Distribuidorautoventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorautoventa" />
+        <activity
+            android:name=".Distribuidorimpresionfacturas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_printer" />
+        <activity
+            android:name=".Vendedorpreventanits"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventafactura" />
+        <activity
+            android:name=".Distribuidortipoimpresion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidortipoimpresion" />
+        <activity
+            android:name=".Vendedoractualizacioncliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoractualizacioncliente" />
+        <activity
+            android:name=".Vendedorsincronizacionnombrecliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorsincronizacionnombrecliente" />
+        <activity
+            android:name=".Vendedorrestauracionpreventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorrestauracionpreventa" />
+        <activity
+            android:name=".Distribuidorautoventapromocion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorautoventapromocion" />
+        <activity
+            android:name=".Vendedorsincronizacionclientenoatendido"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorsincronizacionclientenoatendido" />
+        <activity
+            android:name=".Distribuidorsincronizacionfacturas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_dsitribuidorsincronizacionfacturas" />
+        <activity
+            android:name=".Distribuidorsincronizacionautoventa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidor_sincronizacionautoventa" />
+        <activity
+            android:name=".Vendedorvisualizarpreventas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorvisorpreventas" />
+        <activity
+            android:name=".Distribuidorcierreentregas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorcierreentregas" />
+        <activity
+            android:name=".Distribuidortestimpresora"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidortestimpresora" />
+        <activity
+            android:name=".Distribuidortestimpresoras"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidortestimpresoras" />
+        <activity
+            android:name=".Vendedorinventarioproductos"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorinventarioproductos" />
+        <activity
+            android:name=".Vendedoredicionpreventas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoredicionpreventas" />
+        <activity
+            android:name=".Vendedoredicionpreventaproducto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoredicionpreventaproducto" />
+        <activity
+            android:name=".Vendedoredicionpreventapromocion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoredicionpreventapromocion" />
+        <activity
+            android:name=".Vendedorventadirectamapa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedormapaventasdirectas" />
+        <activity
+            android:name=".Vendedorcobrospendientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorcobrospendientes" />
+        <activity
+            android:name=".Vendedorventadirecta"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorventadirecta" />
+        <activity
+            android:name=".Vendedorventadirectaproducto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorventadirectaproducto" />
+        <activity
+            android:name=".Vendedorventadirectapromocion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorventadirectapromocion" />
+        <activity
+            android:name=".Vendedorventadirectanits"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorventadirectanits" />
+        <activity
+            android:name=".Supervisordistribucionravancedia"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisordistribuidoravance" />
+        <activity
+            android:name=".Supervisordistribucionavancemes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_supervisoravancedistribucionmes" />
+        <activity
+            android:name=".Distribuidorvisualizarventas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_distribuidorvisualizarventas" />
+        <activity
+            android:name=".Censistamapaeditarcliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaeditarcliente" />
+        <activity
+            android:name=".Censistaeditarcliente"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaeditarcliente" />
+        <activity
+            android:name=".Cencistaedicioncoordenadamapa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_cencistaedicioncoordenadas" />
+        <activity
+            android:name=".Censistasincronizacionedicionclientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistasincronizacionedicionclientes" />
+        <activity
+            android:name=".Vendedorpreventaproductopop"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventaproductopop" />
+        <activity
+            android:name=".Vendedorsincronizarpop"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorsincronizarpop" />
+        <activity
+            android:name=".Vendedorpreventamenuopciones"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventamenuopciones" />
+        <activity
+            android:name=".Vendedorpreventaproductocambio"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedordevolucionproducto" />
+        <activity
+            android:name=".Vendedorsincronizacionpreventacambios"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventacambiosincronizacion" />
+        <activity
+            android:name=".Censistaunificacionclientesmapa"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaunificacionclientes" />
+        <activity
+            android:name=".Censistaunificacionclientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaunificacionclientes" />
+        <activity
+            android:name=".Censistaunificacionclientesmapacoordenada"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaunificacionclientesmapacoordenada" />
+        <activity
+            android:name=".Censistaunificacionclientessincronizacion"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistaunificacionclientessincronizacion" />
+        <activity
+            android:name=".Censistaunificacionclienteselecciondia"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_cencistaunificacionclienteselecciondia" />
+        <activity
+            android:name=".Vendedorencuesta"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorencuesta" />
+        <activity
+            android:name=".Vendedorvisorventasdirectas"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorvisorventasdirectas" />
+        <activity
+            android:name=".Vendedoravanceventasmescategoria"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoravanceventasmescategoria" />
+        <activity
+            android:name=".Vendedorpreventaproductochange"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorpreventaproductochange" />
+        <activity
+            android:name=".Vendedormetassap"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_metassap" />
+        <activity
+            android:name=".Menucobrador"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menucobrador" />
+        <activity
+            android:name=".Cobradormapaclientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_cobradormapaclientes" />
+        <activity
+            android:name=".Cobradorcobranza"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_cobradorcobranza" />
+        <activity
+            android:name=".Vendedoradminfotosclientes"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedoradminfotosclientes" />
+        <activity
+            android:name=".Vendedorencuestapdv"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorencuestapdv" />
+        <activity
+            android:name=".Vendedorencuestafoods"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_vendedorencuestafoods" />
+        <activity
+            android:name=".Censistarelevamiento"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_censistarelevamientos" />
+    </application>
+
+</manifest>

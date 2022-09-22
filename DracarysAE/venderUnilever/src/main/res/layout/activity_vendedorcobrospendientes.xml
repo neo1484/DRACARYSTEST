@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llCobrosPendientes"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<TextView
+			android:id="@+id/tvCobroPendienteCliente"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:text="Cobros Pendientes:"
+			android:textAppearance="@style/Contenido" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp">
+
+		<TextView
+			android:id="@+id/tvCobroPendienteClienteTxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:width="95dp"
+			android:text="Cliente"
+			android:textAppearance="@style/Etiqueta" />
+
+		<TextView
+			android:id="@+id/tvCobroPendienteFecha"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="70dp"
+			android:text="Fecha"
+			android:textAppearance="@style/Etiqueta" />
+
+		<TextView
+			android:id="@+id/tvCobroPendienteMontoTxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="50dp"
+			android:text="Monto"
+			android:textAppearance="@style/Etiqueta" />
+
+		<TextView
+			android:id="@+id/tvCobroPendienteSaldoTxt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="50dp"
+			android:text="Saldo"
+			android:textAppearance="@style/Etiqueta" />
+
+		<TextView
+			android:id="@+id/tvCobroPendienteMora"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Mora"
+			android:textAppearance="@style/Etiqueta" />
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<ListView
+					android:id="@+id/lvCobrosPendientesCobros"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:layout_weight="1" >
+
+				</ListView>
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

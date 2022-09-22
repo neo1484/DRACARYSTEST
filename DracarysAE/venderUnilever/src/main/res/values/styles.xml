@@ -1,0 +1,187 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->    
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- ================ ESTILOS ANTIGUOS =================-->
+    <!--
+    <style name="Titulo" parent="AppTheme">
+        <item name="android:fontFamily">Arial</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Etiqueta" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+   	 </style>
+
+   	 <style name="EtiquetaRequerida" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Arial</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="MensajeMapa" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Arial</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:background">#FFFF00</item>
+    </style>
+
+    <style name="Contenido" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Arial</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFF00</item>
+    </style>
+
+    <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#0A2D50</item>
+   	 </style>
+   	 -->
+
+    <!-- ================ ESTILOS NUEVOS =================-->
+    <style name="Titulo" parent="AppTheme">
+        <item name="android:fontFamily">@font/mulibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TituloBlanco" parent="AppTheme">
+        <item name="android:fontFamily">@font/mulibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Etiqueta" parent="AppTheme">
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="EtiquetaBlanca" parent="AppTheme">
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="EtiquetaRequerida" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/mulibolditalic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+    
+    <style name="MensajeMapa" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/colorYellow</item>
+    </style>
+    
+    <style name="Contenido" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    
+   	<style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">@font/mulibold</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">@color/colorWhite</item>
+       	<item name="android:background">@color/colorPrimaryDark</item>
+   	 </style>
+   
+    <!-- 
+     ****************** EVEM *************************
+     
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#004002</item>
+	 </style> 
+	 
+	 *************** DETESIM/UNILEVER/ONYX/MARIDAM/DIMASUR ****************
+	 
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#0A2D50</item>
+   	 </style>
+   	 
+   	 ******************** DISTAL *********************
+	 
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#007075</item>
+   	 </style>
+   	 
+   	 ******************** TRADEHAMMER/BARDERO/EXDIM *********************
+	 
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#AE0000</item>
+   	 </style>
+    
+     ********************* VIVA ****************************
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#9EB30D</item>
+   	 </style>
+    
+     **************** LUQHI/TUSEQUIS/CENCOSER/ORIANA ***********************
+    
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#9F2000</item>
+   	 </style> 
+   	 
+   	 **************** 3F ***********************
+    
+     <style name="Boton" parent="AppTheme">
+       	<item name="android:fontFamily">Arial</item>
+       	<item name="android:textSize">14sp</item>
+       	<item name="android:textColor">#FFFFFF</item>
+       	<item name="android:background">#5353FF</item>
+   	 </style>     
+   	 
+    -->
+    
+</resources>

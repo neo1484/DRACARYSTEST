@@ -1,0 +1,969 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\1e3214591e5f847e6b5b2333c34f548f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f5c7c68913d5271e996963f863ab2fe2\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\54448c056128a2c935b0bb4d9a555ae7\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5c2d055b9576f9b1a68fe7075632917c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\7f6f3616905d5ffbd7dd6500e84e15da\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5361883b00374991ae5863f18dbdaab4\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\774f4f26307c77113f74067e559ce529\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8265d5cb033aea9b3b2b59393038f53\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d9a1f9c79beb812a29c08dec8e929987\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [jp.wasabeef:blurry:2.0.2] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a7bc43b2f6aec54fc78cb9a2eda12b8e\jetified-blurry-2.0.2\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\815bb9272ee789daabc21bc15b42e2c3\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\fd8e29e20bdfab0e2f3ed913d135cf1b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\876b4c413259cb5e7efdc2e9dd06a71c\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\818f45328ee8f5b99bad88c27c6cc009\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b93e2b8a7319b8231fdc1936a598b860\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8503f66578d12caa389b09e1e5eca48\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\9f5395c9e2c4a1a11a43e64f5d81258c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3cbf7d58422f1eff749f49c0e56a75ee\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f318378b0e42eef86fb724b98ce46366\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6996f596c778b3aed39bb9cecbf69969\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\bda27261a6bbc5e10728551c109a2777\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dd2927f5c8f4efef87e2029689348720\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\0b72cca5aef8e2f071ebd052cd8ee1aa\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b9a8ccdf08677e6ebe8a29448e9bae04\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d36fb540275a3ffc163b383c0658378d\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\338167d8bee44ca72c2d4fff9adc0c6c\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3071ce80fdcfa18abcc0ff9d690b7155\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\93edb5d1bd934579af6b5cc47a2af2a7\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6e63d2f68c8b342099676035bb554ba4\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\30e9f1d09e79c3adebc6c3a4eab13e4e\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\64b70a68e7f77255649dcf7bb7164809\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\69846ae0a25a5c26a4168a449d371740\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5f3bd6e72d1ff1a4481f72926be3faad\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3d304d701789a8b68a410e642cabf284\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c7739dfe0a1efd64a0dd260a875d3ca5\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\204d56b624e751e7990ccfa8a11e8889\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a81ff3a6f4fe4cdba627ce49c2369465\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:1-379:12
+	package
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:7:5-9:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:8:9-41
+	android:required
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:9:9-32
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:13:22-83
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:18:22-62
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:19:5-98
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:19:22-95
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:21:5-74
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:21:22-71
+application
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:23:5-377:19
+MERGED from [com.google.android.material:material:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5c2d055b9576f9b1a68fe7075632917c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5c2d055b9576f9b1a68fe7075632917c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\7f6f3616905d5ffbd7dd6500e84e15da\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\7f6f3616905d5ffbd7dd6500e84e15da\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\fd8e29e20bdfab0e2f3ed913d135cf1b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\fd8e29e20bdfab0e2f3ed913d135cf1b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c7739dfe0a1efd64a0dd260a875d3ca5\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c7739dfe0a1efd64a0dd260a875d3ca5\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:27:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:25:9-54
+	android:allowBackup
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:24:9-36
+	android:theme
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:28:9-40
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:35:9-37:71
+	android:value
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:37:13-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:36:13-62
+activity#com.detesim.venderunilever.Login
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:39:9-48:20
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:40:13-34
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:46:27-74
+activity#com.detesim.venderunilever.Menuprincipal
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:49:9-52:68
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:52:13-65
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:50:13-42
+activity#com.detesim.venderunilever.Menucensista
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:53:9-56:69
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:56:13-66
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:54:13-41
+activity#com.detesim.venderunilever.Menuvendedor
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:57:9-60:67
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:60:13-64
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:58:13-41
+activity#com.detesim.venderunilever.Menudistribuidor
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:61:9-64:71
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:64:13-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:62:13-45
+activity#com.detesim.venderunilever.Censistaaltaclientemapa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:65:9-68:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:68:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:66:13-52
+activity#com.detesim.venderunilever.Censistasincronizacioncliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:69:9-72:86
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:72:13-83
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:70:13-58
+activity#com.detesim.venderunilever.Censistasincronizacionclientefoto
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:73:9-76:90
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:76:13-87
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:74:13-62
+activity#com.detesim.venderunilever.Log
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:77:9-80:58
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:80:13-55
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:78:13-32
+activity#com.detesim.venderunilever.Censistatipoinfocliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:81:9-84:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:84:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:82:13-52
+activity#com.detesim.venderunilever.Censistainfocliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:85:9-88:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:88:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:86:13-48
+activity#com.detesim.venderunilever.Censistafotocliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:89:9-92:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:92:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:90:13-48
+activity#com.detesim.venderunilever.Censistapunteocliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:93:9-96:78
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:95:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:96:13-75
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:94:13-50
+activity#com.detesim.venderunilever.Vendedormapaclientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:97:9-100:75
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:100:13-72
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:98:13-49
+activity#com.detesim.venderunilever.Vendedorpreventaproducto
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:101:9-104:71
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:104:13-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:102:13-53
+activity#com.detesim.venderunilever.Vendedorsincronizarpreventas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:105:9-108:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:107:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:108:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:106:13-57
+activity#com.detesim.venderunilever.Vendedorcierrepreventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:109:9-112:77
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:112:13-74
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:110:13-51
+activity#com.detesim.venderunilever.Censistamenurutadia
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:113:9-116:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:116:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:114:13-48
+activity#com.detesim.venderunilever.Vendedorpreventapromocion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:117:9-120:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:120:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:118:13-54
+activity#com.detesim.venderunilever.Menusupervisor
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:121:9-124:69
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:123:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:124:13-66
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:122:13-43
+activity#com.detesim.venderunilever.Supervisorventaavancedia
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:125:9-128:73
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:127:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:128:13-70
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:126:13-53
+activity#com.detesim.venderunilever.Supervisorventaavancemes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:129:9-132:74
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:131:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:132:13-71
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:130:13-53
+activity#com.detesim.venderunilever.Vendedoravanceventasdia
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:133:9-136:78
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:135:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:136:13-75
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:134:13-52
+activity#com.detesim.venderunilever.Vendedoravanceventasmes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:137:9-140:78
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:140:13-75
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:138:13-52
+activity#com.detesim.venderunilever.Distribuidormapaentregas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:141:9-144:79
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:143:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:144:13-76
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:142:13-53
+activity#com.detesim.venderunilever.Distribuidorsincronizacionventas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:145:9-148:89
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:148:13-86
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:146:13-61
+activity#com.detesim.venderunilever.Distribuidorinventarioautoventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:149:9-152:86
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:151:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:152:13-83
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:150:13-60
+activity#com.detesim.venderunilever.Distribuidorventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:153:9-156:72
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:155:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:156:13-69
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:154:13-46
+activity#com.detesim.venderunilever.Distribuidorventaproducto
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:157:9-160:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:159:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:160:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:158:13-54
+activity#com.detesim.venderunilever.Distribuidorautoventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:161:9-164:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:164:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:162:13-50
+activity#com.detesim.venderunilever.Distribuidorimpresionfacturas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:165:9-168:62
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:168:13-59
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:166:13-58
+activity#com.detesim.venderunilever.Vendedorpreventanits
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:169:9-172:78
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:171:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:172:13-75
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:170:13-49
+activity#com.detesim.venderunilever.Distribuidortipoimpresion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:173:9-176:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:175:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:176:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:174:13-54
+activity#com.detesim.venderunilever.Vendedoractualizacioncliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:177:9-180:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:179:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:180:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:178:13-57
+activity#com.detesim.venderunilever.Vendedorsincronizacionnombrecliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:181:9-184:90
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:183:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:184:13-87
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:182:13-64
+activity#com.detesim.venderunilever.Vendedorrestauracionpreventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:185:9-188:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:187:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:188:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:186:13-57
+activity#com.detesim.venderunilever.Distribuidorautoventapromocion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:189:9-192:85
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:192:13-82
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:190:13-59
+activity#com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:193:9-196:94
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:195:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:196:13-91
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:194:13-68
+activity#com.detesim.venderunilever.Distribuidorsincronizacionfacturas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:197:9-200:89
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:199:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:200:13-86
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:198:13-63
+activity#com.detesim.venderunilever.Distribuidorsincronizacionautoventa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:201:9-204:91
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:203:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:204:13-88
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:202:13-64
+activity#com.detesim.venderunilever.Vendedorvisualizarpreventas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:205:9-208:77
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:207:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:208:13-74
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:206:13-56
+activity#com.detesim.venderunilever.Distribuidorcierreentregas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:209:9-212:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:212:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:210:13-55
+activity#com.detesim.venderunilever.Distribuidortestimpresora
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:213:9-216:80
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:215:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:216:13-77
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:214:13-54
+activity#com.detesim.venderunilever.Distribuidortestimpresoras
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:217:9-220:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:219:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:220:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:218:13-55
+activity#com.detesim.venderunilever.Vendedorinventarioproductos
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:221:9-224:82
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:224:13-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:222:13-56
+activity#com.detesim.venderunilever.Vendedoredicionpreventas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:225:9-228:79
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:227:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:228:13-76
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:226:13-53
+activity#com.detesim.venderunilever.Vendedoredicionpreventaproducto
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:229:9-232:86
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:231:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:232:13-83
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:230:13-60
+activity#com.detesim.venderunilever.Vendedoredicionpreventapromocion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:233:9-236:87
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:235:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:236:13-84
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:234:13-61
+activity#com.detesim.venderunilever.Vendedorventadirectamapa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:237:9-240:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:239:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:240:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:238:13-53
+activity#com.detesim.venderunilever.Vendedorcobrospendientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:241:9-244:79
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:243:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:244:13-76
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:242:13-53
+activity#com.detesim.venderunilever.Vendedorventadirecta
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:245:9-248:75
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:247:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:248:13-72
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:246:13-49
+activity#com.detesim.venderunilever.Vendedorventadirectaproducto
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:249:9-252:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:251:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:252:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:250:13-57
+activity#com.detesim.venderunilever.Vendedorventadirectapromocion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:253:9-256:84
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:255:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:256:13-81
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:254:13-58
+activity#com.detesim.venderunilever.Vendedorventadirectanits
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:257:9-260:79
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:259:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:260:13-76
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:258:13-53
+activity#com.detesim.venderunilever.Supervisordistribucionravancedia
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:261:9-264:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:263:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:264:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:262:13-61
+activity#com.detesim.venderunilever.Supervisordistribucionavancemes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:265:9-268:86
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:267:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:268:13-83
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:266:13-60
+activity#com.detesim.venderunilever.Distribuidorvisualizarventas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:269:9-272:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:271:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:272:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:270:13-57
+activity#com.detesim.venderunilever.Censistamapaeditarcliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:273:9-276:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:275:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:276:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:274:13-54
+activity#com.detesim.venderunilever.Censistaeditarcliente
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:277:9-280:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:279:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:280:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:278:13-50
+activity#com.detesim.venderunilever.Cencistaedicioncoordenadamapa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:281:9-284:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:283:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:284:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:282:13-58
+activity#com.detesim.venderunilever.Censistasincronizacionedicionclientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:285:9-288:92
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:287:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:288:13-89
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:286:13-66
+activity#com.detesim.venderunilever.Vendedorpreventaproductopop
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:289:9-292:82
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:291:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:292:13-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:290:13-56
+activity#com.detesim.venderunilever.Vendedorsincronizarpop
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:293:9-296:77
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:295:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:296:13-74
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:294:13-51
+activity#com.detesim.venderunilever.Vendedorpreventamenuopciones
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:297:9-300:83
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:299:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:300:13-80
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:298:13-57
+activity#com.detesim.venderunilever.Vendedorpreventaproductocambio
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:301:9-304:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:303:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:304:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:302:13-59
+activity#com.detesim.venderunilever.Vendedorsincronizacionpreventacambios
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:305:9-308:91
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:307:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:308:13-88
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:306:13-66
+activity#com.detesim.venderunilever.Censistaunificacionclientesmapa
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:309:9-312:82
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:311:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:312:13-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:310:13-60
+activity#com.detesim.venderunilever.Censistaunificacionclientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:313:9-316:82
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:315:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:316:13-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:314:13-56
+activity#com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:317:9-320:96
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:319:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:320:13-93
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:318:13-70
+activity#com.detesim.venderunilever.Censistaunificacionclientessincronizacion
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:321:9-324:96
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:323:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:324:13-93
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:322:13-70
+activity#com.detesim.venderunilever.Censistaunificacionclienteselecciondia
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:325:9-328:93
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:327:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:328:13-90
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:326:13-67
+activity#com.detesim.venderunilever.Vendedorencuesta
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:329:9-332:71
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:331:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:332:13-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:330:13-45
+activity#com.detesim.venderunilever.Vendedorvisorventasdirectas
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:333:9-336:82
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:335:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:336:13-79
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:334:13-56
+activity#com.detesim.venderunilever.Vendedoravanceventasmescategoria
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:337:9-340:87
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:339:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:340:13-84
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:338:13-61
+activity#com.detesim.venderunilever.Vendedorpreventaproductochange
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:341:9-344:85
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:343:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:344:13-82
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:342:13-59
+activity#com.detesim.venderunilever.Vendedormetassap
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:345:9-348:63
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:347:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:348:13-60
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:346:13-45
+activity#com.detesim.venderunilever.Menucobrador
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:349:9-352:67
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:351:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:352:13-64
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:350:13-41
+activity#com.detesim.venderunilever.Cobradormapaclientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:353:9-356:75
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:355:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:356:13-72
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:354:13-49
+activity#com.detesim.venderunilever.Cobradorcobranza
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:357:9-360:71
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:359:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:360:13-68
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:358:13-45
+activity#com.detesim.venderunilever.Vendedoradminfotosclientes
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:361:9-364:81
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:363:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:364:13-78
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:362:13-55
+activity#com.detesim.venderunilever.Vendedorencuestapdv
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:365:9-368:74
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:367:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:368:13-71
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:366:13-48
+activity#com.detesim.venderunilever.Vendedorencuestafoods
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:369:9-372:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:371:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:372:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:370:13-50
+activity#com.detesim.venderunilever.Censistarelevamiento
+ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:373:9-376:76
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:375:13-49
+	android:label
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:376:13-73
+	android:name
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:374:13-49
+uses-sdk
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\1e3214591e5f847e6b5b2333c34f548f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\1e3214591e5f847e6b5b2333c34f548f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f5c7c68913d5271e996963f863ab2fe2\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f5c7c68913d5271e996963f863ab2fe2\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dcb71d9e241694395b1f513d3d3a8b55\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\54448c056128a2c935b0bb4d9a555ae7\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\54448c056128a2c935b0bb4d9a555ae7\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5c2d055b9576f9b1a68fe7075632917c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5c2d055b9576f9b1a68fe7075632917c\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\7f6f3616905d5ffbd7dd6500e84e15da\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\7f6f3616905d5ffbd7dd6500e84e15da\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5361883b00374991ae5863f18dbdaab4\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5361883b00374991ae5863f18dbdaab4\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\774f4f26307c77113f74067e559ce529\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\774f4f26307c77113f74067e559ce529\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8265d5cb033aea9b3b2b59393038f53\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8265d5cb033aea9b3b2b59393038f53\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d9a1f9c79beb812a29c08dec8e929987\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d9a1f9c79beb812a29c08dec8e929987\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:blurry:2.0.2] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a7bc43b2f6aec54fc78cb9a2eda12b8e\jetified-blurry-2.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:blurry:2.0.2] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a7bc43b2f6aec54fc78cb9a2eda12b8e\jetified-blurry-2.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\815bb9272ee789daabc21bc15b42e2c3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\815bb9272ee789daabc21bc15b42e2c3\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\fd8e29e20bdfab0e2f3ed913d135cf1b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\fd8e29e20bdfab0e2f3ed913d135cf1b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5511f57e160c7e247f5d805a7544c561\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\876b4c413259cb5e7efdc2e9dd06a71c\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\876b4c413259cb5e7efdc2e9dd06a71c\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\818f45328ee8f5b99bad88c27c6cc009\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\818f45328ee8f5b99bad88c27c6cc009\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b93e2b8a7319b8231fdc1936a598b860\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b93e2b8a7319b8231fdc1936a598b860\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8503f66578d12caa389b09e1e5eca48\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f8503f66578d12caa389b09e1e5eca48\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\9f5395c9e2c4a1a11a43e64f5d81258c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\9f5395c9e2c4a1a11a43e64f5d81258c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3cbf7d58422f1eff749f49c0e56a75ee\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3cbf7d58422f1eff749f49c0e56a75ee\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f318378b0e42eef86fb724b98ce46366\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\f318378b0e42eef86fb724b98ce46366\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6996f596c778b3aed39bb9cecbf69969\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6996f596c778b3aed39bb9cecbf69969\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\bda27261a6bbc5e10728551c109a2777\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\bda27261a6bbc5e10728551c109a2777\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dd2927f5c8f4efef87e2029689348720\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\dd2927f5c8f4efef87e2029689348720\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\0b72cca5aef8e2f071ebd052cd8ee1aa\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\0b72cca5aef8e2f071ebd052cd8ee1aa\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b9a8ccdf08677e6ebe8a29448e9bae04\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\b9a8ccdf08677e6ebe8a29448e9bae04\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d36fb540275a3ffc163b383c0658378d\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\d36fb540275a3ffc163b383c0658378d\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\338167d8bee44ca72c2d4fff9adc0c6c\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\338167d8bee44ca72c2d4fff9adc0c6c\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3071ce80fdcfa18abcc0ff9d690b7155\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3071ce80fdcfa18abcc0ff9d690b7155\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\944f35c2daa8aece0e09b60e0e438fd5\core-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\93edb5d1bd934579af6b5cc47a2af2a7\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\93edb5d1bd934579af6b5cc47a2af2a7\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6e63d2f68c8b342099676035bb554ba4\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\6e63d2f68c8b342099676035bb554ba4\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\30e9f1d09e79c3adebc6c3a4eab13e4e\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\30e9f1d09e79c3adebc6c3a4eab13e4e\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\64b70a68e7f77255649dcf7bb7164809\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\64b70a68e7f77255649dcf7bb7164809\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\69846ae0a25a5c26a4168a449d371740\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\69846ae0a25a5c26a4168a449d371740\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5f3bd6e72d1ff1a4481f72926be3faad\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\5f3bd6e72d1ff1a4481f72926be3faad\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3d304d701789a8b68a410e642cabf284\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3d304d701789a8b68a410e642cabf284\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c7739dfe0a1efd64a0dd260a875d3ca5\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c7739dfe0a1efd64a0dd260a875d3ca5\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\204d56b624e751e7990ccfa8a11e8889\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\204d56b624e751e7990ccfa8a11e8889\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a81ff3a6f4fe4cdba627ce49c2369465\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\a81ff3a6f4fe4cdba627ce49c2369465\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\c80d25033dd7e7d8d5ec241f1fb3d87b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\16fec408ce938816983d0134c390d125\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\3bd47cd0cbc033840efb0f55a32df796\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] D:\ANDROID\EjemploSQLite-master\gradle\wrapper\caches\transforms-2\files-2.1\ceb7f0fe2d607fff9502a59dce3402dd\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

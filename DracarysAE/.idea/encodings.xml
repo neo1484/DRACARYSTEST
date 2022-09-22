@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/AlmacenBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/ClienteBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/ClienteCensoBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/ClienteVentaBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/DevolucionDistribuidorBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/DevolucionDistribuidorProductoBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/DiaSemanaBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/MotivoCambioBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/MotivoNoAtencionBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/MotivoNoEntregaBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/MotivoPopBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/PromocionBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/BLL/PromocionProductoBLL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/AlmacenProductoDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/DevolucionDistribuidorProductoDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/DiaSemanaDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/PromocionCostoDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/PromocionPrecioDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/DAL/ProveedorPrecioListaMargenDAL.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistainfocliente.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistamenurutadia.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistapunteocliente.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistaunificacionclientes.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistaunificacionclienteselecciondia.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Censistaunificacionclientessincronizacion.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Distribuidorventa.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Menucensista.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Menuvendedor.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Vendedoravanceventasdia.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Vendedoredicionpreventaproducto.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Vendedormapaclientes.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Vendedorpreventaproductocambio.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/java/com/detesim/venderunilever/Vendedorpreventaproductopop.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/res/drawable-mdpi/bacrougray.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/res/drawable-mdpi/bacrousolgray.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/venderUnilever/src/main/res/font/custon_font.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

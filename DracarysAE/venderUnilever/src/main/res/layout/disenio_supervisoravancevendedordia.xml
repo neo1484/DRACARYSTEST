@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorTestImpresoraLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvVendedorAvanceVentasCatgoriaTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:text="Nombre Vendedor"
+            android:textAppearance="@style/Etiqueta"
+            android:width="150dp" />
+
+        <TextView
+            android:id="@+id/tvSupervisorAvanceVentasProveedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:text="Nombre Proveedor"
+            android:textAppearance="@style/Etiqueta"
+            android:width="150dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvSupervisorAvanceVentasPresupuesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:maxWidth="70dp"
+            android:minWidth="70dp"
+            android:text="Presupues"
+            android:textAppearance="@style/Etiqueta"
+            android:width="70dp" />
+
+        <TextView
+            android:id="@+id/tvSupervisorAvanceVentasPreventas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:maxWidth="60dp"
+            android:minWidth="60dp"
+            android:text="No. Prev."
+            android:textAppearance="@style/Etiqueta"
+            android:width="60dp" />
+
+        <TextView
+            android:id="@+id/tvSupervisorAvanceVentasAvance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:maxWidth="70dp"
+            android:minWidth="70dp"
+            android:text="Avance"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+        <TextView
+            android:id="@+id/tvSupervisorAvanceVentasEficiencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:maxWidth="60dp"
+            android:minWidth="60dp"
+            android:text="Eficiencia"
+            android:textAppearance="@style/Etiqueta"
+            android:width="60dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

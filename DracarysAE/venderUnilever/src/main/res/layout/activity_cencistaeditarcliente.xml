@@ -1,0 +1,989 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llCensistaEdicionCliente"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp"
+		android:layout_marginBottom="5dp"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:id="@+id/tvPreventaProductoPOPProductoPOPLv"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:text="Edición de cliente"
+			android:textAppearance="@style/Titulo" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp" >
+		
+		        <TextView
+		            android:id="@+id/tvVendedorProductoTipoPago"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Nombres:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteNombres"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" >
+		
+		            <requestFocus />
+		        </EditText>
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvPreventaProductoPOPCliente"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Apellido Paterno:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClientePaterno"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvMapaUnificacionClienteClienteCenso"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Apellido Materno:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteMaterno"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvEdicionClienteCiTxt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="C.I.:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteCi"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvEdicionClienteCelularTxt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Celular:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteCelular"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="number" />
+		    </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteCiudad"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Ciudad:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteCiudad"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteProvincia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Provincia:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteProvincia"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClientePrecioLista"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Sub Canal:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClientePrecioLista"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteZona"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Barrio:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteZona"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteMercado"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Mercado:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteMercado"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteZonaMercado"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Zona Mercado:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteZonaMercado"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+		    
+	        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvEdicionClienteDireccionTxt"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Dirección:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteDireccion"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout>
+	                
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvMapaNombreClientePromedioVentaMensual"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Tipo de negocio:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteTipoCliente"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+		    </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteTipoPago"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Tipo Pago:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteTipoPago"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvCencistaEdicionClienteTipoNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Tipo Nit:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCencistaEdicionClienteTipoNit"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+			</LinearLayout>
+		    
+		     <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvEdicionClienteNombreFactura"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Nombre a facturar:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteNombreFactura"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout>
+		     
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvEdicionClienteNit"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Nit:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteNit"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:inputType="text" />
+		    </LinearLayout> 
+		     
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvPreventaProductoPOPInventarioUnidades"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Latitud:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteLatitud"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:enabled="false"
+		            android:maxWidth="90dp"
+		            android:minEms="10"
+		            android:minWidth="90dp"
+		            android:width="90dp" />
+		
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvPreventaProductoPOPCantidadLv"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Longitud:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		
+		        <EditText
+		            android:id="@+id/etCencistaEdicionClienteLongitud"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_weight="1"
+		            android:background="#FFFFFF"
+		            android:ems="10"
+		            android:enabled="false"
+		            android:maxWidth="90dp"
+		            android:minWidth="90dp"
+		            android:width="90dp" />
+		
+		    </LinearLayout>
+		
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <TextView
+		            android:id="@+id/tvCensoUnificacionClientesContacto"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Si desea actualizar la coordenada click en:"
+		            android:textAppearance="@style/Etiqueta" />
+		
+		        <ImageView
+		            android:id="@+id/ivCencistaEdicionClienteEditarCoordenadas"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:src="@drawable/bullet_detalles" />
+		
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+	
+		        <TextView
+		            android:id="@+id/tvCenEdiCliDiasVisita"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Dias de Visita:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+	
+		        <TextView
+		            android:id="@+id/tvCenEdiCliLu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Lunes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliMa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Martes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliMi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Mierco"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliJu"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Jueves"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliVi"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Viernes"
+		            android:textAppearance="@style/Etiqueta" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliSa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:text="Sábado"
+		            android:textAppearance="@style/Etiqueta" />
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical" >
+		        
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" >
+		
+			        <TextView
+			            android:id="@+id/tvCenEdiCliRutasSemanales"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="10dp"
+			            android:text="Rutas semanales:"
+			            android:textAppearance="@style/Etiqueta" />
+			    </LinearLayout>
+	
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" 
+			        android:orientation="horizontal">
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliA"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="A"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliB"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="B"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliC"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="C"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliD"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="D"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliE"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="E"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliF"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="F"
+						android:textStyle="bold" />
+				</LinearLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical" >
+		        
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" >
+		
+			        <TextView
+			            android:id="@+id/tvCenEdiCliRutasQuincenales"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="10dp"
+			            android:text="Rutas quincenales:"
+			            android:textAppearance="@style/Etiqueta" />
+			    </LinearLayout>
+	
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" 
+			        android:orientation="horizontal">
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliG"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="G"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliH"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="H"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliI"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="I"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliJ"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="J"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliK"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:text="K"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliL"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="L"
+						android:textStyle="bold" />
+				</LinearLayout>
+		    </LinearLayout>
+		    
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_marginTop="5dp"
+	   	        android:gravity="center_horizontal"
+	   	        android:orientation="vertical" >
+		        
+	   	        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" >
+		
+			        <TextView
+			            android:id="@+id/tvCenEdiCliRutasMensuales"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginLeft="10dp"
+			            android:text="Rutas mensuales:"
+			            android:textAppearance="@style/Etiqueta" />
+			    </LinearLayout>
+	
+	   	        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp" 
+			        android:orientation="horizontal">
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliM"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="M"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliN"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="N"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliO"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="O"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliP"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="P"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliQ"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="Q"
+						android:textStyle="bold" />
+
+					<CheckBox
+						android:id="@+id/cbCenEdiCliR"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="R"
+						android:textStyle="bold" />
+				</LinearLayout>
+		    </LinearLayout>
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+	
+		        <TextView
+		            android:id="@+id/tvCenEdiCliSecuenciaPreventa"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="15dp"
+		            android:text="Secuencia preventa:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+
+				<EditText
+					android:id="@+id/etCenEdiCliSecuenciaPreventa"
+					android:layout_width="30dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:background="@color/colorWhite"
+					android:ems="10"
+					android:inputType="number"
+					android:textColor="@color/colorPrimaryDark" />
+		        
+		        <TextView
+		            android:id="@+id/tvCenEdiCliSecuenciaVenta"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="5dp"
+		            android:text="Secuencia venta:"
+		            android:textAppearance="@style/EtiquetaRequerida" />
+
+				<EditText
+					android:id="@+id/etCenEdiCliSecuenciaVenta"
+					android:layout_width="30dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="15dp"
+					android:background="@color/colorWhite"
+					android:ems="10"
+					android:inputType="number"
+					android:textColor="@color/colorPrimaryDark" />
+	
+		    </LinearLayout>	    
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp" >
+		
+		        <Switch
+		            android:id="@+id/swCencistaEdicionClienteActivo"
+		            style="@style/Etiqueta"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="10dp"
+		            android:checked="true"
+		            android:text="Activo:" />
+		
+		    </LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnCencistaEdicionClienteActualizar"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Actualizar cliente" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/tvCenEdiCliCategoriaFoto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Categoría de la foto:"
+					android:textAppearance="@style/EtiquetaRequerida" />
+
+				<Spinner
+					android:id="@+id/spnCenEdiCliCategoriasFoto"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnCenEdiCliTomarFoto"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Adicionar foto" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvCenEdiCliFotos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnCenEdiCliInsertarFoto"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Insertar fotos" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

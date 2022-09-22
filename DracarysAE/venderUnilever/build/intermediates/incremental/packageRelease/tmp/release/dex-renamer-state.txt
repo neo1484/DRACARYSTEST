@@ -1,0 +1,4 @@
+#Mon Feb 22 10:22:54 VET 2021
+base.0=D\:\\AndroidStudio\\Projects\\DracarysAE\\venderUnilever\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

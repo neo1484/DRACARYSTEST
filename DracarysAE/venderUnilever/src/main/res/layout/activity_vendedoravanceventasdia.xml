@@ -1,0 +1,822 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/VendedorAvanceVentasDiaLinearLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<TextView
+			android:id="@+id/tvDistribuidorVentaTempProducto"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="Avance de ventas en el día:"
+			android:textAppearance="@style/Contenido" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVendedorAvancesVentaDiaProveedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:width="300dp"
+					android:text="Proveedor"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:id="@+id/tvVendedorAvancesVentaDiaPresupuesto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:width="100dp"
+					android:maxWidth="100dp"
+					android:minWidth="100dp"
+					android:text="Presupuesto"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorAvancesVentaDiaNoPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="40dp"
+					android:maxWidth="40dp"
+					android:minWidth="40dp"
+					android:text="# Prev."
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorAvancesVentaDiaAvance"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="70dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Avance"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorAvancesVentaDiaEficiencia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:width="70dp"
+					android:maxWidth="70dp"
+					android:minWidth="70dp"
+					android:text="Eficiencia %"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvVendedorAvancesVentaDiaAvances"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVendedorAvancesVentaDiaActualizarDatos"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Actualizar avances de venta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:orientation="horizontal">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:layout_weight="1"
+						android:gravity="center_horizontal"
+						android:orientation="horizontal">
+
+						<TextView
+							android:id="@+id/tvVenAvaVenDiaVenta"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="VENTA"
+							android:textAppearance="@style/Contenido" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:gravity="center_vertical|center_horizontal">
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:gravity="center_horizontal">
+
+						<LinearLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaPreventa"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="PREVENTA"
+								android:textAppearance="@style/Contenido" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:orientation="vertical">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaProgramados"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_rojo"
+								android:gravity="center"
+								android:orientation="vertical">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaProgramada"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaProgramados"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Programados" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_horizontal">
+
+							<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaProgramados"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:background="@drawable/circulo_rojo"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaProgramada"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaRealizado"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_verde"
+								android:gravity="center">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaEfectivos"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_vertical|center_horizontal"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaEfectivos"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Efectivos" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:layout_weight="1"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaRealizado"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_horizontal"
+									android:background="@drawable/circulo_verde"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaEfectivos"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_weight="1">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaNoEfectivos"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_plomo"
+								android:gravity="center">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaNoEfectivos"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_vertical|center_horizontal"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaNoEfectivos"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="No Efectivos" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:layout_weight="1"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaNoEfectivos"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_horizontal"
+									android:background="@drawable/circulo_plomo"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaNoEfectivos"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:layout_weight="1"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaVisitados"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_verplo"
+								android:gravity="center"
+								android:orientation="vertical">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaVisitados"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaVisitados"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Visitados" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_horizontal">
+
+							<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaVisitados"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:background="@drawable/circulo_verplo"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaVisitados"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaPorcentaje"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_azul"
+								android:gravity="center">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaEfectividadVisita"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_vertical|center_horizontal"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaEfectividadVisita"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Efectividad Visita" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaPorcentaje"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_horizontal"
+									android:background="@drawable/circulo_azul"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaEfectividadVisita"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_gravity="center_vertical|center_horizontal"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaNoVisitados"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_rojo"
+								android:gravity="center">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaNoVisitados"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_vertical|center_horizontal"
+									android:text="0"
+									android:textAppearance="@style/Contenido"
+									android:textColor="@color/colorWhite" />
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaNoVisitados"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="No Visitados" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaNoVisitados"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_horizontal"
+									android:background="@drawable/circulo_rojo"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaNoVisitados"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_gravity="center_vertical|center_horizontal"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<LinearLayout
+								android:id="@+id/llAvaVenVentaPorcentajeRuta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:background="@drawable/circulo_azul"
+								android:gravity="center">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaVentaEfectividadRuta"
+									style="@style/Contenido"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"
+									android:textColor="@color/colorWhite" />
+
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaEfectividadRuta"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Efectividad Ruta" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<LinearLayout
+									android:id="@+id/llAvaVenPreVentaPorcentajeRuta"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_horizontal"
+									android:background="@drawable/circulo_azul"
+									android:gravity="center">
+
+									<TextView
+										android:id="@+id/tvVenAvaVenDiaPreventaEfectividadRuta"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
+										android:layout_gravity="center_vertical|center_horizontal"
+										android:text="0"
+										android:textAppearance="@style/Contenido"
+										android:textColor="@color/colorWhite" />
+
+								</LinearLayout>
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginTop="5dp"
+							android:layout_weight="1"
+							android:gravity="center_horizontal"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaVentaTotalBs"
+								style="@style/Etiqueta"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="0" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:gravity="center_vertical|center_horizontal">
+
+							<TextView
+								android:id="@+id/tvVenAvaVenDiaTotales"
+								style="@style/Contenido"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="TOTALES" />
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1">
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dp"
+								android:orientation="vertical">
+
+								<TextView
+									android:id="@+id/tvVenAvaVenDiaPreventaTotalBs"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_gravity="center_vertical|center_horizontal"
+									android:text="0"
+									android:textAppearance="@style/Etiqueta" />
+
+							</LinearLayout>
+
+						</LinearLayout>
+
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,793 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.detesim.venderunilever"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml
+10    <!-- Inicio Código Detesim -->
+11    <uses-feature
+11-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:7:5-9:35
+12        android:glEsVersion="0x00020000"
+12-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:8:9-41
+13        android:required="true" />
+13-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:9:9-32
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:11:5-67
+15-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:11:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:12:5-79
+16-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+17-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:13:5-86
+17-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:13:22-83
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:14:5-81
+18-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:15:5-75
+19-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:15:22-72
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:16:5-79
+20-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:16:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:17:5-81
+21-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:17:22-78
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:18:5-65
+22-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:18:22-62
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+23-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:19:5-98
+23-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:19:22-95
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:20:5-68
+24-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:20:22-65
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+25-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:21:5-74
+25-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:21:22-71
+26
+27    <application
+27-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:23:5-377:19
+28        android:allowBackup="true"
+28-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:24:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\817a61a686dfd849f92445d1d98580bd\core-1.3.0\AndroidManifest.xml:24:18-86
+30        android:icon="@drawable/ic_launcher_unilever"
+30-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:25:9-54
+31        android:label="@string/app_name"
+31-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:26:9-41
+32        android:requestLegacyExternalStorage="true"
+32-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:27:9-52
+33        android:theme="@style/AppTheme" >
+33-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:28:9-40
+34
+35        <!-- Inicio Código Detesim -->
+36        <!--
+37<meta-data
+38            android:name="com.google.android.gms.version"
+39            android:value="@integer/google_play_services_version"/>
+40        -->
+41        <meta-data
+41-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:35:9-37:71
+42            android:name="com.google.android.maps.v2.API_KEY"
+42-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:36:13-62
+43            android:value="AIzaSyA7jUKqQiq2zQJhMBUEA8wSzLASJrPIoio" /> <!-- android:value="AIzaSyBYhY_sBcBegc_CDOWks6dya_mMcKRaQZM" -->
+43-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:37:13-68
+44        <!-- Fin Código Detesim -->
+45        <activity
+45-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:39:9-48:20
+46            android:name="com.detesim.venderunilever.Login"
+46-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:40:13-34
+47            android:label="@string/app_name"
+47-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:42:13-45
+48            android:screenOrientation="portrait" >
+48-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:41:13-49
+49            <intent-filter>
+49-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:43:13-47:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:44:17-69
+50-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:44:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:46:17-77
+52-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:46:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:49:9-52:68
+56            android:name="com.detesim.venderunilever.Menuprincipal"
+56-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:50:13-42
+57            android:label="@string/title_activity_menuprincipal"
+57-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:52:13-65
+58            android:screenOrientation="portrait" />
+58-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:51:13-49
+59        <activity
+59-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:53:9-56:69
+60            android:name="com.detesim.venderunilever.Menucensista"
+60-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:54:13-41
+61            android:label="@string/title_activity_menusupervisor"
+61-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:56:13-66
+62            android:screenOrientation="portrait" />
+62-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:55:13-49
+63        <activity
+63-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:57:9-60:67
+64            android:name="com.detesim.venderunilever.Menuvendedor"
+64-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:58:13-41
+65            android:label="@string/title_activity_menuvendedor"
+65-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:60:13-64
+66            android:screenOrientation="portrait" />
+66-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:59:13-49
+67        <activity
+67-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:61:9-64:71
+68            android:name="com.detesim.venderunilever.Menudistribuidor"
+68-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:62:13-45
+69            android:label="@string/title_activity_menudistribuidor"
+69-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:64:13-68
+70            android:screenOrientation="portrait" />
+70-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:63:13-49
+71        <activity
+71-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:65:9-68:80
+72            android:name="com.detesim.venderunilever.Censistaaltaclientemapa"
+72-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:66:13-52
+73            android:label="@string/title_activity_supervisoraltaclientemapa"
+73-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:68:13-77
+74            android:screenOrientation="portrait" />
+74-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:67:13-49
+75        <activity
+75-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:69:9-72:86
+76            android:name="com.detesim.venderunilever.Censistasincronizacioncliente"
+76-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:70:13-58
+77            android:label="@string/title_activity_supervisorsincronizacioncliente"
+77-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:72:13-83
+78            android:screenOrientation="portrait" />
+78-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:71:13-49
+79        <activity
+79-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:73:9-76:90
+80            android:name="com.detesim.venderunilever.Censistasincronizacionclientefoto"
+80-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:74:13-62
+81            android:label="@string/title_activity_supervisorsincronizacionclientefoto"
+81-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:76:13-87
+82            android:screenOrientation="portrait" />
+82-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:75:13-49
+83        <activity
+83-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:77:9-80:58
+84            android:name="com.detesim.venderunilever.Log"
+84-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:78:13-32
+85            android:label="@string/title_activity_log"
+85-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:80:13-55
+86            android:screenOrientation="portrait" />
+86-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:79:13-49
+87        <activity
+87-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:81:9-84:80
+88            android:name="com.detesim.venderunilever.Censistatipoinfocliente"
+88-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:82:13-52
+89            android:label="@string/title_activity_supervisortipoinfocliente"
+89-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:84:13-77
+90            android:screenOrientation="portrait" />
+90-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:83:13-49
+91        <activity
+91-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:85:9-88:76
+92            android:name="com.detesim.venderunilever.Censistainfocliente"
+92-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:86:13-48
+93            android:label="@string/title_activity_supervisorinfocliente"
+93-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:88:13-73
+94            android:screenOrientation="portrait" />
+94-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:87:13-49
+95        <activity
+95-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:89:9-92:76
+96            android:name="com.detesim.venderunilever.Censistafotocliente"
+96-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:90:13-48
+97            android:label="@string/title_activity_supervisorfotocliente"
+97-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:92:13-73
+98            android:screenOrientation="portrait" />
+98-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:91:13-49
+99        <activity
+99-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:93:9-96:78
+100            android:name="com.detesim.venderunilever.Censistapunteocliente"
+100-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:94:13-50
+101            android:label="@string/title_activity_supervisorpunteocliente"
+101-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:96:13-75
+102            android:screenOrientation="portrait" />
+102-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:95:13-49
+103        <activity
+103-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:97:9-100:75
+104            android:name="com.detesim.venderunilever.Vendedormapaclientes"
+104-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:98:13-49
+105            android:label="@string/title_activity_vendedormapaclientes"
+105-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:100:13-72
+106            android:screenOrientation="portrait" />
+106-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:99:13-49
+107        <activity
+107-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:101:9-104:71
+108            android:name="com.detesim.venderunilever.Vendedorpreventaproducto"
+108-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:102:13-53
+109            android:label="@string/title_activity_vendedorpreventa"
+109-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:104:13-68
+110            android:screenOrientation="portrait" />
+110-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:103:13-49
+111        <activity
+111-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:105:9-108:83
+112            android:name="com.detesim.venderunilever.Vendedorsincronizarpreventas"
+112-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:106:13-57
+113            android:label="@string/title_activity_vendedorsincronizarpreventas"
+113-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:108:13-80
+114            android:screenOrientation="portrait" />
+114-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:107:13-49
+115        <activity
+115-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:109:9-112:77
+116            android:name="com.detesim.venderunilever.Vendedorcierrepreventa"
+116-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:110:13-51
+117            android:label="@string/title_activity_vendedorcierrepreventa"
+117-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:112:13-74
+118            android:screenOrientation="portrait" />
+118-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:111:13-49
+119        <activity
+119-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:113:9-116:76
+120            android:name="com.detesim.venderunilever.Censistamenurutadia"
+120-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:114:13-48
+121            android:label="@string/title_activity_supervisormenurutadia"
+121-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:116:13-73
+122            android:screenOrientation="portrait" />
+122-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:115:13-49
+123        <activity
+123-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:117:9-120:80
+124            android:name="com.detesim.venderunilever.Vendedorpreventapromocion"
+124-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:118:13-54
+125            android:label="@string/title_activity_vendedorpreventapromocion"
+125-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:120:13-77
+126            android:screenOrientation="portrait" />
+126-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:119:13-49
+127        <activity
+127-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:121:9-124:69
+128            android:name="com.detesim.venderunilever.Menusupervisor"
+128-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:122:13-43
+129            android:label="@string/title_activity_menusupervisor"
+129-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:124:13-66
+130            android:screenOrientation="portrait" />
+130-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:123:13-49
+131        <activity
+131-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:125:9-128:73
+132            android:name="com.detesim.venderunilever.Supervisorventaavancedia"
+132-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:126:13-53
+133            android:label="@string/title_activity_supervisorventadia"
+133-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:128:13-70
+134            android:screenOrientation="portrait" />
+134-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:127:13-49
+135        <activity
+135-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:129:9-132:74
+136            android:name="com.detesim.venderunilever.Supervisorventaavancemes"
+136-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:130:13-53
+137            android:label="@string/title_activity_supervisorventasmes"
+137-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:132:13-71
+138            android:screenOrientation="portrait" />
+138-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:131:13-49
+139        <activity
+139-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:133:9-136:78
+140            android:name="com.detesim.venderunilever.Vendedoravanceventasdia"
+140-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:134:13-52
+141            android:label="@string/title_activity_vendedoravanceventasdia"
+141-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:136:13-75
+142            android:screenOrientation="portrait" />
+142-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:135:13-49
+143        <activity
+143-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:137:9-140:78
+144            android:name="com.detesim.venderunilever.Vendedoravanceventasmes"
+144-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:138:13-52
+145            android:label="@string/title_activity_vendedoravanceventasmes"
+145-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:140:13-75
+146            android:screenOrientation="portrait" />
+146-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:139:13-49
+147        <activity
+147-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:141:9-144:79
+148            android:name="com.detesim.venderunilever.Distribuidormapaentregas"
+148-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:142:13-53
+149            android:label="@string/title_activity_distribuidormapaentregas"
+149-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:144:13-76
+150            android:screenOrientation="portrait" />
+150-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:143:13-49
+151        <activity
+151-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:145:9-148:89
+152            android:name="com.detesim.venderunilever.Distribuidorsincronizacionventas"
+152-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:146:13-61
+153            android:label="@string/title_activity_distribuidorsincronizacionentregas"
+153-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:148:13-86
+154            android:screenOrientation="portrait" />
+154-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:147:13-49
+155        <activity
+155-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:149:9-152:86
+156            android:name="com.detesim.venderunilever.Distribuidorinventarioautoventa"
+156-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:150:13-60
+157            android:label="@string/title_activity_distribuidorinventarioautoventa"
+157-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:152:13-83
+158            android:screenOrientation="portrait" />
+158-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:151:13-49
+159        <activity
+159-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:153:9-156:72
+160            android:name="com.detesim.venderunilever.Distribuidorventa"
+160-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:154:13-46
+161            android:label="@string/title_activity_distribuidorventa"
+161-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:156:13-69
+162            android:screenOrientation="portrait" />
+162-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:155:13-49
+163        <activity
+163-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:157:9-160:80
+164            android:name="com.detesim.venderunilever.Distribuidorventaproducto"
+164-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:158:13-54
+165            android:label="@string/title_activity_distribuidorventaproducto"
+165-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:160:13-77
+166            android:screenOrientation="portrait" />
+166-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:159:13-49
+167        <activity
+167-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:161:9-164:76
+168            android:name="com.detesim.venderunilever.Distribuidorautoventa"
+168-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:162:13-50
+169            android:label="@string/title_activity_distribuidorautoventa"
+169-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:164:13-73
+170            android:screenOrientation="portrait" />
+170-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:163:13-49
+171        <activity
+171-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:165:9-168:62
+172            android:name="com.detesim.venderunilever.Distribuidorimpresionfacturas"
+172-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:166:13-58
+173            android:label="@string/title_activity_printer"
+173-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:168:13-59
+174            android:screenOrientation="portrait" />
+174-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:167:13-49
+175        <activity
+175-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:169:9-172:78
+176            android:name="com.detesim.venderunilever.Vendedorpreventanits"
+176-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:170:13-49
+177            android:label="@string/title_activity_vendedorpreventafactura"
+177-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:172:13-75
+178            android:screenOrientation="portrait" />
+178-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:171:13-49
+179        <activity
+179-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:173:9-176:80
+180            android:name="com.detesim.venderunilever.Distribuidortipoimpresion"
+180-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:174:13-54
+181            android:label="@string/title_activity_distribuidortipoimpresion"
+181-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:176:13-77
+182            android:screenOrientation="portrait" />
+182-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:175:13-49
+183        <activity
+183-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:177:9-180:83
+184            android:name="com.detesim.venderunilever.Vendedoractualizacioncliente"
+184-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:178:13-57
+185            android:label="@string/title_activity_vendedoractualizacioncliente"
+185-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:180:13-80
+186            android:screenOrientation="portrait" />
+186-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:179:13-49
+187        <activity
+187-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:181:9-184:90
+188            android:name="com.detesim.venderunilever.Vendedorsincronizacionnombrecliente"
+188-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:182:13-64
+189            android:label="@string/title_activity_vendedorsincronizacionnombrecliente"
+189-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:184:13-87
+190            android:screenOrientation="portrait" />
+190-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:183:13-49
+191        <activity
+191-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:185:9-188:83
+192            android:name="com.detesim.venderunilever.Vendedorrestauracionpreventa"
+192-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:186:13-57
+193            android:label="@string/title_activity_vendedorrestauracionpreventa"
+193-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:188:13-80
+194            android:screenOrientation="portrait" />
+194-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:187:13-49
+195        <activity
+195-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:189:9-192:85
+196            android:name="com.detesim.venderunilever.Distribuidorautoventapromocion"
+196-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:190:13-59
+197            android:label="@string/title_activity_distribuidorautoventapromocion"
+197-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:192:13-82
+198            android:screenOrientation="portrait" />
+198-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:191:13-49
+199        <activity
+199-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:193:9-196:94
+200            android:name="com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido"
+200-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:194:13-68
+201            android:label="@string/title_activity_vendedorsincronizacionclientenoatendido"
+201-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:196:13-91
+202            android:screenOrientation="portrait" />
+202-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:195:13-49
+203        <activity
+203-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:197:9-200:89
+204            android:name="com.detesim.venderunilever.Distribuidorsincronizacionfacturas"
+204-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:198:13-63
+205            android:label="@string/title_activity_dsitribuidorsincronizacionfacturas"
+205-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:200:13-86
+206            android:screenOrientation="portrait" />
+206-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:199:13-49
+207        <activity
+207-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:201:9-204:91
+208            android:name="com.detesim.venderunilever.Distribuidorsincronizacionautoventa"
+208-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:202:13-64
+209            android:label="@string/title_activity_distribuidor_sincronizacionautoventa"
+209-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:204:13-88
+210            android:screenOrientation="portrait" />
+210-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:203:13-49
+211        <activity
+211-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:205:9-208:77
+212            android:name="com.detesim.venderunilever.Vendedorvisualizarpreventas"
+212-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:206:13-56
+213            android:label="@string/title_activity_vendedorvisorpreventas"
+213-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:208:13-74
+214            android:screenOrientation="portrait" />
+214-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:207:13-49
+215        <activity
+215-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:209:9-212:81
+216            android:name="com.detesim.venderunilever.Distribuidorcierreentregas"
+216-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:210:13-55
+217            android:label="@string/title_activity_distribuidorcierreentregas"
+217-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:212:13-78
+218            android:screenOrientation="portrait" />
+218-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:211:13-49
+219        <activity
+219-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:213:9-216:80
+220            android:name="com.detesim.venderunilever.Distribuidortestimpresora"
+220-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:214:13-54
+221            android:label="@string/title_activity_distribuidortestimpresora"
+221-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:216:13-77
+222            android:screenOrientation="portrait" />
+222-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:215:13-49
+223        <activity
+223-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:217:9-220:81
+224            android:name="com.detesim.venderunilever.Distribuidortestimpresoras"
+224-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:218:13-55
+225            android:label="@string/title_activity_distribuidortestimpresoras"
+225-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:220:13-78
+226            android:screenOrientation="portrait" />
+226-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:219:13-49
+227        <activity
+227-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:221:9-224:82
+228            android:name="com.detesim.venderunilever.Vendedorinventarioproductos"
+228-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:222:13-56
+229            android:label="@string/title_activity_vendedorinventarioproductos"
+229-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:224:13-79
+230            android:screenOrientation="portrait" />
+230-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:223:13-49
+231        <activity
+231-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:225:9-228:79
+232            android:name="com.detesim.venderunilever.Vendedoredicionpreventas"
+232-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:226:13-53
+233            android:label="@string/title_activity_vendedoredicionpreventas"
+233-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:228:13-76
+234            android:screenOrientation="portrait" />
+234-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:227:13-49
+235        <activity
+235-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:229:9-232:86
+236            android:name="com.detesim.venderunilever.Vendedoredicionpreventaproducto"
+236-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:230:13-60
+237            android:label="@string/title_activity_vendedoredicionpreventaproducto"
+237-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:232:13-83
+238            android:screenOrientation="portrait" />
+238-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:231:13-49
+239        <activity
+239-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:233:9-236:87
+240            android:name="com.detesim.venderunilever.Vendedoredicionpreventapromocion"
+240-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:234:13-61
+241            android:label="@string/title_activity_vendedoredicionpreventapromocion"
+241-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:236:13-84
+242            android:screenOrientation="portrait" />
+242-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:235:13-49
+243        <activity
+243-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:237:9-240:81
+244            android:name="com.detesim.venderunilever.Vendedorventadirectamapa"
+244-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:238:13-53
+245            android:label="@string/title_activity_vendedormapaventasdirectas"
+245-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:240:13-78
+246            android:screenOrientation="portrait" />
+246-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:239:13-49
+247        <activity
+247-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:241:9-244:79
+248            android:name="com.detesim.venderunilever.Vendedorcobrospendientes"
+248-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:242:13-53
+249            android:label="@string/title_activity_vendedorcobrospendientes"
+249-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:244:13-76
+250            android:screenOrientation="portrait" />
+250-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:243:13-49
+251        <activity
+251-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:245:9-248:75
+252            android:name="com.detesim.venderunilever.Vendedorventadirecta"
+252-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:246:13-49
+253            android:label="@string/title_activity_vendedorventadirecta"
+253-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:248:13-72
+254            android:screenOrientation="portrait" />
+254-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:247:13-49
+255        <activity
+255-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:249:9-252:83
+256            android:name="com.detesim.venderunilever.Vendedorventadirectaproducto"
+256-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:250:13-57
+257            android:label="@string/title_activity_vendedorventadirectaproducto"
+257-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:252:13-80
+258            android:screenOrientation="portrait" />
+258-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:251:13-49
+259        <activity
+259-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:253:9-256:84
+260            android:name="com.detesim.venderunilever.Vendedorventadirectapromocion"
+260-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:254:13-58
+261            android:label="@string/title_activity_vendedorventadirectapromocion"
+261-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:256:13-81
+262            android:screenOrientation="portrait" />
+262-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:255:13-49
+263        <activity
+263-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:257:9-260:79
+264            android:name="com.detesim.venderunilever.Vendedorventadirectanits"
+264-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:258:13-53
+265            android:label="@string/title_activity_vendedorventadirectanits"
+265-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:260:13-76
+266            android:screenOrientation="portrait" />
+266-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:259:13-49
+267        <activity
+267-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:261:9-264:83
+268            android:name="com.detesim.venderunilever.Supervisordistribucionravancedia"
+268-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:262:13-61
+269            android:label="@string/title_activity_supervisordistribuidoravance"
+269-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:264:13-80
+270            android:screenOrientation="portrait" />
+270-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:263:13-49
+271        <activity
+271-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:265:9-268:86
+272            android:name="com.detesim.venderunilever.Supervisordistribucionavancemes"
+272-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:266:13-60
+273            android:label="@string/title_activity_supervisoravancedistribucionmes"
+273-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:268:13-83
+274            android:screenOrientation="portrait" />
+274-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:267:13-49
+275        <activity
+275-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:269:9-272:83
+276            android:name="com.detesim.venderunilever.Distribuidorvisualizarventas"
+276-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:270:13-57
+277            android:label="@string/title_activity_distribuidorvisualizarventas"
+277-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:272:13-80
+278            android:screenOrientation="portrait" />
+278-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:271:13-49
+279        <activity
+279-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:273:9-276:76
+280            android:name="com.detesim.venderunilever.Censistamapaeditarcliente"
+280-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:274:13-54
+281            android:label="@string/title_activity_censistaeditarcliente"
+281-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:276:13-73
+282            android:screenOrientation="portrait" />
+282-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:275:13-49
+283        <activity
+283-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:277:9-280:76
+284            android:name="com.detesim.venderunilever.Censistaeditarcliente"
+284-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:278:13-50
+285            android:label="@string/title_activity_censistaeditarcliente"
+285-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:280:13-73
+286            android:screenOrientation="portrait" />
+286-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:279:13-49
+287        <activity
+287-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:281:9-284:81
+288            android:name="com.detesim.venderunilever.Cencistaedicioncoordenadamapa"
+288-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:282:13-58
+289            android:label="@string/title_activity_cencistaedicioncoordenadas"
+289-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:284:13-78
+290            android:screenOrientation="portrait" />
+290-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:283:13-49
+291        <activity
+291-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:285:9-288:92
+292            android:name="com.detesim.venderunilever.Censistasincronizacionedicionclientes"
+292-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:286:13-66
+293            android:label="@string/title_activity_censistasincronizacionedicionclientes"
+293-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:288:13-89
+294            android:screenOrientation="portrait" />
+294-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:287:13-49
+295        <activity
+295-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:289:9-292:82
+296            android:name="com.detesim.venderunilever.Vendedorpreventaproductopop"
+296-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:290:13-56
+297            android:label="@string/title_activity_vendedorpreventaproductopop"
+297-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:292:13-79
+298            android:screenOrientation="portrait" />
+298-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:291:13-49
+299        <activity
+299-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:293:9-296:77
+300            android:name="com.detesim.venderunilever.Vendedorsincronizarpop"
+300-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:294:13-51
+301            android:label="@string/title_activity_vendedorsincronizarpop"
+301-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:296:13-74
+302            android:screenOrientation="portrait" />
+302-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:295:13-49
+303        <activity
+303-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:297:9-300:83
+304            android:name="com.detesim.venderunilever.Vendedorpreventamenuopciones"
+304-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:298:13-57
+305            android:label="@string/title_activity_vendedorpreventamenuopciones"
+305-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:300:13-80
+306            android:screenOrientation="portrait" />
+306-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:299:13-49
+307        <activity
+307-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:301:9-304:81
+308            android:name="com.detesim.venderunilever.Vendedorpreventaproductocambio"
+308-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:302:13-59
+309            android:label="@string/title_activity_vendedordevolucionproducto"
+309-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:304:13-78
+310            android:screenOrientation="portrait" />
+310-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:303:13-49
+311        <activity
+311-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:305:9-308:91
+312            android:name="com.detesim.venderunilever.Vendedorsincronizacionpreventacambios"
+312-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:306:13-66
+313            android:label="@string/title_activity_vendedorpreventacambiosincronizacion"
+313-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:308:13-88
+314            android:screenOrientation="portrait" />
+314-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:307:13-49
+315        <activity
+315-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:309:9-312:82
+316            android:name="com.detesim.venderunilever.Censistaunificacionclientesmapa"
+316-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:310:13-60
+317            android:label="@string/title_activity_censistaunificacionclientes"
+317-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:312:13-79
+318            android:screenOrientation="portrait" />
+318-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:311:13-49
+319        <activity
+319-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:313:9-316:82
+320            android:name="com.detesim.venderunilever.Censistaunificacionclientes"
+320-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:314:13-56
+321            android:label="@string/title_activity_censistaunificacionclientes"
+321-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:316:13-79
+322            android:screenOrientation="portrait" />
+322-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:315:13-49
+323        <activity
+323-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:317:9-320:96
+324            android:name="com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada"
+324-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:318:13-70
+325            android:label="@string/title_activity_censistaunificacionclientesmapacoordenada"
+325-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:320:13-93
+326            android:screenOrientation="portrait" />
+326-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:319:13-49
+327        <activity
+327-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:321:9-324:96
+328            android:name="com.detesim.venderunilever.Censistaunificacionclientessincronizacion"
+328-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:322:13-70
+329            android:label="@string/title_activity_censistaunificacionclientessincronizacion"
+329-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:324:13-93
+330            android:screenOrientation="portrait" />
+330-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:323:13-49
+331        <activity
+331-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:325:9-328:93
+332            android:name="com.detesim.venderunilever.Censistaunificacionclienteselecciondia"
+332-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:326:13-67
+333            android:label="@string/title_activity_cencistaunificacionclienteselecciondia"
+333-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:328:13-90
+334            android:screenOrientation="portrait" />
+334-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:327:13-49
+335        <activity
+335-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:329:9-332:71
+336            android:name="com.detesim.venderunilever.Vendedorencuesta"
+336-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:330:13-45
+337            android:label="@string/title_activity_vendedorencuesta"
+337-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:332:13-68
+338            android:screenOrientation="portrait" />
+338-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:331:13-49
+339        <activity
+339-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:333:9-336:82
+340            android:name="com.detesim.venderunilever.Vendedorvisorventasdirectas"
+340-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:334:13-56
+341            android:label="@string/title_activity_vendedorvisorventasdirectas"
+341-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:336:13-79
+342            android:screenOrientation="portrait" />
+342-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:335:13-49
+343        <activity
+343-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:337:9-340:87
+344            android:name="com.detesim.venderunilever.Vendedoravanceventasmescategoria"
+344-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:338:13-61
+345            android:label="@string/title_activity_vendedoravanceventasmescategoria"
+345-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:340:13-84
+346            android:screenOrientation="portrait" />
+346-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:339:13-49
+347        <activity
+347-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:341:9-344:85
+348            android:name="com.detesim.venderunilever.Vendedorpreventaproductochange"
+348-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:342:13-59
+349            android:label="@string/title_activity_vendedorpreventaproductochange"
+349-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:344:13-82
+350            android:screenOrientation="portrait" />
+350-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:343:13-49
+351        <activity
+351-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:345:9-348:63
+352            android:name="com.detesim.venderunilever.Vendedormetassap"
+352-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:346:13-45
+353            android:label="@string/title_activity_metassap"
+353-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:348:13-60
+354            android:screenOrientation="portrait" />
+354-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:347:13-49
+355        <activity
+355-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:349:9-352:67
+356            android:name="com.detesim.venderunilever.Menucobrador"
+356-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:350:13-41
+357            android:label="@string/title_activity_menucobrador"
+357-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:352:13-64
+358            android:screenOrientation="portrait" />
+358-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:351:13-49
+359        <activity
+359-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:353:9-356:75
+360            android:name="com.detesim.venderunilever.Cobradormapaclientes"
+360-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:354:13-49
+361            android:label="@string/title_activity_cobradormapaclientes"
+361-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:356:13-72
+362            android:screenOrientation="portrait" />
+362-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:355:13-49
+363        <activity
+363-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:357:9-360:71
+364            android:name="com.detesim.venderunilever.Cobradorcobranza"
+364-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:358:13-45
+365            android:label="@string/title_activity_cobradorcobranza"
+365-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:360:13-68
+366            android:screenOrientation="portrait" />
+366-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:359:13-49
+367        <activity
+367-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:361:9-364:81
+368            android:name="com.detesim.venderunilever.Vendedoradminfotosclientes"
+368-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:362:13-55
+369            android:label="@string/title_activity_vendedoradminfotosclientes"
+369-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:364:13-78
+370            android:screenOrientation="portrait" />
+370-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:363:13-49
+371        <activity
+371-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:365:9-368:74
+372            android:name="com.detesim.venderunilever.Vendedorencuestapdv"
+372-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:366:13-48
+373            android:label="@string/title_activity_vendedorencuestapdv"
+373-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:368:13-71
+374            android:screenOrientation="portrait" />
+374-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:367:13-49
+375        <activity
+375-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:369:9-372:76
+376            android:name="com.detesim.venderunilever.Vendedorencuestafoods"
+376-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:370:13-50
+377            android:label="@string/title_activity_vendedorencuestafoods"
+377-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:372:13-73
+378            android:screenOrientation="portrait" />
+378-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:371:13-49
+379        <activity
+379-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:373:9-376:76
+380            android:name="com.detesim.venderunilever.Censistarelevamiento"
+380-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:374:13-49
+381            android:label="@string/title_activity_censistarelevamientos"
+381-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:376:13-73
+382            android:screenOrientation="portrait" />
+382-->D:\AndroidStudio\Projects\DracarysAE\venderUnilever\src\main\AndroidManifest.xml:375:13-49
+383        <!-- Needs to be explicitly declared on P+ -->
+384        <uses-library
+384-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+385            android:name="org.apache.http.legacy"
+385-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+386            android:required="false" />
+386-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a998b89aa33dba7d2af0bd1f1f02715b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+387
+388        <activity
+388-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+389            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+389-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+390            android:exported="false"
+390-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+391            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+391-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+392
+393        <meta-data
+393-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+394            android:name="com.google.android.gms.version"
+394-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+395            android:value="@integer/google_play_services_version" />
+395-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+396
+397        <provider
+397-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+398            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+398-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+399            android:authorities="com.detesim.venderunilever.lifecycle-process"
+399-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+400            android:exported="false"
+400-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+401            android:multiprocess="true" />
+401-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa07a23f69071fa73b12f39bbc5eac81\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+402    </application>
+403
+404</manifest>

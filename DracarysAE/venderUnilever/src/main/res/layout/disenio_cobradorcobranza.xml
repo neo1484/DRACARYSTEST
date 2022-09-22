@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCobradorCobranzas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDisCobCobNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvCobCobNombre"
+            android:textAppearance="@style/Contenido"
+            android:width="120dp" />
+
+        <TextView
+            android:id="@+id/tvDisCobCobFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvCobCobFecha"
+            android:textAppearance="@style/Contenido"
+            android:width="60dp" />
+
+        <TextView
+            android:id="@+id/tvDisCobCobMonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvCobCobMonto"
+            android:textAppearance="@style/Contenido"
+            android:width="50dp" />
+        
+        <TextView
+            android:id="@+id/tvDisCobCobSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvCobCobSaldo"
+            android:textAppearance="@style/Contenido"
+            android:width="50dp" />
+        
+        <TextView
+            android:id="@+id/tvDisCobCobNroFactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvCobCobNroFactura"
+            android:textAppearance="@style/Contenido"
+            android:width="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

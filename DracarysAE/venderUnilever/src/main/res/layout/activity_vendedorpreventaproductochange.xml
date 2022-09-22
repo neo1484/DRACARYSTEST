@@ -1,0 +1,346 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llVendedorPreventaProductoCHANGE"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="60dp"
+				android:orientation="horizontal">
+
+				<RadioGroup
+					android:id="@+id/rgAccion"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:id="@+id/rbtPreventaProductoCHANGERegistrarCHANGE"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="10dp"
+						android:checked="true"
+						android:text="Registrar Cambio" />
+
+					<RadioButton
+						android:id="@+id/rbtPreventaProductoCHANGENoRegistrarCHANGE"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="No Registrar Cambio" />
+				</RadioGroup>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEClienteTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Cliente:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGECliente"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="250dp"
+					android:minWidth="250dp"
+					android:textAppearance="@style/Contenido"
+					android:width="250dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEProveedorTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Proveedor:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnPreventaProductoCHANGEProveedor"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGECategoriaTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Categoria:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnPreventaProductoCHANGECategoria"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGE"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Producto CHANGE: "
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnPreventaProductoCHANGEProductoCHANGE"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<Button
+					android:id="@+id/btnPreventaProductoCHANGEMostrarDetalles"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Mostrar detalles del producto Cambio" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEProductoTxt"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Producto:" />
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEProductoCHANGE"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="200dp"
+					android:minWidth="200dp"
+					android:textAppearance="@style/Contenido"
+					android:width="200dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEInventarioUnidadesTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Inventario Unidades:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEInventarioUnidades"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:maxWidth="50dp"
+					android:minWidth="50dp"
+					android:textAppearance="@style/Contenido"
+					android:width="50dp" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGECantidadTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Cantidad:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<EditText
+					android:id="@+id/etvPreventaProductoCHANGECantidad"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="number"
+					android:maxWidth="50dp"
+					android:minWidth="50dp"
+					android:width="50dp" >
+
+					<requestFocus />
+				</EditText>
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEMotivoCHANGETxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Motivo CHANGE:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnPreventaProductoCHANGEMotivoCHANGE"
+					android:layout_width="match_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<Button
+					android:id="@+id/btnPreventaProductoCHANGEAdicionarProducto"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Adicionar producto Cambio" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGEProductoCHANGELv"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Producto Cambio"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvPreventaProductoCHANGECantidadLv"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="150dp"
+					android:text="Cantidad"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<ListView
+					android:id="@+id/lvPreventaProductoCHANGEProductos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1" >
+				</ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="10dp">
+
+				<Button
+					android:id="@+id/btnPreventaProductoCHANGEConfirmarPreventaCHANGE"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Confirmar Cambio" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

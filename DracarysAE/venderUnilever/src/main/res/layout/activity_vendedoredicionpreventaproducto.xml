@@ -1,0 +1,712 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llVendedorEdicionPreventaProducto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="right"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp">
+
+		<ImageView
+			android:id="@+id/imgbtnVendedorVentaDirectaProducto"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:src="@drawable/preventa_promocion" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoCliente"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Cliente: "
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoClienteContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="55dp"
+					android:layout_marginTop="10dp"
+					android:text="TextView"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPreventaProductoSeleccionarNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nombre Factura:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoFacturaContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8dp"
+					android:text="TextView"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvPreventaProductoNit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Nit:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoNitContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="80dp"
+					android:text="TextView"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorPreventaEdicionDosificacion"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Dosificación:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnVendedorPreventaEdicionDosificacion"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			 <LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				 <CheckBox
+					 android:id="@+id/cbVendedorEdicionPreventaProductoAplicarProntoPago"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_marginLeft="10dp"
+					 android:checked="false"
+					 android:text="Aplicar descuento pronto pago"
+					 android:textAppearance="@style/Etiqueta"
+					 android:textColor="@color/colorPrimaryDark" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVendedorPreventaProductoProveedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Proveedor: "
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnVendedorPreventaProductoProveedor"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVendedorPreventaProductoCategoria"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Categoría:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnVendedorPreventaProductoCategoria"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/tvVendedorPreventaProductoProducto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Producto: "
+					android:textAppearance="@style/Etiqueta" />
+
+				<Spinner
+					android:id="@+id/spnVendedorPreventaProductoProducto"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginLeft="11dp"
+					android:layout_marginRight="10dp"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVendedorVentaDirectaProductoDatosSeleccion"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="5dp"
+					android:layout_marginRight="10dp"
+					android:text="Mostrar detalles producto" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoProductoTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Producto:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoProductoTxtContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="145dp"
+					android:text="TextView"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoConversion"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Conver.:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoConversionContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="000"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPrecioUnitario"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Pre.Uni.:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPrecioUnitarioContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="000.00"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPrecioMayor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Pre.May.:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPrecioMayorContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:minWidth="53dp"
+					android:text="000.00"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoDescuento"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Dscto.:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoDescuentoContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="000.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoCanalTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Dscto. Canal:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoCanal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoAjusteTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Dscto. Prom:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoAjuste"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoProntoPagoTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Dscto. Pronto Pago:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoProntoPago"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProPrecioUnitarioFinalTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Pre.Uni.Fin:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProPrecioUnitarioFinal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="000.00"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProPrecioMayorFinalTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="Pre.May.Fin:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProPrecioMayorFinal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:minWidth="53dp"
+					android:text="000.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoUnidades"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Inventario Uni:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoUnidadesContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="000"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPaquetes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Inventario May:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPaquetesContenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="000"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoCantidad"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Cantidad:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<EditText
+					android:id="@+id/etVendedorVentaDirectaProductoCantidad"
+					android:layout_width="60dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:background="#FFFFFF"
+					android:ems="10"
+					android:inputType="numberSigned"
+					android:minWidth="60dp" >
+
+					<requestFocus />
+				</EditText>
+
+				<RadioGroup
+				android:id="@+id/rgCantidad"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+					<RadioButton
+						android:id="@+id/rbtVendedorVentaDirectaProductoUnidades"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="Unidades"
+						android:checked="true"/>
+
+					<RadioButton
+						android:id="@+id/rbtVendedorVentaDirectaProductoMayores"
+						style="@style/Etiqueta"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"
+						android:text="Mayor" />
+
+				</RadioGroup>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnVendedorVentaDirectaProductoAdicionarPreventa"
+					style="@style/Boton"
+					android:layout_width="fill_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:text="Adicionar producto a la preventa" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoProductoLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:minWidth="140dp"
+					android:text="PRODUCTO"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoCantidadLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:text="CANT"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoPrecioUnitarioLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:gravity="center_horizontal"
+					android:minWidth="30dp"
+					android:text="PU"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedoVentaDirectaProductoPrecioMayorLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7dp"
+					android:gravity="center_horizontal"
+					android:minWidth="30dp"
+					android:text="PM"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoSubTotalLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:gravity="right"
+					android:text="STOTAL"
+					android:textAppearance="@style/Etiqueta" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvVendedorVentaDirectaProductoPreventas"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+					android:layout_weight="1">
+
+				</ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="right">
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoTotalLbl"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="5dp"
+					android:text="TOTAL"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVendedorVentaDirectaProductoTotal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="10dp"
+					android:gravity="right"
+					android:minWidth="60dp"
+					android:text="00000.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="right" >
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoObjetivoTotalTxt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:text="Saldo objetivo actual:"
+					android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoObjetivoTotal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:gravity="right"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+				<TextView
+					 android:id="@+id/tvVenEdiPreProDescuentoObjetivoTxt"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_marginLeft="10dp"
+					 android:text="Dscto Objetivo:"
+					 android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProDescuentoObjetivo"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:gravity="right"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+			 <LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="right" >
+
+				 <TextView
+					 android:id="@+id/tvVenEdiPreProMontoFinalTxt"
+					 android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_marginLeft="10dp"
+					 android:text="MONTO FINAL:"
+					 android:textAppearance="@style/Etiqueta" />
+
+				<TextView
+					android:id="@+id/tvVenEdiPreProMontoFinal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="10dp"
+					android:gravity="right"
+					android:minWidth="53dp"
+					android:text="00.00"
+					android:textAppearance="@style/Contenido" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

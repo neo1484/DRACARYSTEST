@@ -1,0 +1,1833 @@
+BLL/MotivoNoAtencionBLL.java
+ BLL.MotivoNoAtencionBLL
+BLL/PrecioListaNombreBLL.java
+ BLL.PrecioListaNombreBLL
+Clases/ClienteEncuestadoWSResult.java
+ Clases.ClienteEncuestadoWSResult
+BLL/VentaProductoTempNoEntregaBLL.java
+ BLL.VentaProductoTempNoEntregaBLL
+Clases/CanalRutaPrecio.java
+ Clases.CanalRutaPrecio
+Clases/ClienteWSResult.java
+ Clases.ClienteWSResult
+Clases/AvanceDistribucion.java
+ Clases.AvanceDistribucion
+DAL/MercadoDAL.java
+ DAL.MercadoDAL
+DAL/AlmacenDAL.java
+ DAL.AlmacenDAL
+com/detesim/venderunilever/Censistaunificacionclientesmapa.java
+ com.detesim.venderunilever.Censistaunificacionclientesmapa
+ com.detesim.venderunilever.Censistaunificacionclientesmapa$1
+ com.detesim.venderunilever.Censistaunificacionclientesmapa$2
+ com.detesim.venderunilever.Censistaunificacionclientesmapa$3
+DAL/MotivoPopDAL.java
+ DAL.MotivoPopDAL
+Clases/ClienteNroFotoWSResult.java
+ Clases.ClienteNroFotoWSResult
+Clases/PrecioListaNombre.java
+ Clases.PrecioListaNombre
+Clases/ProveedorWSResult.java
+ Clases.ProveedorWSResult
+Clases/AlmacenCHANGE.java
+ Clases.AlmacenCHANGE
+BLL/VentaProductoTempDeletedBLL.java
+ BLL.VentaProductoTempDeletedBLL
+DAL/DosificacionDAL.java
+ DAL.DosificacionDAL
+Clases/Cliente.java
+ Clases.Cliente
+Clases/CostoWSResult.java
+ Clases.CostoWSResult
+BLL/VentaBonificacionBLL.java
+ BLL.VentaBonificacionBLL
+com/detesim/venderunilever/Censistaunificacionclientesmapacoordenada.java
+ com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada
+ com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada$1
+ com.detesim.venderunilever.Censistaunificacionclientesmapacoordenada$2
+BLL/ClienteDatosVentaBLL.java
+ BLL.ClienteDatosVentaBLL
+Clases/ZonaMercadoWSResult.java
+ Clases.ZonaMercadoWSResult
+Clases/PreventaPOP.java
+ Clases.PreventaPOP
+Clases/ProvinciaWSResult.java
+ Clases.ProvinciaWSResult
+DAL/RelevamientoDAL.java
+ DAL.RelevamientoDAL
+Clases/ZonaVenta.java
+ Clases.ZonaVenta
+Clases/EmpleadoWSResult.java
+ Clases.EmpleadoWSResult
+BLL/ProveedorPrecioListaMargenBLL.java
+ BLL.ProveedorPrecioListaMargenBLL
+com/detesim/venderunilever/Vendedorsincronizacionclientenoatendido.java
+ com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido
+ com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorsincronizacionclientenoatendido$WSInsertClienteNoAtendido
+Clases/FotoCategoriaWSResult.java
+ Clases.FotoCategoriaWSResult
+DAL/ClientePreventaDAL.java
+ DAL.ClientePreventaDAL
+BLL/AlmacenPOPBLL.java
+ BLL.AlmacenPOPBLL
+BLL/AlmacenProductoBLL.java
+ BLL.AlmacenProductoBLL
+BLL/VentaBLL.java
+ BLL.VentaBLL
+Clases/ProductoPOPCosto.java
+ Clases.ProductoPOPCosto
+DAL/PromocionProductoDAL.java
+ DAL.PromocionProductoDAL
+DAL/ProveedorPrecioListaMargenDAL.java
+ DAL.ProveedorPrecioListaMargenDAL
+Clases/AlmacenPOPProductoWSResult.java
+ Clases.AlmacenPOPProductoWSResult
+Clases/ProntoPagoClienteWSResult.java
+ Clases.ProntoPagoClienteWSResult
+Clases/ProductoCambioWSResult.java
+ Clases.ProductoCambioWSResult
+DAL/ProductoPOPCostoDAL.java
+ DAL.ProductoPOPCostoDAL
+DAL/EncuestaDAL.java
+ DAL.EncuestaDAL
+Clases/ProveedorPrecioListaMargen.java
+ Clases.ProveedorPrecioListaMargen
+Clases/PromocionCosto.java
+ Clases.PromocionCosto
+Clases/MotivoPop.java
+ Clases.MotivoPop
+Clases/Distribuidor.java
+ Clases.Distribuidor
+com/detesim/venderunilever/Vendedorpreventapromocion.java
+ com.detesim.venderunilever.Vendedorpreventapromocion
+ com.detesim.venderunilever.Vendedorpreventapromocion$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$1$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$2
+ com.detesim.venderunilever.Vendedorpreventapromocion$3
+ com.detesim.venderunilever.Vendedorpreventapromocion$3$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$3$2
+ com.detesim.venderunilever.Vendedorpreventapromocion$4
+ com.detesim.venderunilever.Vendedorpreventapromocion$5
+ com.detesim.venderunilever.Vendedorpreventapromocion$6
+ com.detesim.venderunilever.Vendedorpreventapromocion$7
+ com.detesim.venderunilever.Vendedorpreventapromocion$MiAdaptadorIncentivoLista
+ com.detesim.venderunilever.Vendedorpreventapromocion$MiAdaptadorIncentivoLista$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSBorrarPreventaProductoTemp
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSGetIncentivosByCliente
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSGetIncentivosByCliente$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSInsertClienteIncentivo
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSInsertClienteIncentivo$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSInsertarPreventaJS
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSInsertarPreventaJS$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSObtenerAlmacenProductoJS
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSObtenerAlmacenProductoJS$1
+ com.detesim.venderunilever.Vendedorpreventapromocion$WSVerificarNitCliente
+Clases/MotivoNoEntregaWSResult.java
+ Clases.MotivoNoEntregaWSResult
+com/detesim/venderunilever/Vendedorventadirectamapa.java
+ com.detesim.venderunilever.Vendedorventadirectamapa
+ com.detesim.venderunilever.Vendedorventadirectamapa$1
+ com.detesim.venderunilever.Vendedorventadirectamapa$2
+DAL/AlmacenPOPProductoDAL.java
+ DAL.AlmacenPOPProductoDAL
+DAL/AvanceDistribucionDAL.java
+ DAL.AvanceDistribucionDAL
+BLL/MotivoPopBLL.java
+ BLL.MotivoPopBLL
+com/detesim/venderunilever/Vendedorpreventanits.java
+ com.detesim.venderunilever.Vendedorpreventanits
+ com.detesim.venderunilever.Vendedorpreventanits$1
+ com.detesim.venderunilever.Vendedorpreventanits$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorpreventanits$WSAutoVentaNoEntregada
+ com.detesim.venderunilever.Vendedorpreventanits$WSInsertarClienteNoAtendido
+Clases/EncuestaLista.java
+ Clases.EncuestaLista
+BLL/ZonaBLL.java
+ BLL.ZonaBLL
+Clases/ClientePreventa.java
+ Clases.ClientePreventa
+Clases/ProveedorPrecioListaMargenWSResult.java
+ Clases.ProveedorPrecioListaMargenWSResult
+com/detesim/venderunilever/Supervisordistribucionravancedia.java
+ com.detesim.venderunilever.Supervisordistribucionravancedia
+ com.detesim.venderunilever.Supervisordistribucionravancedia$MiAdaptadorLista
+Clases/PromocionProducto.java
+ Clases.PromocionProducto
+DAL/EmpleadoDAL.java
+ DAL.EmpleadoDAL
+DAL/CiudadDAL.java
+ DAL.CiudadDAL
+BLL/AvanceVentaBLL.java
+ BLL.AvanceVentaBLL
+Clases/CondicionTributaria.java
+ Clases.CondicionTributaria
+BLL/CiudadBLL.java
+ BLL.CiudadBLL
+DAL/ClienteEncuestadoDAL.java
+ DAL.ClienteEncuestadoDAL
+DAL/ClienteNoAtendidoDAL.java
+ DAL.ClienteNoAtendidoDAL
+Clases/AdminSessions.java
+ Clases.AdminSessions
+Clases/JSonParser.java
+ Clases.JSonParser
+BLL/LoginEmpleadoBLL.java
+ BLL.LoginEmpleadoBLL
+com/detesim/venderunilever/Vendedorcierrepreventa.java
+ com.detesim.venderunilever.Vendedorcierrepreventa
+ com.detesim.venderunilever.Vendedorcierrepreventa$1
+ com.detesim.venderunilever.Vendedorcierrepreventa$1$1
+ com.detesim.venderunilever.Vendedorcierrepreventa$1$2
+ com.detesim.venderunilever.Vendedorcierrepreventa$WSCierreDiaPreventa
+ com.detesim.venderunilever.Vendedorcierrepreventa$WSCierreDiaPreventaProvincia
+Clases/CierreDistribuidor.java
+ Clases.CierreDistribuidor
+BLL/FotoCategoriaBLL.java
+ BLL.FotoCategoriaBLL
+BLL/ClienteVentaBLL.java
+ BLL.ClienteVentaBLL
+Clases/PromocionPrecioListWSResult.java
+ Clases.PromocionPrecioListWSResult
+Clases/Mercado.java
+ Clases.Mercado
+BLL/EncuestaBLL.java
+ BLL.EncuestaBLL
+com/detesim/venderunilever/Distribuidorvisualizarventas.java
+ com.detesim.venderunilever.Distribuidorvisualizarventas
+ com.detesim.venderunilever.Distribuidorvisualizarventas$1
+ com.detesim.venderunilever.Distribuidorvisualizarventas$MiAdaptadorVenta
+ com.detesim.venderunilever.Distribuidorvisualizarventas$MiAdaptadorVentaProducto
+Clases/ProntoPagoJerarquiaWSResult.java
+ Clases.ProntoPagoJerarquiaWSResult
+DAL/AlmacenCHANGEDAL.java
+ DAL.AlmacenCHANGEDAL
+DAL/ProductoCambioDAL.java
+ DAL.ProductoCambioDAL
+BLL/AlmacenCHANGEProductoBLL.java
+ BLL.AlmacenCHANGEProductoBLL
+Clases/PreventaProductoDistWSResult.java
+ Clases.PreventaProductoDistWSResult
+BLL/PromocionPrecioBLL.java
+ BLL.PromocionPrecioBLL
+Clases/PromocionPrecioLista.java
+ Clases.PromocionPrecioLista
+Clases/VentaProductoTemp.java
+ Clases.VentaProductoTemp
+Clases/MotivoCambioWSResult.java
+ Clases.MotivoCambioWSResult
+Clases/PrecioLista.java
+ Clases.PrecioLista
+Clases/CategoriaCHANGE.java
+ Clases.CategoriaCHANGE
+DAL/ZonaDAL.java
+ DAL.ZonaDAL
+BLL/ProductoCHANGEBLL.java
+ BLL.ProductoCHANGEBLL
+com/detesim/venderunilever/Menusupervisor.java
+ com.detesim.venderunilever.Menusupervisor
+ com.detesim.venderunilever.Menusupervisor$1
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesBySupervisorDia
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesBySupervisorDia$1
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesBySupervisorMes
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesBySupervisorMes$1
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesDistribuidorBySupervisorDia
+ com.detesim.venderunilever.Menusupervisor$WSGetAvancesDistribuidorBySupervisorMes
+DAL/ProvinciaDAL.java
+ DAL.ProvinciaDAL
+com/detesim/venderunilever/Vendedorsincronizacionpreventacambios.java
+ com.detesim.venderunilever.Vendedorsincronizacionpreventacambios
+ com.detesim.venderunilever.Vendedorsincronizacionpreventacambios$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorsincronizacionpreventacambios$WSInsertarPreventaProductoCambio
+Clases/PreventaCHANGE.java
+ Clases.PreventaCHANGE
+Clases/ClienteEncuestado.java
+ Clases.ClienteEncuestado
+Clases/ParseJSon.java
+ Clases.ParseJSon
+DAL/TipoNitDAL.java
+ DAL.TipoNitDAL
+Clases/ProductoWSResult.java
+ Clases.ProductoWSResult
+BLL/EmpleadoBLL.java
+ BLL.EmpleadoBLL
+BLL/ZonaVentaBLL.java
+ BLL.ZonaVentaBLL
+Clases/DistribuidorWSResult.java
+ Clases.DistribuidorWSResult
+Clases/LogimEmpleadoWS.java
+ Clases.LogimEmpleadoWS
+DAL/TipoNegocioDAL.java
+ DAL.TipoNegocioDAL
+BLL/VentaProductoPOPBLL.java
+ BLL.VentaProductoPOPBLL
+DAL/VentaProductoTempNoEntregaDAL.java
+ DAL.VentaProductoTempNoEntregaDAL
+DAL/ZonaVentaDAL.java
+ DAL.ZonaVentaDAL
+BLL/ProntoPagoCanalRutaBLL.java
+ BLL.ProntoPagoCanalRutaBLL
+Clases/ExpedidoWSResult.java
+ Clases.ExpedidoWSResult
+Clases/Zona.java
+ Clases.Zona
+com/detesim/venderunilever/Supervisorventaavancemes.java
+ com.detesim.venderunilever.Supervisorventaavancemes
+ com.detesim.venderunilever.Supervisorventaavancemes$MiAdaptadorLista
+Clases/ProductoCosto.java
+ Clases.ProductoCosto
+Clases/VentaBonificacionWSResult.java
+ Clases.VentaBonificacionWSResult
+DAL/CategoriaDAL.java
+ DAL.CategoriaDAL
+DAL/AsignacionRutaDAL.java
+ DAL.AsignacionRutaDAL
+com/detesim/venderunilever/Cencistaedicioncoordenadamapa.java
+ com.detesim.venderunilever.Cencistaedicioncoordenadamapa
+ com.detesim.venderunilever.Cencistaedicioncoordenadamapa$1
+ com.detesim.venderunilever.Cencistaedicioncoordenadamapa$2
+Clases/AsignacionRuta.java
+ Clases.AsignacionRuta
+Clases/EncuestaDetalle.java
+ Clases.EncuestaDetalle
+DAL/PreventaProductoPOPDAL.java
+ DAL.PreventaProductoPOPDAL
+DAL/ClienteNroFotoDAL.java
+ DAL.ClienteNroFotoDAL
+DAL/EncuestaDetalleDAL.java
+ DAL.EncuestaDetalleDAL
+BLL/MotivoEliminacionMatchBLL.java
+ BLL.MotivoEliminacionMatchBLL
+com/detesim/venderunilever/Vendedorsincronizacionnombrecliente.java
+ com.detesim.venderunilever.Vendedorsincronizacionnombrecliente
+ com.detesim.venderunilever.Vendedorsincronizacionnombrecliente$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorsincronizacionnombrecliente$WSUpdateClienteNombre
+DAL/AlmacenProductoDAL.java
+ DAL.AlmacenProductoDAL
+DAL/ClienteVentaDAL.java
+ DAL.ClienteVentaDAL
+BLL/AlmacenPOPProductoBLL.java
+ BLL.AlmacenPOPProductoBLL
+Clases/VendedorZonaVenta.java
+ Clases.VendedorZonaVenta
+DAL/ImpresoraDAL.java
+ DAL.ImpresoraDAL
+Clases/MotivoPopWSResult.java
+ Clases.MotivoPopWSResult
+com/detesim/venderunilever/Censistaunificacionclientessincronizacion.java
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$MiAdaptadorLista
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$WSDeleteClientesCenso
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$WSInsertClientesCenso
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$WSModificarClienteCenso
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$WSModificarClienteCensoCoordenada
+ com.detesim.venderunilever.Censistaunificacionclientessincronizacion$WSModificarClienteVender
+com/detesim/venderunilever/Vendedorventadirectanits.java
+ com.detesim.venderunilever.Vendedorventadirectanits
+ com.detesim.venderunilever.Vendedorventadirectanits$1
+ com.detesim.venderunilever.Vendedorventadirectanits$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorventadirectanits$WSInsertarClienteNoAtendido
+com/detesim/venderunilever/Vendedorcobrospendientes.java
+ com.detesim.venderunilever.Vendedorcobrospendientes
+ com.detesim.venderunilever.Vendedorcobrospendientes$MiAdaptadorCobro
+com/detesim/venderunilever/Vendedorrestauracionpreventa.java
+ com.detesim.venderunilever.Vendedorrestauracionpreventa
+ com.detesim.venderunilever.Vendedorrestauracionpreventa$1
+ com.detesim.venderunilever.Vendedorrestauracionpreventa$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorrestauracionpreventa$WSRestaurarPreventa
+DAL/CondicionTributariaDAL.java
+ DAL.CondicionTributariaDAL
+Clases/ClienteFoto.java
+ Clases.ClienteFoto
+BLL/PreventaBonificacionBLL.java
+ BLL.PreventaBonificacionBLL
+com/detesim/venderunilever/Distribuidorautoventapromocion.java
+ com.detesim.venderunilever.Distribuidorautoventapromocion
+ com.detesim.venderunilever.Distribuidorautoventapromocion$1
+ com.detesim.venderunilever.Distribuidorautoventapromocion$1$1
+ com.detesim.venderunilever.Distribuidorautoventapromocion$2
+ com.detesim.venderunilever.Distribuidorautoventapromocion$3
+ com.detesim.venderunilever.Distribuidorautoventapromocion$3$1
+ com.detesim.venderunilever.Distribuidorautoventapromocion$3$2
+ com.detesim.venderunilever.Distribuidorautoventapromocion$4
+ com.detesim.venderunilever.Distribuidorautoventapromocion$5
+ com.detesim.venderunilever.Distribuidorautoventapromocion$MiAdaptadorLista
+ com.detesim.venderunilever.Distribuidorautoventapromocion$WSDeleteAutoventaProductoTemp
+ com.detesim.venderunilever.Distribuidorautoventapromocion$WSInsertarAutoventa
+ com.detesim.venderunilever.Distribuidorautoventapromocion$WSInsertarAutoventaProductoTemp
+ com.detesim.venderunilever.Distribuidorautoventapromocion$WSVerificarNitCliente
+com/detesim/venderunilever/Vendedoredicionpreventas.java
+ com.detesim.venderunilever.Vendedoredicionpreventas
+ com.detesim.venderunilever.Vendedoredicionpreventas$1
+ com.detesim.venderunilever.Vendedoredicionpreventas$2
+ com.detesim.venderunilever.Vendedoredicionpreventas$MiEdicionPreventaAdapter
+ com.detesim.venderunilever.Vendedoredicionpreventas$MiEdicionPreventaAdapter$1
+ com.detesim.venderunilever.Vendedoredicionpreventas$MiEdicionPreventaAdapter$2
+ com.detesim.venderunilever.Vendedoredicionpreventas$WSDeletePreventa
+ com.detesim.venderunilever.Vendedoredicionpreventas$WSObtenerPreventaBonificada
+Clases/ProductoCambio.java
+ Clases.ProductoCambio
+Clases/AlmacenPOPWSResult.java
+ Clases.AlmacenPOPWSResult
+BLL/ImpresoraBLL.java
+ BLL.ImpresoraBLL
+BLL/ClientePreventaBLL.java
+ BLL.ClientePreventaBLL
+BLL/ProntoPagoUniBLL.java
+ BLL.ProntoPagoUniBLL
+Clases/SingleId.java
+ Clases.SingleId
+BLL/ProvinciaBLL.java
+ BLL.ProvinciaBLL
+Clases/ZonaVentaWSResult.java
+ Clases.ZonaVentaWSResult
+DAL/ClienteNitDAL.java
+ DAL.ClienteNitDAL
+BLL/VentaDirectaProductoTempBLL.java
+ BLL.VentaDirectaProductoTempBLL
+DAL/ClienteDAL.java
+ DAL.ClienteDAL
+DAL/Descuento2DAL.java
+ DAL.Descuento2DAL
+Clases/ClienteNroFoto.java
+ Clases.ClienteNroFoto
+DAL/PreventaProductoCHANGEDAL.java
+ DAL.PreventaProductoCHANGEDAL
+Clases/PreventaProductoTemp.java
+ Clases.PreventaProductoTemp
+Clases/ApkRutaClienteWSResult.java
+ Clases.ApkRutaClienteWSResult
+DAL/ApkDistRutaClienteDAL.java
+ DAL.ApkDistRutaClienteDAL
+Clases/PreventaBonificacionWSResult.java
+ Clases.PreventaBonificacionWSResult
+Clases/MyLog.java
+ Clases.MyLog
+Clases/VentaProductoTempNoEntrega.java
+ Clases.VentaProductoTempNoEntrega
+com/detesim/venderunilever/Supervisordistribucionavancemes.java
+ com.detesim.venderunilever.Supervisordistribucionavancemes
+ com.detesim.venderunilever.Supervisordistribucionavancemes$MiAdaptadorLista
+BLL/ClienteCobranzaBLL.java
+ BLL.ClienteCobranzaBLL
+Clases/VendedorDiaRutaWS.java
+ Clases.VendedorDiaRutaWS
+com/detesim/venderunilever/Vendedorpreventaproductochange.java
+ com.detesim.venderunilever.Vendedorpreventaproductochange
+ com.detesim.venderunilever.Vendedorpreventaproductochange$1
+ com.detesim.venderunilever.Vendedorpreventaproductochange$2
+ com.detesim.venderunilever.Vendedorpreventaproductochange$3
+ com.detesim.venderunilever.Vendedorpreventaproductochange$4
+ com.detesim.venderunilever.Vendedorpreventaproductochange$5
+ com.detesim.venderunilever.Vendedorpreventaproductochange$5$1
+ com.detesim.venderunilever.Vendedorpreventaproductochange$5$2
+ com.detesim.venderunilever.Vendedorpreventaproductochange$6
+ com.detesim.venderunilever.Vendedorpreventaproductochange$6$1
+ com.detesim.venderunilever.Vendedorpreventaproductochange$6$2
+ com.detesim.venderunilever.Vendedorpreventaproductochange$MiAdaptadorPreventaLista
+ com.detesim.venderunilever.Vendedorpreventaproductochange$MiAdaptadorVentaLista
+ com.detesim.venderunilever.Vendedorpreventaproductochange$WSInsertarPreventaProductoCHANGE
+ com.detesim.venderunilever.Vendedorpreventaproductochange$WSInsertarVentaProductoCHANGE
+ com.detesim.venderunilever.Vendedorpreventaproductochange$WSObtenerProductosAlmacenCHANGE
+Clases/ClienteCenso.java
+ Clases.ClienteCenso
+Clases/MotivoCHANGE.java
+ Clases.MotivoCHANGE
+Clases/ProductoCHANGE.java
+ Clases.ProductoCHANGE
+Clases/ZonaWSResult.java
+ Clases.ZonaWSResult
+Clases/Empleado.java
+ Clases.Empleado
+Clases/MotivoNoAtencion.java
+ Clases.MotivoNoAtencion
+Clases/PromocionTipoNegocioWSResult.java
+ Clases.PromocionTipoNegocioWSResult
+BLL/CategoriaBLL.java
+ BLL.CategoriaBLL
+Clases/DosificacionProveedor.java
+ Clases.DosificacionProveedor
+Clases/AvanceVentaVendedor.java
+ Clases.AvanceVentaVendedor
+DAL/PromocionDAL.java
+ DAL.PromocionDAL
+com/detesim/venderunilever/Vendedorinventarioproductos.java
+ com.detesim.venderunilever.Vendedorinventarioproductos
+ com.detesim.venderunilever.Vendedorinventarioproductos$1
+ com.detesim.venderunilever.Vendedorinventarioproductos$2
+ com.detesim.venderunilever.Vendedorinventarioproductos$MiAdaptadorLista
+Clases/ClienteCobranza.java
+ Clases.ClienteCobranza
+Clases/ParametroGeneralWSResult.java
+ Clases.ParametroGeneralWSResult
+BLL/ProductoBLL.java
+ BLL.ProductoBLL
+Clases/DiaSemanaWSResult.java
+ Clases.DiaSemanaWSResult
+Clases/VendedorDiaWS.java
+ Clases.VendedorDiaWS
+Clases/DiaSemana.java
+ Clases.DiaSemana
+com/detesim/venderunilever/Censistaunificacionclienteselecciondia.java
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$1
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSGetClientesCenso
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSGetClientesCenso$1
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSObtenerClientesApkByVendedorYDia
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSObtenerClientesApkByVendedorYDia$1
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSObtenerMotivosEliminacion
+ com.detesim.venderunilever.Censistaunificacionclienteselecciondia$WSObtenerMotivosEliminacion$1
+Utilidades/AdministradorDB.java
+ Utilidades.AdministradorDB
+BLL/CobroPendienteBLL.java
+ BLL.CobroPendienteBLL
+DAL/PreventaBonificacionDAL.java
+ DAL.PreventaBonificacionDAL
+Clases/Promocion.java
+ Clases.Promocion
+com/detesim/venderunilever/Vendedorsincronizarpreventas.java
+ com.detesim.venderunilever.Vendedorsincronizarpreventas
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$1
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$2
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$3
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$MiAdaptadorPreventa
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$MiAdaptadorPreventaProducto
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$WSInsertarPreventa
+ com.detesim.venderunilever.Vendedorsincronizarpreventas$WSInsertarPreventaProductoTemp
+Clases/PreventaProducto.java
+ Clases.PreventaProducto
+Clases/TipoCalle.java
+ Clases.TipoCalle
+BLL/ZonaMercadoBLL.java
+ BLL.ZonaMercadoBLL
+Clases/Expedido.java
+ Clases.Expedido
+com/detesim/venderunilever/Menuprincipal.java
+ com.detesim.venderunilever.Menuprincipal
+ com.detesim.venderunilever.Menuprincipal$1
+ com.detesim.venderunilever.Menuprincipal$2
+Clases/PreventaEntrega.java
+ Clases.PreventaEntrega
+com/detesim/venderunilever/Vendedoravanceventasmes.java
+ com.detesim.venderunilever.Vendedoravanceventasmes
+ com.detesim.venderunilever.Vendedoravanceventasmes$MiAdaptadorLista
+DAL/DraRebateSaldoDAL.java
+ DAL.DraRebateSaldoDAL
+BLL/EncuestaListaBLL.java
+ BLL.EncuestaListaBLL
+Clases/Factura.java
+ Clases.Factura
+com/detesim/venderunilever/Distribuidorsincronizacionautoventa.java
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa$1
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa$MiAdaptadorSincronizacionVenta
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa$WSAutoVentaNoEntregada
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa$WSInsertarAutoventa
+ com.detesim.venderunilever.Distribuidorsincronizacionautoventa$WSInsertarAutoventaProductoTemp
+com/detesim/venderunilever/Distribuidorsincronizacionventas.java
+ com.detesim.venderunilever.Distribuidorsincronizacionventas
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$1
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$MiAdaptadorSincronizacionVenta
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSCopiarPreVentaAVentaTemp
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSEliminarVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSInsertarVenta
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSModificarVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSObtenerVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorsincronizacionventas$WSVentaNoEntregada
+Clases/Fecha.java
+ Clases.Fecha
+Clases/Ciudad.java
+ Clases.Ciudad
+Clases/VentaDirectaProducto.java
+ Clases.VentaDirectaProducto
+Clases/PreventaDist.java
+ Clases.PreventaDist
+BLL/ParametroGeneralBLL.java
+ BLL.ParametroGeneralBLL
+Clases/Categoria.java
+ Clases.Categoria
+BLL/ClienteCensoBLL.java
+ BLL.ClienteCensoBLL
+BLL/PrecioListaBLL.java
+ BLL.PrecioListaBLL
+DAL/MotivoCambioDAL.java
+ DAL.MotivoCambioDAL
+BLL/AsignacionRutaBLL.java
+ BLL.AsignacionRutaBLL
+Clases/CiudadWSResult.java
+ Clases.CiudadWSResult
+Clases/UltimaCoordenada.java
+ Clases.UltimaCoordenada
+Clases/MercadoWSResult.java
+ Clases.MercadoWSResult
+BLL/SincronizacionVentaBLL.java
+ BLL.SincronizacionVentaBLL
+Clases/CobroPendiente.java
+ Clases.CobroPendiente
+com/detesim/venderunilever/Vendedoravanceventasdia.java
+ com.detesim.venderunilever.Vendedoravanceventasdia
+ com.detesim.venderunilever.Vendedoravanceventasdia$1
+ com.detesim.venderunilever.Vendedoravanceventasdia$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedoravanceventasdia$VentasDia
+ com.detesim.venderunilever.Vendedoravanceventasdia$WSGetApkNumeroVentasVendedor
+ com.detesim.venderunilever.Vendedoravanceventasdia$WSGetAvancesByVendedorDia
+ com.detesim.venderunilever.Vendedoravanceventasdia$WSGetAvancesByVendedorDia$1
+Utilidades/Facturacion.java
+ Utilidades.Facturacion
+Clases/CanalRuta.java
+ Clases.CanalRuta
+DAL/MotivoNoAtencionDAL.java
+ DAL.MotivoNoAtencionDAL
+DAL/CierreDistribuidorDAL.java
+ DAL.CierreDistribuidorDAL
+Clases/DevolucionDistribuidor.java
+ Clases.DevolucionDistribuidor
+Clases/RelevamientoTipoNegocio.java
+ Clases.RelevamientoTipoNegocio
+Clases/VendedorZonaVentaWSResult.java
+ Clases.VendedorZonaVentaWSResult
+Clases/LoginEmpleadoWSResult.java
+ Clases.LoginEmpleadoWSResult
+com/detesim/venderunilever/Distribuidorcierreentregas.java
+ com.detesim.venderunilever.Distribuidorcierreentregas
+ com.detesim.venderunilever.Distribuidorcierreentregas$1
+ com.detesim.venderunilever.Distribuidorcierreentregas$1$1
+ com.detesim.venderunilever.Distribuidorcierreentregas$1$2
+ com.detesim.venderunilever.Distribuidorcierreentregas$WSCierreDiaDistribuidor
+ com.detesim.venderunilever.Distribuidorcierreentregas$WSObtenerDescuento2ByDistribuidor
+Clases/PromocionPrecio.java
+ Clases.PromocionPrecio
+DAL/FacturaDAL.java
+ DAL.FacturaDAL
+BLL/MercadoBLL.java
+ BLL.MercadoBLL
+BLL/VentaProductoCHANGEBLL.java
+ BLL.VentaProductoCHANGEBLL
+DAL/PreventaProductoCambioDAL.java
+ DAL.PreventaProductoCambioDAL
+BLL/DevolucionDistribuidorProductoTempBLL.java
+ BLL.DevolucionDistribuidorProductoTempBLL
+BLL/ProductoCHANGECostoBLL.java
+ BLL.ProductoCHANGECostoBLL
+Clases/ClienteCensoWSResult.java
+ Clases.ClienteCensoWSResult
+Clases/DatosFacturaWSResult.java
+ Clases.DatosFacturaWSResult
+DAL/AlmacenPOPDAL.java
+ DAL.AlmacenPOPDAL
+DAL/RutaVendedorDAL.java
+ DAL.RutaVendedorDAL
+DAL/VentaDAL.java
+ DAL.VentaDAL
+Clases/CanalRutaWSResult.java
+ Clases.CanalRutaWSResult
+DAL/MotivoNoEntregaDAL.java
+ DAL.MotivoNoEntregaDAL
+BLL/PromocionPrecioListaBLL.java
+ BLL.PromocionPrecioListaBLL
+BLL/CategoriaCHANGEBLL.java
+ BLL.CategoriaCHANGEBLL
+BLL/DistribuidorBLL.java
+ BLL.DistribuidorBLL
+Clases/PreventaCambioWSResult.java
+ Clases.PreventaCambioWSResult
+Clases/ClienteNoAtendido.java
+ Clases.ClienteNoAtendido
+DAL/RolDAL.java
+ DAL.RolDAL
+Clases/AlmacenCHANGEProducto.java
+ Clases.AlmacenCHANGEProducto
+Clases/VendedorFechaWS.java
+ Clases.VendedorFechaWS
+com/detesim/venderunilever/Vendedorvisorventasdirectas.java
+ com.detesim.venderunilever.Vendedorvisorventasdirectas
+ com.detesim.venderunilever.Vendedorvisorventasdirectas$1
+ com.detesim.venderunilever.Vendedorvisorventasdirectas$MiAdaptadorVentas
+ com.detesim.venderunilever.Vendedorvisorventasdirectas$MiAdaptadorVentasProducto
+Clases/VentaDirecta.java
+ Clases.VentaDirecta
+BLL/ProductoCambioBLL.java
+ BLL.ProductoCambioBLL
+BLL/VentaProductoTempBLL.java
+ BLL.VentaProductoTempBLL
+Clases/DistribuidorAlmacenFechaWS.java
+ Clases.DistribuidorAlmacenFechaWS
+Utilidades/ControladorDB.java
+ Utilidades.ControladorDB
+DAL/PreventaDAL.java
+ DAL.PreventaDAL
+BLL/MetaSapBLL.java
+ BLL.MetaSapBLL
+DAL/AlmacenCHANGEProductoDAL.java
+ DAL.AlmacenCHANGEProductoDAL
+Clases/PromocionTipoNegocio.java
+ Clases.PromocionTipoNegocio
+Clases/MotivoEliminacionMatch.java
+ Clases.MotivoEliminacionMatch
+Clases/EncuestaDetalleWSResult.java
+ Clases.EncuestaDetalleWSResult
+DAL/ProntoPagoCanalRutaDAL.java
+ DAL.ProntoPagoCanalRutaDAL
+DAL/DistribuidorDAL.java
+ DAL.DistribuidorDAL
+com/detesim/venderunilever/Distribuidortipoimpresion.java
+ com.detesim.venderunilever.Distribuidortipoimpresion
+ com.detesim.venderunilever.Distribuidortipoimpresion$1
+ com.detesim.venderunilever.Distribuidortipoimpresion$1$1
+ com.detesim.venderunilever.Distribuidortipoimpresion$WSInsertarFactura
+ com.detesim.venderunilever.Distribuidortipoimpresion$WSInsertarFacturaProductoTemp
+DAL/ClienteCensoDAL.java
+ DAL.ClienteCensoDAL
+com/detesim/venderunilever/Censistafotocliente.java
+ com.detesim.venderunilever.Censistafotocliente
+ com.detesim.venderunilever.Censistafotocliente$1
+ com.detesim.venderunilever.Censistafotocliente$2
+ com.detesim.venderunilever.Censistafotocliente$MiAdaptadorLista
+ com.detesim.venderunilever.Censistafotocliente$WSInsertarFoto
+BLL/EncuestaDetalleBLL.java
+ BLL.EncuestaDetalleBLL
+DAL/VentaBonificacionDAL.java
+ DAL.VentaBonificacionDAL
+DAL/ProntoPagoJerarquiaDAL.java
+ DAL.ProntoPagoJerarquiaDAL
+Clases/TipoNegocioWSResult.java
+ Clases.TipoNegocioWSResult
+BLL/PromocionCostoBLL.java
+ BLL.PromocionCostoBLL
+BLL/CondicionTributariaBLL.java
+ BLL.CondicionTributariaBLL
+BLL/RelevamientoBLL.java
+ BLL.RelevamientoBLL
+BLL/Descuento2BLL.java
+ BLL.Descuento2BLL
+BLL/TipoNitBLL.java
+ BLL.TipoNitBLL
+Clases/Relevamiento.java
+ Clases.Relevamiento
+BLL/CierreDistribuidorBLL.java
+ BLL.CierreDistribuidorBLL
+Clases/PrecioListaNombreWSResult.java
+ Clases.PrecioListaNombreWSResult
+Clases/TipoCalleWSResult.java
+ Clases.TipoCalleWSResult
+DAL/PreventaProductoDAL.java
+ DAL.PreventaProductoDAL
+BLL/ClienteNitBLL.java
+ BLL.ClienteNitBLL
+DAL/ProductoCostoDAL.java
+ DAL.ProductoCostoDAL
+com/detesim/venderunilever/Distribuidorinventarioautoventa.java
+ com.detesim.venderunilever.Distribuidorinventarioautoventa
+ com.detesim.venderunilever.Distribuidorinventarioautoventa$MiAdaptadorDevolucionDistribuidorProducto
+Clases/EncuestaWSResult.java
+ Clases.EncuestaWSResult
+Clases/PreventaBonificacion.java
+ Clases.PreventaBonificacion
+Clases/TipoNit.java
+ Clases.TipoNit
+Clases/ClienteDatosVentaWS.java
+ Clases.ClienteDatosVentaWS
+Clases/Provincia.java
+ Clases.Provincia
+DAL/CobroPendienteDAL.java
+ DAL.CobroPendienteDAL
+Clases/RelevamientoDetalleWS.java
+ Clases.RelevamientoDetalleWS
+Clases/ParametroGeneral.java
+ Clases.ParametroGeneral
+com/detesim/venderunilever/Vendedorencuestapdv.java
+ com.detesim.venderunilever.Vendedorencuestapdv
+ com.detesim.venderunilever.Vendedorencuestapdv$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorencuestapdv$WSGrabarRespuesta
+Clases/SomeObject.java
+ Clases.SomeObject
+BLL/PreventaProductoPOPBLL.java
+ BLL.PreventaProductoPOPBLL
+BLL/TipoCalleBLL.java
+ BLL.TipoCalleBLL
+Clases/PromocionCostoWSResult.java
+ Clases.PromocionCostoWSResult
+BLL/ApkDistRutaClienteBLL.java
+ BLL.ApkDistRutaClienteBLL
+com/detesim/venderunilever/Vendedorpreventamenuopciones.java
+ com.detesim.venderunilever.Vendedorpreventamenuopciones
+Clases/VentaProducto.java
+ Clases.VentaProducto
+DAL/ProductoPOPDAL.java
+ DAL.ProductoPOPDAL
+BLL/DosificacionBLL.java
+ BLL.DosificacionBLL
+com/detesim/venderunilever/Vendedorventadirecta.java
+ com.detesim.venderunilever.Vendedorventadirecta
+DAL/DevolucionDistribuidorProductoDAL.java
+ DAL.DevolucionDistribuidorProductoDAL
+com/detesim/venderunilever/Vendedoravanceventasmescategoria.java
+ com.detesim.venderunilever.Vendedoravanceventasmescategoria
+ com.detesim.venderunilever.Vendedoravanceventasmescategoria$1
+ com.detesim.venderunilever.Vendedoravanceventasmescategoria$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedoravanceventasmescategoria$MiAdaptadorListaProveedor
+ com.detesim.venderunilever.Vendedoravanceventasmescategoria$WSGetAvanceByVendedorAndMesAndCategoriasProveedor
+com/detesim/venderunilever/Vendedorpreventaproductocambio.java
+ com.detesim.venderunilever.Vendedorpreventaproductocambio
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$1
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$2
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$3
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$4
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$5
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$5$1
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$5$2
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorpreventaproductocambio$WSInsertarPreventaProductoCambio
+Clases/MotivoNoAtencionWSResult.java
+ Clases.MotivoNoAtencionWSResult
+Clases/ProductoPOP.java
+ Clases.ProductoPOP
+DAL/PromocionPrecioDAL.java
+ DAL.PromocionPrecioDAL
+DAL/FotoCategoriaDAL.java
+ DAL.FotoCategoriaDAL
+com/detesim/venderunilever/Censistaunificacionclientes.java
+ com.detesim.venderunilever.Censistaunificacionclientes
+ com.detesim.venderunilever.Censistaunificacionclientes$1
+ com.detesim.venderunilever.Censistaunificacionclientes$WSDeleteClientesCenso
+ com.detesim.venderunilever.Censistaunificacionclientes$WSInsertClientesCenso
+ com.detesim.venderunilever.Censistaunificacionclientes$WSModificarClienteCenso
+ com.detesim.venderunilever.Censistaunificacionclientes$WSModificarClienteCensoCoordenada
+ com.detesim.venderunilever.Censistaunificacionclientes$WSModificarClienteVender
+DAL/PreventaProductoDistDAL.java
+ DAL.PreventaProductoDistDAL
+BLL/ClienteNoAtendidoBLL.java
+ BLL.ClienteNoAtendidoBLL
+Clases/TipoCliente.java
+ Clases.TipoCliente
+DAL/ClienteCobranzaDAL.java
+ DAL.ClienteCobranzaDAL
+BLL/AlmacenCHANGEBLL.java
+ BLL.AlmacenCHANGEBLL
+Clases/AvanceVendedorDiaWSResult.java
+ Clases.AvanceVendedorDiaWSResult
+BLL/CanalRutaPrecioBLL.java
+ BLL.CanalRutaPrecioBLL
+Clases/ProductoPOPWSResult.java
+ Clases.ProductoPOPWSResult
+DAL/ZonaMercadoDAL.java
+ DAL.ZonaMercadoDAL
+BLL/PreventaDistBLL.java
+ BLL.PreventaDistBLL
+DAL/VentaProductoDAL.java
+ DAL.VentaProductoDAL
+Clases/AES.java
+ Clases.AES
+Clases/EncuestaRespuesta.java
+ Clases.EncuestaRespuesta
+Clases/SincronizacionDatos.java
+ Clases.SincronizacionDatos
+DAL/ParametroGeneralDAL.java
+ DAL.ParametroGeneralDAL
+DAL/PrecioListaDAL.java
+ DAL.PrecioListaDAL
+Clases/Venta.java
+ Clases.Venta
+Clases/CierrePreventista.java
+ Clases.CierrePreventista
+com/detesim/venderunilever/Distribuidormapaentregas.java
+ com.detesim.venderunilever.Distribuidormapaentregas
+ com.detesim.venderunilever.Distribuidormapaentregas$1
+ com.detesim.venderunilever.Distribuidormapaentregas$2
+com/detesim/venderunilever/Vendedorencuestafoods.java
+ com.detesim.venderunilever.Vendedorencuestafoods
+ com.detesim.venderunilever.Vendedorencuestafoods$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorencuestafoods$WSGrabarRespuesta
+com/detesim/venderunilever/Censistainfocliente.java
+ com.detesim.venderunilever.Censistainfocliente
+ com.detesim.venderunilever.Censistainfocliente$1
+ com.detesim.venderunilever.Censistainfocliente$WSInsertarCliente
+Clases/MotivoEliminacionMatchWSResult.java
+ Clases.MotivoEliminacionMatchWSResult
+DAL/ClienteDatosVentaDAL.java
+ DAL.ClienteDatosVentaDAL
+Clases/Ruta.java
+ Clases.Ruta
+DAL/ProductoCHANGECostoDAL.java
+ DAL.ProductoCHANGECostoDAL
+DAL/VendedorZonaVentaDAL.java
+ DAL.VendedorZonaVentaDAL
+Clases/Consignacion.java
+ Clases.Consignacion
+BLL/FacturaBLL.java
+ BLL.FacturaBLL
+com/detesim/venderunilever/Vendedoredicionpreventaproducto.java
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$1
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$2
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$3
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$4
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$5
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$6
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$7
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$8
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$9
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$WSDeletePreventaProducto
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$WSInsertarPreventaProducto
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Vendedoredicionpreventaproducto$WSObtenerAlmacenProducto$1
+com/detesim/venderunilever/Vendedorventadirectapromocion.java
+ com.detesim.venderunilever.Vendedorventadirectapromocion
+ com.detesim.venderunilever.Vendedorventadirectapromocion$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$1$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$2
+ com.detesim.venderunilever.Vendedorventadirectapromocion$3
+ com.detesim.venderunilever.Vendedorventadirectapromocion$4
+ com.detesim.venderunilever.Vendedorventadirectapromocion$5
+ com.detesim.venderunilever.Vendedorventadirectapromocion$6
+ com.detesim.venderunilever.Vendedorventadirectapromocion$7
+ com.detesim.venderunilever.Vendedorventadirectapromocion$MiAdaptadorIncentivoLista
+ com.detesim.venderunilever.Vendedorventadirectapromocion$MiAdaptadorIncentivoLista$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSGetIncentivosByCliente
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSGetIncentivosByCliente$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSInsertClienteIncentivo
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSInsertClienteIncentivo$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSInsertarVentaDirecta
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSInsertarVentaDirectaProductoTemp
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSObtenerAlmacenProducto$1
+ com.detesim.venderunilever.Vendedorventadirectapromocion$WSVerificarNitCliente
+Clases/ProntoPagoCliente.java
+ Clases.ProntoPagoCliente
+Clases/PreventaDisWSResult.java
+ Clases.PreventaDisWSResult
+DAL/FacturaProductoDAL.java
+ DAL.FacturaProductoDAL
+com/detesim/venderunilever/Censistapunteocliente.java
+ com.detesim.venderunilever.Censistapunteocliente
+ com.detesim.venderunilever.Censistapunteocliente$1
+ com.detesim.venderunilever.Censistapunteocliente$2
+ com.detesim.venderunilever.Censistapunteocliente$3
+ com.detesim.venderunilever.Censistapunteocliente$4
+ com.detesim.venderunilever.Censistapunteocliente$5
+ com.detesim.venderunilever.Censistapunteocliente$6
+ com.detesim.venderunilever.Censistapunteocliente$7
+ com.detesim.venderunilever.Censistapunteocliente$MiAdaptadorLista
+ com.detesim.venderunilever.Censistapunteocliente$WSInsertarClienteSinDatos
+ com.detesim.venderunilever.Censistapunteocliente$WSInsertarFoto
+com/detesim/venderunilever/Censistasincronizacioncliente.java
+ com.detesim.venderunilever.Censistasincronizacioncliente
+ com.detesim.venderunilever.Censistasincronizacioncliente$MiAdaptadorLista
+ com.detesim.venderunilever.Censistasincronizacioncliente$WSInsertarClienteSinDatos
+ com.detesim.venderunilever.Censistasincronizacioncliente$WSSincronizacionCliente
+BLL/VentaDirectaBLL.java
+ BLL.VentaDirectaBLL
+DAL/ExpedidoDAL.java
+ DAL.ExpedidoDAL
+com/detesim/venderunilever/BuildConfig.java
+ com.detesim.venderunilever.BuildConfig
+DAL/CierrePreventistaDAL.java
+ DAL.CierrePreventistaDAL
+DAL/PromocionCostoDAL.java
+ DAL.PromocionCostoDAL
+Clases/PromocionPrecioWSResult.java
+ Clases.PromocionPrecioWSResult
+DAL/ProntoPagoUniDAL.java
+ DAL.ProntoPagoUniDAL
+BLL/ClienteNroFotoBLL.java
+ BLL.ClienteNroFotoBLL
+Clases/ProductoCHANGECosto.java
+ Clases.ProductoCHANGECosto
+BLL/PromocionTipoNegocioBLL.java
+ BLL.PromocionTipoNegocioBLL
+com/detesim/venderunilever/Vendedoredicionpreventapromocion.java
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$1
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$1$1
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$2
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$3
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$4
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$5
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$6
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$7
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$WSDeletePreventaProducto
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$WSInsertarPreventaPromocion
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Vendedoredicionpreventapromocion$WSObtenerAlmacenProducto$1
+Clases/PreventaProductoPOP.java
+ Clases.PreventaProductoPOP
+com/detesim/venderunilever/Censistaeditarcliente.java
+ com.detesim.venderunilever.Censistaeditarcliente
+ com.detesim.venderunilever.Censistaeditarcliente$1
+ com.detesim.venderunilever.Censistaeditarcliente$10
+ com.detesim.venderunilever.Censistaeditarcliente$11
+ com.detesim.venderunilever.Censistaeditarcliente$2
+ com.detesim.venderunilever.Censistaeditarcliente$3
+ com.detesim.venderunilever.Censistaeditarcliente$4
+ com.detesim.venderunilever.Censistaeditarcliente$5
+ com.detesim.venderunilever.Censistaeditarcliente$6
+ com.detesim.venderunilever.Censistaeditarcliente$7
+ com.detesim.venderunilever.Censistaeditarcliente$8
+ com.detesim.venderunilever.Censistaeditarcliente$9
+ com.detesim.venderunilever.Censistaeditarcliente$MiAdaptadorLista
+ com.detesim.venderunilever.Censistaeditarcliente$WSInsertarFoto
+ com.detesim.venderunilever.Censistaeditarcliente$WSUpdateClienteFromApk
+DAL/PreventaDistDAL.java
+ DAL.PreventaDistDAL
+Clases/ProntoPagoCanalRutaWSResult.java
+ Clases.ProntoPagoCanalRutaWSResult
+Clases/ProductoPOPCostoWSResult.java
+ Clases.ProductoPOPCostoWSResult
+DAL/SincronizacionVentaDAL.java
+ DAL.SincronizacionVentaDAL
+Clases/CategoriaPOP.java
+ Clases.CategoriaPOP
+Clases/FotoCategoria.java
+ Clases.FotoCategoria
+BLL/ProductoCostoBLL.java
+ BLL.ProductoCostoBLL
+Clases/DevolucionDistribuidorProducto.java
+ Clases.DevolucionDistribuidorProducto
+BLL/TipoNegocioBLL.java
+ BLL.TipoNegocioBLL
+com/detesim/venderunilever/Cobradormapaclientes.java
+ com.detesim.venderunilever.Cobradormapaclientes
+ com.detesim.venderunilever.Cobradormapaclientes$1
+ com.detesim.venderunilever.Cobradormapaclientes$2
+com/detesim/venderunilever/Censistamenurutadia.java
+ com.detesim.venderunilever.Censistamenurutadia
+ com.detesim.venderunilever.Censistamenurutadia$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetApkRutasByDistribuidorYDiaVisita
+ com.detesim.venderunilever.Censistamenurutadia$WSGetApkRutasByDistribuidorYDiaVisita$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetAsignacionesVendedor
+ com.detesim.venderunilever.Censistamenurutadia$WSGetAsignacionesVendedor$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetCanalesRuta
+ com.detesim.venderunilever.Censistamenurutadia$WSGetCanalesRuta$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetMercados
+ com.detesim.venderunilever.Censistamenurutadia$WSGetMercados$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetPreciosLista
+ com.detesim.venderunilever.Censistamenurutadia$WSGetPreciosLista$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetRelevamientos
+ com.detesim.venderunilever.Censistamenurutadia$WSGetRelevamientos$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetTiposNit
+ com.detesim.venderunilever.Censistamenurutadia$WSGetTiposNit$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetVendedorZonaVenta
+ com.detesim.venderunilever.Censistamenurutadia$WSGetVendedorZonaVenta$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetZonasMercado
+ com.detesim.venderunilever.Censistamenurutadia$WSGetZonasMercado$1
+ com.detesim.venderunilever.Censistamenurutadia$WSGetZonasVenta
+ com.detesim.venderunilever.Censistamenurutadia$WSGetZonasVenta$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerApkRutas
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerApkRutas$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerCiudades
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerCiudades$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientes
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientes$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientesDistribuidor
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientesDistribuidor$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientesVendedor
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerClientesVendedor$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerDiasSemana
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerDiasSemana$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerExpedidos
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerExpedidos$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerFotosCategoria
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerFotosCategoria$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerParametrosGenerales
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerParametrosGenerales$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerProvincias
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerProvincias$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerTipoNegocio
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerTipoNegocio$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerTiposCalle
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerTiposCalle$1
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerZonas
+ com.detesim.venderunilever.Censistamenurutadia$WSObtenerZonas$1
+com/detesim/venderunilever/Vendedormetassap.java
+ com.detesim.venderunilever.Vendedormetassap
+ com.detesim.venderunilever.Vendedormetassap$1
+ com.detesim.venderunilever.Vendedormetassap$MiAdaptadorMetasSap
+ com.detesim.venderunilever.Vendedormetassap$WSGetAvanceMetasSapByVendedor
+DAL/DiaSemanaDAL.java
+ DAL.DiaSemanaDAL
+Clases/TipoNegocio.java
+ Clases.TipoNegocio
+Clases/RelevamientoDetalle.java
+ Clases.RelevamientoDetalle
+Clases/Dosificacion.java
+ Clases.Dosificacion
+BLL/PromocionProductoBLL.java
+ BLL.PromocionProductoBLL
+Clases/ResultadoEnroque.java
+ Clases.ResultadoEnroque
+Clases/RutaWSResult.java
+ Clases.RutaWSResult
+Clases/AsignacionRutaWSResult.java
+ Clases.AsignacionRutaWSResult
+com/detesim/venderunilever/Menucobrador.java
+ com.detesim.venderunilever.Menucobrador
+ com.detesim.venderunilever.Menucobrador$1
+ com.detesim.venderunilever.Menucobrador$WSObtenerClientesByCobrador
+DAL/CategoriaCHANGEDAL.java
+ DAL.CategoriaCHANGEDAL
+com/detesim/venderunilever/Vendedorencuesta.java
+ com.detesim.venderunilever.Vendedorencuesta
+ com.detesim.venderunilever.Vendedorencuesta$1
+ com.detesim.venderunilever.Vendedorencuesta$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorencuesta$WSGrabarRespuesta
+DAL/LoginEmpleadoDAL.java
+ DAL.LoginEmpleadoDAL
+Clases/ProntoPagoCanalRuta.java
+ Clases.ProntoPagoCanalRuta
+com/detesim/venderunilever/Censistatipoinfocliente.java
+ com.detesim.venderunilever.Censistatipoinfocliente
+BLL/RutaVendedorBLL.java
+ BLL.RutaVendedorBLL
+DAL/UltimaCoordenadaDAL.java
+ DAL.UltimaCoordenadaDAL
+BLL/FacturaProductoBLL.java
+ BLL.FacturaProductoBLL
+Clases/DraRebateSaldoWSResult.java
+ Clases.DraRebateSaldoWSResult
+Clases/FacturaProducto.java
+ Clases.FacturaProducto
+Clases/PreventaProductoCambioWSResult.java
+ Clases.PreventaProductoCambioWSResult
+DAL/PrecioListaNombreDAL.java
+ DAL.PrecioListaNombreDAL
+Clases/Descuento2.java
+ Clases.Descuento2
+Clases/AlmacenTempWSResult.java
+ Clases.AlmacenTempWSResult
+Clases/RelevamientoCategoria.java
+ Clases.RelevamientoCategoria
+DAL/MotivoEliminacionMatchDAL.java
+ DAL.MotivoEliminacionMatchDAL
+BLL/CanalRutaBLL.java
+ BLL.CanalRutaBLL
+com/detesim/venderunilever/Vendedoractualizacioncliente.java
+ com.detesim.venderunilever.Vendedoractualizacioncliente
+ com.detesim.venderunilever.Vendedoractualizacioncliente$1
+ com.detesim.venderunilever.Vendedoractualizacioncliente$WSUpdateClienteNombre
+Clases/DraRebateSaldo.java
+ Clases.DraRebateSaldo
+com/detesim/venderunilever/Distribuidorimpresionfacturas.java
+ com.detesim.venderunilever.Distribuidorimpresionfacturas
+ com.detesim.venderunilever.Distribuidorimpresionfacturas$1
+ com.detesim.venderunilever.Distribuidorimpresionfacturas$2
+ com.detesim.venderunilever.Distribuidorimpresionfacturas$2$1
+ com.detesim.venderunilever.Distribuidorimpresionfacturas$MiAdaptadorFactura
+ com.detesim.venderunilever.Distribuidorimpresionfacturas$MiAdaptadorFacturaProducto
+DAL/CanalRutaDAL.java
+ DAL.CanalRutaDAL
+BLL/MotivoCambioBLL.java
+ BLL.MotivoCambioBLL
+Clases/ClienteVenta.java
+ Clases.ClienteVenta
+Clases/AvanceVenta.java
+ Clases.AvanceVenta
+BLL/ClienteEncuestadoBLL.java
+ BLL.ClienteEncuestadoBLL
+Clases/PreventaProductoPOPWSResult.java
+ Clases.PreventaProductoPOPWSResult
+DAL/ProveedorDAL.java
+ DAL.ProveedorDAL
+Clases/LastPoint.java
+ Clases.LastPoint
+DAL/ProductoDAL.java
+ DAL.ProductoDAL
+Clases/Producto.java
+ Clases.Producto
+DAL/ProntoPagoClienteDAL.java
+ DAL.ProntoPagoClienteDAL
+Clases/Rol.java
+ Clases.Rol
+Clases/ApkRutaCliente.java
+ Clases.ApkRutaCliente
+Clases/ProntoPagoUni.java
+ Clases.ProntoPagoUni
+Clases/Encuesta.java
+ Clases.Encuesta
+Clases/ClienteDatosVenta.java
+ Clases.ClienteDatosVenta
+BLL/PreventaProductoCHANGEBLL.java
+ BLL.PreventaProductoCHANGEBLL
+DAL/AvanceVentaVendedorDAL.java
+ DAL.AvanceVentaVendedorDAL
+com/detesim/venderunilever/Vendedorventadirectaproducto.java
+ com.detesim.venderunilever.Vendedorventadirectaproducto
+ com.detesim.venderunilever.Vendedorventadirectaproducto$1
+ com.detesim.venderunilever.Vendedorventadirectaproducto$10
+ com.detesim.venderunilever.Vendedorventadirectaproducto$11
+ com.detesim.venderunilever.Vendedorventadirectaproducto$2
+ com.detesim.venderunilever.Vendedorventadirectaproducto$3
+ com.detesim.venderunilever.Vendedorventadirectaproducto$4
+ com.detesim.venderunilever.Vendedorventadirectaproducto$5
+ com.detesim.venderunilever.Vendedorventadirectaproducto$6
+ com.detesim.venderunilever.Vendedorventadirectaproducto$7
+ com.detesim.venderunilever.Vendedorventadirectaproducto$8
+ com.detesim.venderunilever.Vendedorventadirectaproducto$9
+ com.detesim.venderunilever.Vendedorventadirectaproducto$MiAdaptadorIncentivoLista
+ com.detesim.venderunilever.Vendedorventadirectaproducto$MiAdaptadorIncentivoLista$1
+ com.detesim.venderunilever.Vendedorventadirectaproducto$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSGetIncentivosByCliente
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSGetIncentivosByCliente$1
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSInsertClienteIncentivo
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSInsertClienteIncentivo$1
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSInsertarVentaDirecta
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSInsertarVentaDirectaProductoTemp
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSObtenerAlmacenProducto$1
+ com.detesim.venderunilever.Vendedorventadirectaproducto$WSVerificarNitCliente
+com/detesim/venderunilever/Vendedorsincronizarpop.java
+ com.detesim.venderunilever.Vendedorsincronizarpop
+ com.detesim.venderunilever.Vendedorsincronizarpop$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorsincronizarpop$MiAdaptadorListaVenta
+ com.detesim.venderunilever.Vendedorsincronizarpop$WSInsertarPreventaProductoPOP
+ com.detesim.venderunilever.Vendedorsincronizarpop$WSInsertarVentaProductoPOP
+Clases/MetaSap.java
+ Clases.MetaSap
+Clases/ApkDistRutaCliente.java
+ Clases.ApkDistRutaCliente
+DAL/ClienteFotoDAL.java
+ DAL.ClienteFotoDAL
+BLL/DevolucionDistribuidorProductoBLL.java
+ BLL.DevolucionDistribuidorProductoBLL
+Clases/VentaProductoCHANGE.java
+ Clases.VentaProductoCHANGE
+Utilidades/Utilidades.java
+ Utilidades.Utilidades
+Clases/EncuestaListaWSResult.java
+ Clases.EncuestaListaWSResult
+Clases/RutaVendedor.java
+ Clases.RutaVendedor
+DAL/DevolucionDistribuidorDAL.java
+ DAL.DevolucionDistribuidorDAL
+BLL/DiaSemanaBLL.java
+ BLL.DiaSemanaBLL
+Clases/DosificacionWSResult.java
+ Clases.DosificacionWSResult
+BLL/DevolucionDistribuidorBLL.java
+ BLL.DevolucionDistribuidorBLL
+com/detesim/venderunilever/Censistamapaeditarcliente.java
+ com.detesim.venderunilever.Censistamapaeditarcliente
+ com.detesim.venderunilever.Censistamapaeditarcliente$1
+ com.detesim.venderunilever.Censistamapaeditarcliente$2
+BLL/DraRebateSaldoBLL.java
+ BLL.DraRebateSaldoBLL
+BLL/ProveedorBLL.java
+ BLL.ProveedorBLL
+Clases/ClienteNitWSResult.java
+ Clases.ClienteNitWSResult
+DAL/VentaDirectaDAL.java
+ DAL.VentaDirectaDAL
+Clases/VentaDirectaProductoTemp.java
+ Clases.VentaDirectaProductoTemp
+DAL/VentaProductoTempDAL.java
+ DAL.VentaProductoTempDAL
+Clases/WSResultado.java
+ Clases.WSResultado
+DAL/VentaDirectaProductoDAL.java
+ DAL.VentaDirectaProductoDAL
+Clases/AlmacenPOP.java
+ Clases.AlmacenPOP
+com/detesim/venderunilever/Vendedoradminfotosclientes.java
+ com.detesim.venderunilever.Vendedoradminfotosclientes
+ com.detesim.venderunilever.Vendedoradminfotosclientes$1
+ com.detesim.venderunilever.Vendedoradminfotosclientes$2
+ com.detesim.venderunilever.Vendedoradminfotosclientes$2$1
+ com.detesim.venderunilever.Vendedoradminfotosclientes$2$2
+ com.detesim.venderunilever.Vendedoradminfotosclientes$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedoradminfotosclientes$WSDeleteClienteFoto
+ com.detesim.venderunilever.Vendedoradminfotosclientes$WSInsertarFoto
+ com.detesim.venderunilever.Vendedoradminfotosclientes$WSObtenerFotosCliente
+DAL/EncuestaRespuestaDAL.java
+ DAL.EncuestaRespuestaDAL
+Clases/PreventaProductoCHANGE.java
+ Clases.PreventaProductoCHANGE
+BLL/RolBLL.java
+ BLL.RolBLL
+BLL/SincronizacionDatosBLL.java
+ BLL.SincronizacionDatosBLL
+DAL/DevolucionDistribuidorProductoTempDAL.java
+ DAL.DevolucionDistribuidorProductoTempDAL
+Clases/PrinterCommands.java
+ Clases.PrinterCommands
+BLL/ClienteFotoBLL.java
+ BLL.ClienteFotoBLL
+com/detesim/venderunilever/Censistaaltaclientemapa.java
+ com.detesim.venderunilever.Censistaaltaclientemapa
+ com.detesim.venderunilever.Censistaaltaclientemapa$1
+ com.detesim.venderunilever.Censistaaltaclientemapa$2
+Clases/DevolucionDistribuidorProductoTemp.java
+ Clases.DevolucionDistribuidorProductoTemp
+com/detesim/venderunilever/Menuvendedor.java
+ com.detesim.venderunilever.Menuvendedor
+ com.detesim.venderunilever.Menuvendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSGetAsignacionesVendedor
+ com.detesim.venderunilever.Menuvendedor$WSGetAsignacionesVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesByVendedorDia
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesByVendedorDia$1
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesVentaByVendedorMes
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesVentaByVendedorMes$1
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesVentaVendedorMes
+ com.detesim.venderunilever.Menuvendedor$WSGetAvancesVentaVendedorMes$1
+ com.detesim.venderunilever.Menuvendedor$WSGetCanalesRuta
+ com.detesim.venderunilever.Menuvendedor$WSGetCanalesRuta$1
+ com.detesim.venderunilever.Menuvendedor$WSGetCanalesRutaPrecio
+ com.detesim.venderunilever.Menuvendedor$WSGetCanalesRutaPrecio$1
+ com.detesim.venderunilever.Menuvendedor$WSGetCategorias
+ com.detesim.venderunilever.Menuvendedor$WSGetCategorias$1
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesCenso
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesCenso$1
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesEncuestados
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesEncuestados$1
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesNroFoto
+ com.detesim.venderunilever.Menuvendedor$WSGetClientesNroFoto$1
+ com.detesim.venderunilever.Menuvendedor$WSGetDatosVentaClienteByVendedor
+ com.detesim.venderunilever.Menuvendedor$WSGetDatosVentaClienteByVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSGetDistribuidores
+ com.detesim.venderunilever.Menuvendedor$WSGetDistribuidores$1
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestaDetalleActivas
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestaDetalleActivas$1
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestaDetalleListaActivas
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestaDetalleListaActivas$1
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestasActivas
+ com.detesim.venderunilever.Menuvendedor$WSGetEncuestasActivas$1
+ com.detesim.venderunilever.Menuvendedor$WSGetMargenesByProveedores
+ com.detesim.venderunilever.Menuvendedor$WSGetMargenesByProveedores$1
+ com.detesim.venderunilever.Menuvendedor$WSGetMercados
+ com.detesim.venderunilever.Menuvendedor$WSGetMercados$1
+ com.detesim.venderunilever.Menuvendedor$WSGetMotivosNoAtencionApk
+ com.detesim.venderunilever.Menuvendedor$WSGetMotivosNoAtencionApk$1
+ com.detesim.venderunilever.Menuvendedor$WSGetNitsByClientesApk
+ com.detesim.venderunilever.Menuvendedor$WSGetNitsByClientesApk$1
+ com.detesim.venderunilever.Menuvendedor$WSGetNitsMonto
+ com.detesim.venderunilever.Menuvendedor$WSGetNitsMonto$1
+ com.detesim.venderunilever.Menuvendedor$WSGetPreciosByPromociones
+ com.detesim.venderunilever.Menuvendedor$WSGetPreciosByPromociones$1
+ com.detesim.venderunilever.Menuvendedor$WSGetPreciosLista
+ com.detesim.venderunilever.Menuvendedor$WSGetPreciosLista$1
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesCostosActuales
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesCostosActuales$1
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesPreciosActuales
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesPreciosActuales$1
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesTipoNegocio
+ com.detesim.venderunilever.Menuvendedor$WSGetPromocionesTipoNegocio$1
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoCanalRuta
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoCanalRuta$1
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoCliente
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoCliente$1
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoJerarquias
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoJerarquias$1
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoUni
+ com.detesim.venderunilever.Menuvendedor$WSGetProntosPagoUni$1
+ com.detesim.venderunilever.Menuvendedor$WSGetRebateSaldo
+ com.detesim.venderunilever.Menuvendedor$WSGetRebateSaldo$1
+ com.detesim.venderunilever.Menuvendedor$WSGetTiposNit
+ com.detesim.venderunilever.Menuvendedor$WSGetTiposNit$1
+ com.detesim.venderunilever.Menuvendedor$WSGetVendedorZonaVenta
+ com.detesim.venderunilever.Menuvendedor$WSGetVendedorZonaVenta$1
+ com.detesim.venderunilever.Menuvendedor$WSGetVentasACreditoByVendedor
+ com.detesim.venderunilever.Menuvendedor$WSGetVentasACreditoByVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSGetZonasMercado
+ com.detesim.venderunilever.Menuvendedor$WSGetZonasMercado$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenPOP
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenPOP$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenProducto$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenes
+ com.detesim.venderunilever.Menuvendedor$WSObtenerAlmacenes$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerApkRutas
+ com.detesim.venderunilever.Menuvendedor$WSObtenerApkRutas$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCategoriasPOP
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCategoriasPOP$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCiudades
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCiudades$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerClientesApkByVendedorYDia
+ com.detesim.venderunilever.Menuvendedor$WSObtenerClientesApkByVendedorYDia$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerClientesVendedor
+ com.detesim.venderunilever.Menuvendedor$WSObtenerClientesVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCostos
+ com.detesim.venderunilever.Menuvendedor$WSObtenerCostos$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerDosificacionProveedor
+ com.detesim.venderunilever.Menuvendedor$WSObtenerDosificacionProveedor$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerFotosCategoria
+ com.detesim.venderunilever.Menuvendedor$WSObtenerFotosCategoria$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosCambio
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosCambio$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosEliminacion
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosEliminacion$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosPOP
+ com.detesim.venderunilever.Menuvendedor$WSObtenerMotivosPOP$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerParametrosGenerales
+ com.detesim.venderunilever.Menuvendedor$WSObtenerParametrosGenerales$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPrecios
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPrecios$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosAlmacenPOP
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosAlmacenPOP$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosByVendedor
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosByVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosPOP
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosPOP$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosPOPCosto
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosPOPCosto$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosParaCambio
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProductosParaCambio$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPromocionProductos
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPromocionProductos$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPromociones
+ com.detesim.venderunilever.Menuvendedor$WSObtenerPromociones$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProveedoresByVendedor
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProveedoresByVendedor$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProvincias
+ com.detesim.venderunilever.Menuvendedor$WSObtenerProvincias$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerTipoNegocio
+ com.detesim.venderunilever.Menuvendedor$WSObtenerTipoNegocio$1
+ com.detesim.venderunilever.Menuvendedor$WSObtenerZonas
+ com.detesim.venderunilever.Menuvendedor$WSObtenerZonas$1
+Clases/AlmacenPOPProducto.java
+ Clases.AlmacenPOPProducto
+BLL/RutaBLL.java
+ BLL.RutaBLL
+Clases/AlmacenProductoWSResult.java
+ Clases.AlmacenProductoWSResult
+Clases/AlmacenProducto.java
+ Clases.AlmacenProducto
+BLL/PreventaProductoBLL.java
+ BLL.PreventaProductoBLL
+BLL/AvanceVentaVendedorBLL.java
+ BLL.AvanceVentaVendedorBLL
+DAL/CanalRutaPrecioDAL.java
+ DAL.CanalRutaPrecioDAL
+DAL/RelevamientoDetalleDAL.java
+ DAL.RelevamientoDetalleDAL
+BLL/PromocionBLL.java
+ BLL.PromocionBLL
+BLL/ProductoPOPCostoBLL.java
+ BLL.ProductoPOPCostoBLL
+BLL/ApkRutaClienteBLL.java
+ BLL.ApkRutaClienteBLL
+Clases/AvanceVentaVendedorWSResult.java
+ Clases.AvanceVentaVendedorWSResult
+Clases/ZonaMercado.java
+ Clases.ZonaMercado
+Clases/ClienteNit.java
+ Clases.ClienteNit
+com/detesim/venderunilever/Distribuidortestimpresora.java
+ com.detesim.venderunilever.Distribuidortestimpresora
+ com.detesim.venderunilever.Distribuidortestimpresora$1
+ com.detesim.venderunilever.Distribuidortestimpresora$1$1
+DAL/PromocionTipoNegocioDAL.java
+ DAL.PromocionTipoNegocioDAL
+BLL/AlmacenBLL.java
+ BLL.AlmacenBLL
+Clases/FormaPago.java
+ Clases.FormaPago
+BLL/UltimaCoordenadaBLL.java
+ BLL.UltimaCoordenadaBLL
+DAL/PromocionPrecioListaDAL.java
+ DAL.PromocionPrecioListaDAL
+Clases/CondicionTributariaWSResult.java
+ Clases.CondicionTributariaWSResult
+Clases/Preventa.java
+ Clases.Preventa
+Clases/ClienteIncentivo.java
+ Clases.ClienteIncentivo
+com/detesim/venderunilever/Censistasincronizacionclientefoto.java
+ com.detesim.venderunilever.Censistasincronizacionclientefoto
+ com.detesim.venderunilever.Censistasincronizacionclientefoto$1
+ com.detesim.venderunilever.Censistasincronizacionclientefoto$MiAdaptadorLista
+ com.detesim.venderunilever.Censistasincronizacionclientefoto$WSInsertarFoto
+Clases/PreventaProductoTempJS.java
+ Clases.PreventaProductoTempJS
+DAL/PreventaCambioDAL.java
+ DAL.PreventaCambioDAL
+BLL/ExpedidoBLL.java
+ BLL.ExpedidoBLL
+DAL/AvanceVentaDAL.java
+ DAL.AvanceVentaDAL
+com/detesim/venderunilever/Distribuidorventa.java
+ com.detesim.venderunilever.Distribuidorventa
+ com.detesim.venderunilever.Distribuidorventa$1
+ com.detesim.venderunilever.Distribuidorventa$2
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$1
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$1$1
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$1$2
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$2
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$2$1
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$2$2
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorPOPLista$2$3
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorProductoCambioLista
+ com.detesim.venderunilever.Distribuidorventa$MiAdaptadorVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorventa$WSBorrarPreventaProductoPOP
+ com.detesim.venderunilever.Distribuidorventa$WSCopiarPreVentaAVentaTemp
+ com.detesim.venderunilever.Distribuidorventa$WSDeleteProductoPOPObservacion
+ com.detesim.venderunilever.Distribuidorventa$WSInsertProductoPOPObservacion
+ com.detesim.venderunilever.Distribuidorventa$WSInsertarVenta
+ com.detesim.venderunilever.Distribuidorventa$WSObtenerVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorventa$WSVentaNoEntregada
+Clases/ApkClienteWS.java
+ Clases.ApkClienteWS
+DAL/DosificacionProveedorDAL.java
+ DAL.DosificacionProveedorDAL
+com/detesim/venderunilever/Supervisorventaavancedia.java
+ com.detesim.venderunilever.Supervisorventaavancedia
+ com.detesim.venderunilever.Supervisorventaavancedia$MiAdaptadorLista
+com/detesim/venderunilever/Distribuidorsincronizacionfacturas.java
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas$1
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas$MiAdaptadorPreventa
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas$MiAdaptadorPreventaProducto
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas$WSInsertarFactura
+ com.detesim.venderunilever.Distribuidorsincronizacionfacturas$WSInsertarFacturaProductoTemp
+Clases/CanalRutaPrecioWSResult.java
+ Clases.CanalRutaPrecioWSResult
+BLL/PreventaProductoTempBLL.java
+ BLL.PreventaProductoTempBLL
+BLL/ProntoPagoJerarquiaBLL.java
+ BLL.ProntoPagoJerarquiaBLL
+DAL/MetaSapDAL.java
+ DAL.MetaSapDAL
+Clases/SingleFechaWS.java
+ Clases.SingleFechaWS
+BLL/DosificacionProveedorBLL.java
+ BLL.DosificacionProveedorBLL
+DAL/RutaDAL.java
+ DAL.RutaDAL
+BLL/EncuestaRespuestaBLL.java
+ BLL.EncuestaRespuestaBLL
+Clases/PrecioWSResult.java
+ Clases.PrecioWSResult
+Clases/VentaProductoPOP.java
+ Clases.VentaProductoPOP
+Clases/TipoNitWSResult.java
+ Clases.TipoNitWSResult
+Clases/VentaBonificacion.java
+ Clases.VentaBonificacion
+BLL/MyLogBLL.java
+ BLL.MyLogBLL
+DAL/PreventaProductoTempDAL.java
+ DAL.PreventaProductoTempDAL
+DAL/VentaDirectaProductoTempDAL.java
+ DAL.VentaDirectaProductoTempDAL
+Clases/ImpresoraWSResult.java
+ Clases.ImpresoraWSResult
+Clases/PreventaProductoCambio.java
+ Clases.PreventaProductoCambio
+BLL/PreventaProductoDistBLL.java
+ BLL.PreventaProductoDistBLL
+Clases/PromocionWSResult.java
+ Clases.PromocionWSResult
+Clases/SincronizacionVenta.java
+ Clases.SincronizacionVenta
+BLL/PreventaBLL.java
+ BLL.PreventaBLL
+BLL/RelevamientoDetalleBLL.java
+ BLL.RelevamientoDetalleBLL
+BLL/PreventaProductoCambioBLL.java
+ BLL.PreventaProductoCambioBLL
+Clases/DosificacionProveedorWSResult.java
+ Clases.DosificacionProveedorWSResult
+Clases/MotivoCambio.java
+ Clases.MotivoCambio
+Clases/ProntoPagoJerarquia.java
+ Clases.ProntoPagoJerarquia
+BLL/ProductoPOPBLL.java
+ BLL.ProductoPOPBLL
+com/detesim/venderunilever/Censistasincronizacionedicionclientes.java
+ com.detesim.venderunilever.Censistasincronizacionedicionclientes
+ com.detesim.venderunilever.Censistasincronizacionedicionclientes$MiAdaptadorLista
+ com.detesim.venderunilever.Censistasincronizacionedicionclientes$WSUpdateClienteFromApk
+com/detesim/venderunilever/Cobradorcobranza.java
+ com.detesim.venderunilever.Cobradorcobranza
+ com.detesim.venderunilever.Cobradorcobranza$1
+ com.detesim.venderunilever.Cobradorcobranza$1$1
+ com.detesim.venderunilever.Cobradorcobranza$1$2
+ com.detesim.venderunilever.Cobradorcobranza$MiAdaptadorLista
+ com.detesim.venderunilever.Cobradorcobranza$WSInsertPago
+Clases/VentaProductoTempDeleted.java
+ Clases.VentaProductoTempDeleted
+DAL/VentaProductoCHANGEDAL.java
+ DAL.VentaProductoCHANGEDAL
+DAL/DatosFacturaDAL.java
+ DAL.DatosFacturaDAL
+DAL/EncuestaListaDAL.java
+ DAL.EncuestaListaDAL
+com/detesim/venderunilever/Vendedorpreventaproducto.java
+ com.detesim.venderunilever.Vendedorpreventaproducto
+ com.detesim.venderunilever.Vendedorpreventaproducto$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$10
+ com.detesim.venderunilever.Vendedorpreventaproducto$11
+ com.detesim.venderunilever.Vendedorpreventaproducto$12
+ com.detesim.venderunilever.Vendedorpreventaproducto$2
+ com.detesim.venderunilever.Vendedorpreventaproducto$3
+ com.detesim.venderunilever.Vendedorpreventaproducto$4
+ com.detesim.venderunilever.Vendedorpreventaproducto$5
+ com.detesim.venderunilever.Vendedorpreventaproducto$6
+ com.detesim.venderunilever.Vendedorpreventaproducto$6$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$7
+ com.detesim.venderunilever.Vendedorpreventaproducto$7$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$7$2
+ com.detesim.venderunilever.Vendedorpreventaproducto$8
+ com.detesim.venderunilever.Vendedorpreventaproducto$9
+ com.detesim.venderunilever.Vendedorpreventaproducto$MiAdaptadorIncentivoLista
+ com.detesim.venderunilever.Vendedorpreventaproducto$MiAdaptadorIncentivoLista$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$MiAdaptadorLista
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSBorrarPreventaProductoTemp
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSGetIncentivosByCliente
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSGetIncentivosByCliente$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSInsertClienteIncentivo
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSInsertClienteIncentivo$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSInsertarPreventaJS
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSInsertarPreventaJS$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSObtenerAlmacenProductoJS
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSObtenerAlmacenProductoJS$1
+ com.detesim.venderunilever.Vendedorpreventaproducto$WSVerificarNitCliente
+BLL/ProntoPagoClienteBLL.java
+ BLL.ProntoPagoClienteBLL
+DAL/SincronizacionDatosDAL.java
+ DAL.SincronizacionDatosDAL
+Clases/Ubicacion.java
+ Clases.Ubicacion
+Clases/CategoriaPOPWSResult.java
+ Clases.CategoriaPOPWSResult
+BLL/VentaDirectaProductoBLL.java
+ BLL.VentaDirectaProductoBLL
+Clases/ClienteDatosVentaJS.java
+ Clases.ClienteDatosVentaJS
+com/detesim/venderunilever/Vendedormapaclientes.java
+ com.detesim.venderunilever.Vendedormapaclientes
+ com.detesim.venderunilever.Vendedormapaclientes$1
+ com.detesim.venderunilever.Vendedormapaclientes$2
+ com.detesim.venderunilever.Vendedormapaclientes$3
+ com.detesim.venderunilever.Vendedormapaclientes$4
+ com.detesim.venderunilever.Vendedormapaclientes$5
+ com.detesim.venderunilever.Vendedormapaclientes$MiAdaptadorEncuestaLista
+BLL/DatosFacturaBLL.java
+ BLL.DatosFacturaBLL
+com/detesim/venderunilever/Login.java
+ com.detesim.venderunilever.Login
+ com.detesim.venderunilever.Login$1
+ com.detesim.venderunilever.Login$WSGetRolesByEmpleado
+ com.detesim.venderunilever.Login$WSLoginEmpleado
+ com.detesim.venderunilever.Login$WSLoginEmpleado$1
+DAL/ApkRutaClienteDAL.java
+ DAL.ApkRutaClienteDAL
+com/detesim/venderunilever/Menudistribuidor.java
+ com.detesim.venderunilever.Menudistribuidor
+ com.detesim.venderunilever.Menudistribuidor$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetCanalesRuta
+ com.detesim.venderunilever.Menudistribuidor$WSGetCanalesRuta$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetCanalesRutaPrecio
+ com.detesim.venderunilever.Menudistribuidor$WSGetCanalesRutaPrecio$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetCategorias
+ com.detesim.venderunilever.Menudistribuidor$WSGetCategorias$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetDatosFactura
+ com.detesim.venderunilever.Menudistribuidor$WSGetDatosFactura$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetDosificacionByEmpleado
+ com.detesim.venderunilever.Menudistribuidor$WSGetDosificacionByEmpleado$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetEmpleados
+ com.detesim.venderunilever.Menudistribuidor$WSGetEmpleados$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetImpresoras
+ com.detesim.venderunilever.Menudistribuidor$WSGetImpresoras$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsByClientesApk
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsByClientesApk$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsByClientesProvinciaApk
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsByClientesProvinciaApk$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsMonto
+ com.detesim.venderunilever.Menudistribuidor$WSGetNitsMonto$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreciosByPromociones
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreciosByPromociones$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreventasBonificacion
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreventasBonificacion$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreventasBonificacionProvincia
+ com.detesim.venderunilever.Menudistribuidor$WSGetPreventasBonificacionProvincia$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesCostosActuales
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesCostosActuales$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesPreciosActuales
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesPreciosActuales$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesTipoNegocio
+ com.detesim.venderunilever.Menudistribuidor$WSGetPromocionesTipoNegocio$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetTiposNit
+ com.detesim.venderunilever.Menudistribuidor$WSGetTiposNit$1
+ com.detesim.venderunilever.Menudistribuidor$WSGetVentasBonificacion
+ com.detesim.venderunilever.Menudistribuidor$WSGetVentasBonificacion$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerAlmacenProducto
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerAlmacenProducto$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerClientesVentas
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerClientesVentas$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerClientesVentasProvincia
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerClientesVentasProvincia$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerCostos
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerCostos$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDevolucionDistribuidor
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDevolucionDistribuidor$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDevolucionDistribuidorProducto
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDevolucionDistribuidorProducto$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDosificacionProveedor
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerDosificacionProveedor$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerMotivoNoEntrega
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerMotivoNoEntrega$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerParametrosGenerales
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerParametrosGenerales$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPrecios
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPrecios$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaDist
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaDist$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaDistProvincia
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaDistProvincia$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaProductoDist
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaProductoDist$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaProductoDistProvincia
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventaProductoDistProvincia$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasCambio
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasCambio$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasProductoCambio
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasProductoCambio$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasProductoPOP
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPreventasProductoPOP$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductos
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductos$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductosPOP
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductosPOP$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductosParaCambio
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProductosParaCambio$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPromocionProductos
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPromocionProductos$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPromocionesByDistribuidor
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerPromocionesByDistribuidor$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProveedores
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerProveedores$1
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerTipoNegocio
+ com.detesim.venderunilever.Menudistribuidor$WSObtenerTipoNegocio$1
+DAL/CategoriaPOPDAL.java
+ DAL.CategoriaPOPDAL
+BLL/MotivoCHANGEBLL.java
+ BLL.MotivoCHANGEBLL
+BLL/MotivoNoEntregaBLL.java
+ BLL.MotivoNoEntregaBLL
+com/detesim/venderunilever/Log.java
+ com.detesim.venderunilever.Log
+ com.detesim.venderunilever.Log$MiAdaptadorLog
+com/detesim/venderunilever/Distribuidorventaproducto.java
+ com.detesim.venderunilever.Distribuidorventaproducto
+ com.detesim.venderunilever.Distribuidorventaproducto$1
+ com.detesim.venderunilever.Distribuidorventaproducto$WSEliminarVentaProductoTemp
+ com.detesim.venderunilever.Distribuidorventaproducto$WSModificarVentaProductoTemp
+Clases/DatosGPS.java
+ Clases.DatosGPS
+BLL/VentaProductoBLL.java
+ BLL.VentaProductoBLL
+Clases/ClienteVentaWSResult.java
+ Clases.ClienteVentaWSResult
+com/detesim/venderunilever/Menucensista.java
+ com.detesim.venderunilever.Menucensista
+com/detesim/venderunilever/Vendedorpreventaproductopop.java
+ com.detesim.venderunilever.Vendedorpreventaproductopop
+ com.detesim.venderunilever.Vendedorpreventaproductopop$1
+ com.detesim.venderunilever.Vendedorpreventaproductopop$2
+ com.detesim.venderunilever.Vendedorpreventaproductopop$3
+ com.detesim.venderunilever.Vendedorpreventaproductopop$4
+ com.detesim.venderunilever.Vendedorpreventaproductopop$5
+ com.detesim.venderunilever.Vendedorpreventaproductopop$5$1
+ com.detesim.venderunilever.Vendedorpreventaproductopop$5$2
+ com.detesim.venderunilever.Vendedorpreventaproductopop$6
+ com.detesim.venderunilever.Vendedorpreventaproductopop$6$1
+ com.detesim.venderunilever.Vendedorpreventaproductopop$6$2
+ com.detesim.venderunilever.Vendedorpreventaproductopop$MiAdaptadorPreventaLista
+ com.detesim.venderunilever.Vendedorpreventaproductopop$MiAdaptadorVentaLista
+ com.detesim.venderunilever.Vendedorpreventaproductopop$WSInsertarPreventaProductoPOP
+ com.detesim.venderunilever.Vendedorpreventaproductopop$WSInsertarVentaProductoPOP
+ com.detesim.venderunilever.Vendedorpreventaproductopop$WSObtenerProductosAlmacenPOP
+ com.detesim.venderunilever.Vendedorpreventaproductopop$WSObtenerProductosAlmacenPOP$1
+DAL/VentaProductoPOPDAL.java
+ DAL.VentaProductoPOPDAL
+Clases/PreventaJS.java
+ Clases.PreventaJS
+Clases/PreventaProductoDist.java
+ Clases.PreventaProductoDist
+Clases/LoginEmpleado.java
+ Clases.LoginEmpleado
+Clases/ProntoPagoUniWSResult.java
+ Clases.ProntoPagoUniWSResult
+BLL/CategoriaPOPBLL.java
+ BLL.CategoriaPOPBLL
+DAL/LogDAL.java
+ DAL.LogDAL
+Clases/CobroPendienteWSResult.java
+ Clases.CobroPendienteWSResult
+Clases/TipoPago.java
+ Clases.TipoPago
+Clases/Almacen.java
+ Clases.Almacen
+Clases/DatosFactura.java
+ Clases.DatosFactura
+Clases/DevolucionDistribuidorProductoWSResult.java
+ Clases.DevolucionDistribuidorProductoWSResult
+Clases/PreventaCambio.java
+ Clases.PreventaCambio
+Clases/Proveedor.java
+ Clases.Proveedor
+BLL/PreventaCambioBLL.java
+ BLL.PreventaCambioBLL
+DAL/TipoCalleDAL.java
+ DAL.TipoCalleDAL
+com/detesim/venderunilever/Distribuidortestimpresoras.java
+ com.detesim.venderunilever.Distribuidortestimpresoras
+ com.detesim.venderunilever.Distribuidortestimpresoras$1
+BLL/VendedorZonaVentaBLL.java
+ BLL.VendedorZonaVentaBLL
+BLL/CierrePreventistaBLL.java
+ BLL.CierrePreventistaBLL
+com/detesim/venderunilever/Vendedorvisualizarpreventas.java
+ com.detesim.venderunilever.Vendedorvisualizarpreventas
+ com.detesim.venderunilever.Vendedorvisualizarpreventas$1
+ com.detesim.venderunilever.Vendedorvisualizarpreventas$MiAdaptadorPreventa
+ com.detesim.venderunilever.Vendedorvisualizarpreventas$MiAdaptadorPreventaProducto
+DAL/ProductoCHANGEDAL.java
+ DAL.ProductoCHANGEDAL
+Clases/PromocionProductoWSResult.java
+ Clases.PromocionProductoWSResult
+DAL/MotivoCHANGEDAL.java
+ DAL.MotivoCHANGEDAL
+com/detesim/venderunilever/Censistarelevamiento.java
+ com.detesim.venderunilever.Censistarelevamiento
+ com.detesim.venderunilever.Censistarelevamiento$1
+ com.detesim.venderunilever.Censistarelevamiento$2
+ com.detesim.venderunilever.Censistarelevamiento$MiAdaptadorLista
+ com.detesim.venderunilever.Censistarelevamiento$WSInsertRelevamientoDet
+ com.detesim.venderunilever.Censistarelevamiento$WSInsertRelevamientoDet$1
+DAL/VentaProductoTempDeletedDAL.java
+ DAL.VentaProductoTempDeletedDAL
+BLL/AvanceDistribucionBLL.java
+ BLL.AvanceDistribucionBLL
+Clases/MotivoNoEntrega.java
+ Clases.MotivoNoEntrega
+com/detesim/venderunilever/Distribuidorautoventa.java
+ com.detesim.venderunilever.Distribuidorautoventa
+ com.detesim.venderunilever.Distribuidorautoventa$1
+ com.detesim.venderunilever.Distribuidorautoventa$2
+ com.detesim.venderunilever.Distribuidorautoventa$3
+ com.detesim.venderunilever.Distribuidorautoventa$4
+ com.detesim.venderunilever.Distribuidorautoventa$5
+ com.detesim.venderunilever.Distribuidorautoventa$6
+ com.detesim.venderunilever.Distribuidorautoventa$6$1
+ com.detesim.venderunilever.Distribuidorautoventa$6$2
+ com.detesim.venderunilever.Distribuidorautoventa$7
+ com.detesim.venderunilever.Distribuidorautoventa$8
+ com.detesim.venderunilever.Distribuidorautoventa$MiAdaptadorLista
+ com.detesim.venderunilever.Distribuidorautoventa$WSDeleteAutoventaProductoTemp
+ com.detesim.venderunilever.Distribuidorautoventa$WSInsertarAutoventa
+ com.detesim.venderunilever.Distribuidorautoventa$WSInsertarAutoventaProductoTemp
+ com.detesim.venderunilever.Distribuidorautoventa$WSVerificarNitCliente
+BLL/ClienteBLL.java
+ BLL.ClienteBLL
+Clases/DevolucionDistribuidorWSResult.java
+ Clases.DevolucionDistribuidorWSResult
+Clases/ApkDistRutaClienteWSResult.java
+ Clases.ApkDistRutaClienteWSResult
+Clases/CategoriaWSResult.java
+ Clases.CategoriaWSResult
+Clases/Impresora.java
+ Clases.Impresora

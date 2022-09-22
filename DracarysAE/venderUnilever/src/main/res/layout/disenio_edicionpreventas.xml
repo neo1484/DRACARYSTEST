@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCensistaEdicionCliente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgbtnDisenioEdicionPreventaDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bullet_detalles" />
+
+        <ImageView
+            android:id="@+id/imgbtnDisenioEdicionPreventaEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/bullet_eliminar" />
+
+        <TextView
+            android:id="@+id/tvVendedorVentaDirectaCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:width="150dp"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:text="tvCliente"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvDisenioEdicionPreventaMonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="right"
+            android:maxWidth="100dp"
+            android:minWidth="100dp"
+            android:text="tvMonto"
+            android:textAppearance="@style/Etiqueta"
+            android:width="100dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

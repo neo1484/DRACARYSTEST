@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorTestImpresoraLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDisenioNitNombreFactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvDisenioNitNombreFactura"
+            android:textAppearance="@style/Contenido"
+            android:width="150dp" />
+
+        <TextView
+            android:id="@+id/tvDisenioNitNit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvDisenioNitNit"
+            android:textAppearance="@style/Contenido"
+            android:width="100dp" />
+
+        <TextView
+            android:id="@+id/tvDisenioNitTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tvDisenioNitTipo"
+            android:textAppearance="@style/Contenido" />
+
+    </LinearLayout>
+
+</LinearLayout>

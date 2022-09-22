@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llCensistaUnificacionClienteSeleccionDia"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+	<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/censistamapaunificarcliente"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:name="com.google.android.gms.maps.MapFragment">
+
+			<CheckBox
+				android:id="@+id/cbCensistaMapaClienteCenso"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:clickable="false"
+				android:layout_gravity="top"
+				android:text="Censo" />
+
+			<CheckBox
+				android:id="@+id/cbCensistaMapaClienteVender"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:clickable="false"
+				android:layout_gravity="top|center_horizontal"
+				android:text="Vender" />
+
+			<RadioButton
+				android:id="@+id/rbtCensistaMapaClienteMatch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:clickable="true"
+				android:layout_gravity="top|right"
+				android:text="Match"/>
+	</fragment>
+</LinearLayout>

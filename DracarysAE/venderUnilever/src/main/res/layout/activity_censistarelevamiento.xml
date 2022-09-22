@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/llCenRelRelevamiento"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp"/>
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<TextView
+					android:id="@+id/textView1"
+					style="@style/Contenido"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Relavamiento de Negocios" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:id="@+id/textView2"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:text="Nombre:" />
+
+				<EditText
+					android:id="@+id/etCenRelNombre"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="15dp"
+					android:layout_weight="1"
+					android:background="#FFFFFF"
+					android:ems="10">
+
+					<requestFocus />
+				</EditText>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/tvDisDiaConImeionImei"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:text="Tipo de negocio:" />
+
+				<Spinner
+					android:id="@+id/spnCenRelTipoNegocio"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="15dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/tvDisDiaConDeviceIdonDeviceId"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:text="Categoría:" />
+
+				<Spinner
+					android:id="@+id/spnCenRelCategoria"
+					android:layout_width="wrap_content"
+					android:layout_height="20dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="15dp"
+					android:layout_weight="1"
+					android:background="@color/colorWhite" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/textView4"
+					style="@style/Etiqueta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:text="Tomar foto:" />
+
+				<ImageView
+					android:id="@+id/ivCenRelTomarFoto"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/camara" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<Button
+					android:id="@+id/btnCenRelRegistrarRelevamiento"
+					style="@style/Boton"
+					android:layout_width="match_parent"
+					android:layout_height="35dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="Registrar relevamiento" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp">
+
+				<ListView
+					android:id="@+id/lvCenRelRelevamientos"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"></ListView>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="10dp">
+
+				<Button
+					android:id="@+id/btnCenRelEnviarDatos"
+					style="@style/Boton"
+					android:layout_width="match_parent"
+					android:layout_height="35dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="Enviar datos" />
+
+			</LinearLayout>
+
+	    </LinearLayout>	
+	</ScrollView>
+</LinearLayout>

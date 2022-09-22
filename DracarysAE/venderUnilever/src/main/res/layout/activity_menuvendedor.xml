@@ -1,0 +1,297 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/MenuVendedorLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal"></LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="2"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/tvMenuDistribuidorUsuario"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Usuari@:"
+				android:textAppearance="@style/Etiqueta" />
+
+			<TextView
+				android:id="@+id/tvMenuVendedorUsuarios"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:textAppearance="@style/Contenido" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:id="@+id/tvPreventaProductoSeleccionarNit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="MENÚ VENDEDOR"
+			android:textAppearance="@style/Etiqueta" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/ivMenuVendedorSincronizarDatos"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/sincronizar_datos" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorRegistrarPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/registrar_preventas" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorCerrarPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/cerrar_preventas" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/sincronizar_preventas" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarNombres"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/sincronizar_nombres" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarNoAtendidos"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/sincronizar_no_atendidos" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorVisualizarPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/visualizar_preventas" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorEdicionPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/edicion_preventa" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorInventarioProductos"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/inventario_productos" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorAvanceVentasDia"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/preventas_dia" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorAvanceVentasMes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/preventas_mes" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorAvanceVentaMesVendedor"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/ventas_mes_cat" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgBtnMenuVendedorMetasSap"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/metas_sap" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorVentaDirecta"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/registrar_ventadirecta" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorVisualizarVentasDirectas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/visualizar_ventas_directas" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincroEdiClientes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/sincronizar_ediciones_clientes" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincroFotos"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/sincronizar_fotos" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorAltaCliente"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/menu_vendedor_censista" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorRestaurarPreventas"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/restaurar_preventas" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorCobrosPendientes"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/creditos_pendientes" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarPOP"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/sincronizar_pop" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="15dp"
+				android:gravity="center_horizontal">
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarCambios"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/sincronizar_cambios" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorSincronizarMatcheo"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/sincronizar_matcheo" />
+
+				<ImageView
+					android:id="@+id/imgbtnMenuVendedorVerLogs"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:src="@drawable/ver_logs" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

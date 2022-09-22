@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorTestImpresoraLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivDistribuidorVentaTempBullet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bullet_seleccionar" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="125dp"
+            android:minWidth="125dp"
+            android:text="TextView"
+            android:textAppearance="@style/Etiqueta"
+            android:width="125dp" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="20dp"
+            android:minWidth="20dp"
+            android:text="000"
+            android:textAppearance="@style/Etiqueta"
+            android:width="20dp" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempCantidadPaquete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="20dp"
+            android:minWidth="20dp"
+            android:text="00"
+            android:textAppearance="@style/Etiqueta"
+            android:width="20dp" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempMonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="40dp"
+            android:minWidth="40dp"
+            android:text="0000.00"
+            android:textAppearance="@style/Etiqueta"
+            android:width="40dp" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempDescuento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="25dp"
+            android:minWidth="25dp"
+            android:text="0.00"
+            android:textAppearance="@style/Etiqueta"
+            android:width="25dp" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorVentaTempMontoFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:maxWidth="50dp"
+            android:minWidth="50dp"
+            android:text="0000.00"
+            android:textAppearance="@style/Etiqueta"
+            android:width="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

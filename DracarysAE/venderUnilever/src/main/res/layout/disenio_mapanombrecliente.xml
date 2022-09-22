@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llDistribuidorTestImpresorasLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaVendedorNombre"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaVendedorCodigo"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteTerritorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaVendedorTerritorio"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteMercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaVendedorMercado"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteNroPreventas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClienteNroPreventas"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClientePromedioVentaMensual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClientePromedioVentaMensual"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteDatosComplementarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClienteDatosComplementarios"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteClienteEncuestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClienteClienteEncuestado"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteNroFotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClienteNroFotos"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvMapaNombreClienteObservacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tvMapaNombreClienteObservacion"
+        android:textColor="#FF0000" />
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DistribuidorCierreEntregasLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="No. Ventas:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvCierreEntregasVentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:width="70dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvSincronizacionPreventaProductoPaquete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="No. Items:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvCierreEntregasItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvVendedorVentaDirectaProductoPaquetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Monto:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvCierreEntregasMonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDistribuidorTestImpresorasImpresora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Descuento:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvCierreEntregasDescuento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvDistribuidorCierreEntregasDescuento2Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Descuento 2:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvDistribuidorCierreEntregasDescuento2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvCobroPendienteDiasMora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Monto Final:"
+            android:textAppearance="@style/Etiqueta" />
+
+        <TextView
+            android:id="@+id/tvCierreEntregasVentaTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:minWidth="70dp"
+            android:textAppearance="@style/Contenido"
+            android:width="70dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/btnDistribuidorCierreEntregas"
+            style="@style/Boton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Cierre entregas" />
+    </LinearLayout>
+
+</LinearLayout>
